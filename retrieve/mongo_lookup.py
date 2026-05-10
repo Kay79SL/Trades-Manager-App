@@ -271,10 +271,10 @@ def list_all_pos(limit: int = 50) -> list[dict]: # def to list all POs with summ
     ).limit(limit))
 
 
-def list_all_customers(limit: int = 20) -> list[dict]: # def to list all customers with summary fields, which is useful for "show me all customers" type queries. Returns a list of dicts with key information about each customer, limited to 20 by default to avoid overwhelming the user.
-    """Sample customers with summary fields."""
+def list_all_customers(limit: int = 50, trade: str | None = None) -> list[dict]:
+    query = {"preferred_trade": trade} if trade else {}
     return list(_get_db().customers.find(
-        {},
+        query,
         {
             "_id": 0,
             "customer_id": 1,

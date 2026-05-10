@@ -131,7 +131,8 @@ Required JSON shape:
   "params":  {
     "job_name":      "<canonical job name if pricing query>",
     "customer_name": "<full name if customer lookup>",
-    "list_target":   "<pos|customers|jobs|invoices|emails|summary if list>"
+    "list_target":   "<pos|customers|jobs|invoices|emails|summary if list>",
+    "trade":         "<carpenter|plumber|electrician if filtering customers by trade, else omit>"
   }
 }
 
@@ -161,6 +162,8 @@ Rules:
   "customer_lookup_by_name" + ["mongo", "graph"], extract customer_name
 
 - "show/list me all X" or "give me an overview" → "list_<X>" + ["list"]
+- If listing customers and a trade is mentioned ("carpenter", "plumber", "electrician") → extract trade param
+  e.g. "list all carpenter customers" → list_target="customers", trade="carpenter"
 
 - Questions about emails, "find emails about", "recent enquiries" → ["vector"] + maybe ["mongo"]
 

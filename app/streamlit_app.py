@@ -151,6 +151,7 @@ with tab_chat:
         "I need a quote for floor sanding",
         "Has cust_0001 had work done before?",
         "Show me all POs",
+        "Find all customers for Carpenter trade",
     ]
 
     st.markdown('<div class="chip-row">', unsafe_allow_html=True) # Render the sample query buttons in a row with custom styling. We use Streamlit's columns to layout the buttons in a responsive way, 
