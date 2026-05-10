@@ -60,12 +60,11 @@ def _handle_list_query(list_target: str, params: dict | None = None) -> dict:
             "title": "All Purchase Orders",
             "items": mongo_lookup.list_all_pos(),
         }
-    elif list_target == "customers":
-        trade = params.get("trade")
+    elif list_target == "customers": # List all customers
         return {
-            "type":  "customers",
-            "title": f"{trade.capitalize()} Customers" if trade else "All Customers",
-            "items": mongo_lookup.list_all_customers(trade=trade),
+            "type": "customers",
+            "title": "Customers",
+            "items": mongo_lookup.list_all_customers(),
         }
     elif list_target == "jobs": # List all job types    
         return {
@@ -130,8 +129,8 @@ def answer_query(user_message: str, verbose: bool = False) -> dict[str, Any]:
             )
 
     # NEW: list/browse path
-    if "list" in paths: # If the router has determined that this is a list/browse query, call the helper function to get the appropriate list data based on the list_target parameter extracted by the router (e.g. "pos", "customers", "jobs", "invoices
-        results["list"] = _handle_list_query(params.get("list_target", "summary"), params) # Call the helper function to get the list/browse data based on the list_target parameter extracted by the router. Default to "summary" if no specific target is provided.
+    if "list" in paths: # If the router has determined that this is a list/browse query, call the helper function to fetch the appropriate list data based on the "list_target" parameter extracted by the router (e.g. "pos", "customers", "jobs", "invoices", "emails", or "summary")
+        results["list"] = _handle_list_query(params.get("list_target", "summary"))
 
     # Step 3: Assemble context
     context = context_assembler.assemble_context(results, user_query=user_message) #    Takes all the retriever results and compiles them into a single context string, also formats list/browse results in a clear way if present

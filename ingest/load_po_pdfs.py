@@ -25,8 +25,8 @@ import gridfs
 from pymongo import MongoClient
 from tqdm import tqdm
 
-BUCKET_NAME  = "po_files"  # GridFS bucket name — must match what extract_pos_from_pdf.py uses
-PO_NUMBER_RE = re.compile(r"PO-\d{4}-[A-Z]\d{4}", re.IGNORECASE)  # matches e.g. PO-2026-P0042
+BUCKET_NAME  = "po_files"
+PO_NUMBER_RE = re.compile(r"PO-\d{4}-[A-Z]\d{4}", re.IGNORECASE)
 
 
 def extract_po_number(filename: str) -> str:
@@ -34,7 +34,7 @@ def extract_po_number(filename: str) -> str:
     match = PO_NUMBER_RE.search(filename)
     if match:
         return match.group(0).upper()
-    return Path(filename).stem  # fall back to filename without extension if no PO pattern found
+    return Path(filename).stem
 
 
 def main() -> None:
@@ -89,7 +89,7 @@ def main() -> None:
 
         # Add size_bytes from GridFS length field if missing
         if not doc.get("size_bytes") and doc.get("length"):
-            update["size_bytes"] = doc["length"]  # GridFS stores file size in the "length" field
+            update["size_bytes"] = doc["length"]
 
         if update:
             files_coll.update_one({"_id": doc["_id"]}, {"$set": update})

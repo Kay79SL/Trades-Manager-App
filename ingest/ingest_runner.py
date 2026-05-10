@@ -22,7 +22,7 @@ PROJECT_ROOT = Path(__file__).parent.parent
 INGEST_DIR   = PROJECT_ROOT / "ingest"
 PYTHON       = sys.executable
 
-# Keys that every ingest script needs — injected into subprocess environment from st.secrets
+# Keys that every ingest script needs
 SECRET_KEYS = [
     "MONGO_URI",
     "MONGO_DB",
@@ -88,7 +88,7 @@ def _run(script_name: str) -> tuple[bool, str]:
         cwd=str(PROJECT_ROOT),
         capture_output=True,
         text=True,
-        timeout=300,  # 5-minute hard limit per script — prevents Streamlit hanging
+        timeout=300,
         env=_get_env(),
     )
 
@@ -98,7 +98,7 @@ def _run(script_name: str) -> tuple[bool, str]:
 
     if result.returncode != 0:
         err_lines = [l for l in errors.splitlines() if l.strip()]
-        friendly  = err_lines[-1] if err_lines else f"Exit code {result.returncode}"  # show last error line — usually the most useful
+        friendly  = err_lines[-1] if err_lines else f"Exit code {result.returncode}"
         return False, friendly
 
     return True, full
@@ -189,7 +189,7 @@ def run_load_neo4j() -> dict:
         return {"status": "error", "timestamp": ts, "message": output}
 
     nodes = next(
-        (l for l in output.splitlines() if "node" in l.lower()), None  # grab the summary line from script stdout
+        (l for l in output.splitlines() if "node" in l.lower()), None
     )
     collections = [
         {"name": "Customer · Invoice · JobType · Item nodes", "store": "Neo4j", "count": None},
@@ -239,7 +239,7 @@ def run_embed_documents() -> dict:
         {"name": "embeddings", "store": "MongoDB · Atlas Vector Search", "count": emb_count},
     ]
     summary = next(
-        (l for l in reversed(output.splitlines()) if "chunk" in l.lower() or "embed" in l.lower()),  # pull the last relevant summary line from embed_chunks.py stdout
+        (l for l in reversed(output.splitlines()) if "chunk" in l.lower() or "embed" in l.lower()),
         f"{emb_count} embedding chunks in index",
     )
     return {
