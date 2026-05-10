@@ -1,0 +1,15 @@
+﻿pymongo>=4.6
+neo4j>=5.20
+anthropic>=0.40
+sentence-transformers>=3.0
+pandas>=2.2
+plotly>=5.20
+streamlit>=1.35
+ragas==0.2.10
+rank-bm25>=0.2.2
+python-dotenv>=1.0
+tqdm>=4.66
+sentence-transformers>=2.5
+streamlit>=1.32
+
+pypdf

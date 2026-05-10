@@ -1,0 +1,27 @@
+.env
+*.key
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+neo4j/data/
+neo4j/logs/
+neo4j/import/
+.ipynb_checkpoints/
+.vscode/
+.idea/
+Thumbs.db
+.DS_Store
+*.log
+Neo4j-ad0f1994-Created-2026-04-30
+# Neo4j credentials - NEVER commit
+Neo4j-*.txt
+*credentials*.txt
+
+# Editor / OS clutter
+*.bak
+*~
+Thumbs.db
+.DS_Store
+.streamlit/secrets.toml
