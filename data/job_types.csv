@@ -1,0 +1,61 @@
+job_type_id,trade,job_name,typical_hours,base_labour_cost_eur,skill_level,description
+pl_01,plumber,Boiler installation,8.0,450,4,Install new gas or oil boiler including commissioning and safety test
+pl_02,plumber,Boiler service,1.5,95,2,"Annual boiler maintenance, clean, and safety check"
+pl_03,plumber,Leaking pipe repair,2.0,120,2,Locate and repair leaking pipework under floors or behind walls
+pl_04,plumber,Bathroom suite installation,16.0,800,4,"Remove old suite and install new bath, WC, basin with plumbing"
+pl_05,plumber,Radiator replacement,2.0,150,2,"Drain system, remove old radiator, fit and balance new"
+pl_06,plumber,Toilet installation,3.0,180,2,"Fit new toilet pan, cistern, and connect to soil stack"
+pl_07,plumber,Shower installation,4.0,220,3,Fit electric or thermostatic mixer shower including wall prep
+pl_08,plumber,Tap replacement,1.0,75,1,Replace kitchen or bathroom taps
+pl_09,plumber,Hot water cylinder install,6.0,350,3,Install unvented or vented hot water cylinder
+pl_10,plumber,Drain unblocking,1.5,110,2,Clear blocked drains using rods or high-pressure jet
+pl_11,plumber,Pipe insulation,3.0,140,1,Insulate pipework against frost in attics or outbuildings
+pl_12,plumber,Gas safety certificate,1.5,85,3,Landlord annual gas safety inspection and certificate
+pl_13,plumber,Underfloor heating install,20.0,1200,5,Install wet underfloor heating system with manifold
+pl_14,plumber,Waste disposal unit,2.0,180,2,Fit sink waste disposal unit with wiring
+pl_15,plumber,Washing machine plumbing,1.0,95,1,Connect washing machine to supply and waste
+pl_16,plumber,Dishwasher plumbing,1.0,90,1,Connect dishwasher to cold supply and waste
+pl_17,plumber,Immersion heater replace,2.0,160,2,Replace electric immersion heater element and thermostat
+pl_18,plumber,Outside tap installation,2.5,145,2,Fit frost-protected outside tap with isolation valve
+pl_19,plumber,Burst pipe emergency,2.0,180,3,"Emergency burst pipe repair, including make-safe"
+pl_20,plumber,Pressure booster install,4.0,280,3,Install water pressure booster pump and expansion vessel
+cp_01,carpenter,Kitchen installation,24.0,1400,5,Full kitchen unit installation including worktop and appliance cut-outs
+cp_02,carpenter,Fitted wardrobe building,16.0,900,4,Build custom fitted wardrobes to alcove or wall
+cp_03,carpenter,Door hanging,2.0,130,2,Hang internal or external door including hinges and latch
+cp_04,carpenter,Wooden floor laying,14.0,750,3,Lay solid or engineered wood flooring with underlay
+cp_05,carpenter,Skirting board fitting,6.0,260,2,Fit MDF or timber skirting with mitred corners
+cp_06,carpenter,Staircase repair,5.0,340,4,"Repair damaged stair treads, risers, or balustrade"
+cp_07,carpenter,Decking construction,20.0,1100,3,Build garden deck with treated timber frame and boards
+cp_08,carpenter,Shelving installation,2.0,110,1,Fit bespoke or flat-pack shelving
+cp_09,carpenter,Window frame repair,4.0,220,3,Repair rotted timber window frames or cills
+cp_10,carpenter,Attic flooring,8.0,420,2,Lay chipboard or tongue-and-groove flooring in attic
+cp_11,carpenter,Built-in bookcase,10.0,560,3,Build floor-to-ceiling bookcase in study or living room
+cp_12,carpenter,Loft hatch installation,3.0,180,2,Cut opening and fit insulated loft hatch and ladder
+cp_13,carpenter,Kitchen cabinet repair,3.0,150,2,"Repair hinges, doors, or drawer runners"
+cp_14,carpenter,Garden shed build,16.0,820,3,Build 6x4 or 8x6 timber garden shed on prepared base
+cp_15,carpenter,Fence panel replacement,4.0,190,1,Replace damaged fence panels with feather-edge or lap
+cp_16,carpenter,Garden gate installation,5.0,280,2,"Fit timber garden gate with hinges, latch, and hardware"
+cp_17,carpenter,Architrave fitting,3.0,140,2,Fit architrave around doors with mitred corners
+cp_18,carpenter,Worktop replacement,6.0,380,3,Replace kitchen worktop including sink cut-out
+cp_19,carpenter,Floor sanding,8.0,380,3,Sand and refinish wooden floors with lacquer or oil
+cp_20,carpenter,Staircase balustrade,12.0,680,4,"Install new balustrade, newel posts, and handrail"
+el_01,electrician,Full house rewiring,40.0,2400,5,Complete electrical rewire of 3-bed home including certification
+el_02,electrician,Extra socket installation,1.5,90,1,Fit additional double socket including chase and make-good
+el_03,electrician,Light fitting installation,1.0,80,1,"Install pendant, ceiling, or wall light"
+el_04,electrician,Consumer unit upgrade,6.0,480,4,Replace fuse board with modern RCD-protected consumer unit
+el_05,electrician,EV charger installation,6.0,550,4,Install type-2 home EV charger including SEAI grant paperwork
+el_06,electrician,Smoke alarm installation,2.0,140,2,Fit interconnected mains-powered smoke and heat alarms
+el_07,electrician,Outdoor lighting,3.0,220,2,Install garden or driveway lighting with weatherproof cable
+el_08,electrician,Doorbell installation,1.0,70,1,Fit wired or wireless doorbell with chime unit
+el_09,electrician,Electrical safety cert,2.5,180,3,Periodic inspection report and RECI certificate
+el_10,electrician,CCTV installation,5.0,380,3,Install 4-camera CCTV system with NVR and cabling
+el_11,electrician,Bathroom extractor fan,2.0,130,2,Fit humidity-sensing IP-rated extractor fan
+el_12,electrician,Immersion heater wiring,2.0,120,2,Wire immersion heater to timer switch and isolator
+el_13,electrician,Cooker circuit installation,3.0,180,3,Dedicated 32A circuit for electric cooker or hob
+el_14,electrician,Garden socket installation,2.5,150,2,Install weatherproof IP66 garden socket with RCD
+el_15,electrician,Bathroom lights upgrade,2.0,140,3,Upgrade to IP-rated LED bathroom lighting zones 1 and 2
+el_16,electrician,Security light install,1.5,100,2,Fit PIR-activated LED security light
+el_17,electrician,Intercom system,4.0,280,3,Install audio or video door intercom system
+el_18,electrician,Shower pull cord install,1.0,85,2,Fit bathroom shower isolation pull-cord switch
+el_19,electrician,Fuse box test,1.5,95,2,Test and certify existing consumer unit
+el_20,electrician,Landlord electrical report,3.0,200,3,RECI periodic inspection report for rental property

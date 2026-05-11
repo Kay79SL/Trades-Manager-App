@@ -1,0 +1,151 @@
+invoice_id,customer_id,trade,job_type_id,job_name,invoice_date,labour_cost_ex_vat,materials_cost_ex_vat,subtotal_ex_vat,vat_23pct,total_inc_vat,status
+INV-2025-0001,cust_0006,plumber,pl_10,Drain unblocking,2025-10-28,99.15,100.23,199.38,45.86,245.25,paid
+INV-2024-0002,cust_0026,plumber,pl_18,Outside tap installation,2024-11-18,164.13,150.32,314.45,72.33,386.78,overdue
+INV-2024-0003,cust_0031,plumber,pl_08,Tap replacement,2024-05-31,79.57,243.92,323.5,74.41,397.91,paid
+INV-2025-0004,cust_0053,carpenter,cp_11,Built-in bookcase,2025-10-31,564.23,260.02,824.25,189.58,1013.84,paid
+INV-2025-0005,cust_0084,electrician,el_16,Security light install,2025-04-27,105.57,273.43,379.0,87.17,466.18,paid
+INV-2024-0006,cust_0084,electrician,el_19,Fuse box test,2024-10-19,97.33,135.22,232.55,53.49,286.05,paid
+INV-2025-0007,cust_0108,electrician,el_13,Cooker circuit installation,2025-12-25,182.48,732.51,915.0,210.46,1125.47,overdue
+INV-2026-0008,cust_0078,carpenter,cp_04,Wooden floor laying,2026-04-13,859.06,268.03,1127.1,259.24,1386.35,paid
+INV-2026-0009,cust_0114,electrician,el_05,EV charger installation,2026-02-12,558.88,1070.73,1629.61,374.82,2004.43,paid
+INV-2025-0010,cust_0083,electrician,el_09,Electrical safety cert,2025-11-01,167.45,150.75,318.19,73.19,391.38,paid
+INV-2026-0011,cust_0023,plumber,pl_20,Pressure booster install,2026-02-15,294.69,475.92,770.61,177.25,947.87,paid
+INV-2024-0012,cust_0086,electrician,el_04,Consumer unit upgrade,2024-09-12,549.63,364.73,914.36,210.31,1124.68,paid
+INV-2025-0013,cust_0031,plumber,pl_15,Washing machine plumbing,2025-11-28,90.45,54.92,145.38,33.44,178.82,paid
+INV-2025-0014,cust_0034,plumber,pl_12,Gas safety certificate,2025-10-12,80.23,26.82,107.06,24.63,131.69,paid
+INV-2026-0015,cust_0088,electrician,el_17,Intercom system,2026-04-08,314.08,1161.72,1475.8,339.44,1815.25,paid
+INV-2024-0016,cust_0048,carpenter,cp_20,Staircase balustrade,2024-10-10,638.64,267.55,906.19,208.43,1114.63,overdue
+INV-2025-0017,cust_0048,carpenter,cp_14,Garden shed build,2025-10-19,843.21,1564.03,2407.24,553.67,2960.91,overdue
+INV-2025-0018,cust_0112,electrician,el_03,Light fitting installation,2025-06-04,80.05,284.93,364.98,83.95,448.94,paid
+INV-2026-0019,cust_0107,electrician,el_18,Shower pull cord install,2026-03-24,86.41,285.22,371.62,85.48,457.11,overdue
+INV-2025-0020,cust_0057,carpenter,cp_04,Wooden floor laying,2025-10-02,701.6,260.03,961.63,221.18,1182.82,paid
+INV-2025-0021,cust_0059,carpenter,cp_05,Skirting board fitting,2025-05-25,257.97,182.02,440.0,101.2,541.21,paid
+INV-2025-0022,cust_0093,electrician,el_01,Full house rewiring,2025-02-23,2276.89,926.8,3203.69,736.85,3940.55,paid
+INV-2025-0023,cust_0055,carpenter,cp_12,Loft hatch installation,2025-10-18,161.5,334.03,495.53,113.98,609.51,paid
+INV-2025-0024,cust_0024,plumber,pl_05,Radiator replacement,2025-12-07,157.99,468.41,626.4,144.08,770.49,paid
+INV-2025-0025,cust_0112,electrician,el_13,Cooker circuit installation,2025-02-07,162.31,830.52,992.83,228.36,1221.2,paid
+INV-2025-0026,cust_0023,plumber,pl_18,Outside tap installation,2025-02-21,148.31,142.61,290.92,66.92,357.85,paid
+INV-2025-0027,cust_0087,electrician,el_18,Shower pull cord install,2025-03-17,87.01,106.32,193.33,44.47,237.81,paid
+INV-2024-0028,cust_0025,plumber,pl_04,Bathroom suite installation,2024-05-17,878.85,1472.01,2350.86,540.7,2891.57,paid
+INV-2024-0029,cust_0013,plumber,pl_20,Pressure booster install,2024-05-18,280.16,946.22,1226.38,282.07,1508.46,paid
+INV-2024-0030,cust_0052,carpenter,cp_15,Fence panel replacement,2024-10-21,194.89,178.01,372.9,85.77,458.67,overdue
+INV-2025-0031,cust_0041,carpenter,cp_19,Floor sanding,2025-07-30,413.67,188.02,601.7,138.4,740.11,overdue
+INV-2024-0032,cust_0029,plumber,pl_14,Waste disposal unit,2024-12-11,171.78,487.53,659.31,151.65,810.96,paid
+INV-2024-0033,cust_0072,carpenter,cp_16,Garden gate installation,2024-05-28,319.91,254.52,574.44,132.13,706.58,paid
+INV-2024-0034,cust_0053,carpenter,cp_05,Skirting board fitting,2024-12-10,255.23,132.04,387.27,89.08,476.35,paid
+INV-2026-0035,cust_0104,electrician,el_15,Bathroom lights upgrade,2026-04-02,125.38,214.34,339.72,78.14,417.87,paid
+INV-2024-0036,cust_0032,plumber,pl_09,Hot water cylinder install,2024-09-26,339.21,466.92,806.12,185.41,991.53,paid
+INV-2025-0037,cust_0007,plumber,pl_09,Hot water cylinder install,2025-02-08,371.67,1098.12,1469.79,338.06,1807.86,overdue
+INV-2024-0038,cust_0028,plumber,pl_16,Dishwasher plumbing,2024-10-01,100.33,39.93,140.25,32.26,172.51,paid
+INV-2026-0039,cust_0096,electrician,el_16,Security light install,2026-04-02,94.56,477.31,571.88,131.54,703.42,overdue
+INV-2025-0040,cust_0042,carpenter,cp_10,Attic flooring,2025-02-11,422.48,288.02,710.5,163.42,873.92,overdue
+INV-2025-0041,cust_0113,electrician,el_16,Security light install,2025-04-18,90.67,355.23,445.9,102.56,548.47,paid
+INV-2025-0042,cust_0053,carpenter,cp_02,Fitted wardrobe building,2025-07-02,1001.98,210.53,1212.52,278.88,1491.41,overdue
+INV-2024-0043,cust_0075,carpenter,cp_14,Garden shed build,2024-12-07,755.35,1492.04,2247.39,516.9,2764.3,paid
+INV-2024-0044,cust_0071,carpenter,cp_11,Built-in bookcase,2024-11-07,608.23,344.01,952.25,219.02,1171.28,paid
+INV-2024-0045,cust_0022,plumber,pl_12,Gas safety certificate,2024-08-31,78.02,41.21,119.23,27.43,146.66,paid
+INV-2026-0046,cust_0068,carpenter,cp_02,Fitted wardrobe building,2026-02-02,997.75,201.52,1199.28,275.84,1475.12,paid
+INV-2024-0047,cust_0009,plumber,pl_05,Radiator replacement,2024-04-29,140.86,252.71,393.57,90.53,484.11,overdue
+INV-2025-0048,cust_0117,electrician,el_16,Security light install,2025-09-16,101.18,317.33,418.51,96.26,514.77,paid
+INV-2025-0049,cust_0068,carpenter,cp_09,Window frame repair,2025-06-12,251.67,148.01,399.68,91.93,491.62,paid
+INV-2025-0050,cust_0014,plumber,pl_04,Bathroom suite installation,2025-06-03,736.17,1229.02,1965.18,452.0,2417.19,paid
+INV-2024-0051,cust_0102,electrician,el_13,Cooker circuit installation,2024-06-22,176.54,426.5,603.04,138.7,741.75,paid
+INV-2025-0052,cust_0039,plumber,pl_03,Leaking pipe repair,2025-09-11,137.74,45.12,182.86,42.06,224.93,paid
+INV-2024-0053,cust_0071,carpenter,cp_16,Garden gate installation,2024-06-04,294.54,173.51,468.06,107.66,575.73,paid
+INV-2026-0054,cust_0073,carpenter,cp_04,Wooden floor laying,2026-03-18,766.96,172.02,938.99,215.97,1154.97,paid
+INV-2026-0055,cust_0035,plumber,pl_02,Boiler service,2026-04-09,85.51,44.94,130.44,30.01,160.45,paid
+INV-2024-0056,cust_0119,electrician,el_11,Bathroom extractor fan,2024-05-04,148.15,253.81,401.97,92.46,494.44,paid
+INV-2024-0057,cust_0021,plumber,pl_19,Burst pipe emergency,2024-10-25,185.95,49.83,235.77,54.23,290.0,paid
+INV-2025-0058,cust_0102,electrician,el_03,Light fitting installation,2025-05-15,86.51,147.44,233.95,53.81,287.76,paid
+INV-2025-0059,cust_0044,carpenter,cp_20,Staircase balustrade,2025-12-10,711.11,326.51,1037.62,238.66,1276.29,paid
+INV-2025-0060,cust_0101,electrician,el_15,Bathroom lights upgrade,2025-05-08,131.83,218.22,350.06,80.52,430.58,overdue
+INV-2024-0061,cust_0085,electrician,el_13,Cooker circuit installation,2024-06-27,195.93,406.51,602.45,138.57,741.02,paid
+INV-2025-0062,cust_0020,plumber,pl_13,Underfloor heating install,2025-10-26,1309.99,818.02,2128.02,489.45,2617.47,paid
+INV-2024-0063,cust_0012,plumber,pl_01,Boiler installation,2024-12-17,450.04,2293.22,2743.26,630.95,3374.22,paid
+INV-2025-0064,cust_0058,carpenter,cp_18,Worktop replacement,2025-06-26,386.98,240.04,627.02,144.22,771.25,paid
+INV-2025-0065,cust_0077,carpenter,cp_20,Staircase balustrade,2025-12-22,657.97,263.02,921.0,211.84,1132.85,paid
+INV-2026-0066,cust_0093,electrician,el_18,Shower pull cord install,2026-03-26,97.59,285.62,383.22,88.15,471.38,paid
+INV-2024-0067,cust_0022,plumber,pl_05,Radiator replacement,2024-11-16,144.2,220.71,364.91,83.93,448.85,paid
+INV-2025-0068,cust_0054,carpenter,cp_10,Attic flooring,2025-05-03,458.36,270.03,728.39,167.53,895.92,paid
+INV-2024-0069,cust_0077,carpenter,cp_20,Staircase balustrade,2024-09-20,682.47,239.53,922.0,212.06,1134.07,overdue
+INV-2025-0070,cust_0049,carpenter,cp_11,Built-in bookcase,2025-03-29,543.42,348.03,891.45,205.04,1096.5,overdue
+INV-2025-0071,cust_0089,electrician,el_07,Outdoor lighting,2025-04-29,212.27,379.83,592.11,136.19,728.3,paid
+INV-2024-0072,cust_0074,carpenter,cp_08,Shelving installation,2024-12-31,107.97,164.04,272.01,62.57,334.58,overdue
+INV-2025-0073,cust_0070,carpenter,cp_06,Staircase repair,2025-10-03,369.67,349.02,718.7,165.31,884.01,paid
+INV-2026-0074,cust_0103,electrician,el_10,CCTV installation,2026-01-27,405.49,1151.72,1557.21,358.16,1915.38,paid
+INV-2025-0075,cust_0031,plumber,pl_09,Hot water cylinder install,2025-09-15,322.57,803.9,1126.48,259.1,1385.59,paid
+INV-2025-0076,cust_0075,carpenter,cp_13,Kitchen cabinet repair,2025-06-11,152.52,90.52,243.05,55.91,298.97,overdue
+INV-2024-0077,cust_0077,carpenter,cp_03,Door hanging,2024-07-15,141.4,585.02,726.42,167.08,893.5,overdue
+INV-2025-0078,cust_0006,plumber,pl_19,Burst pipe emergency,2025-09-05,191.33,31.32,222.66,51.22,273.88,paid
+INV-2025-0079,cust_0034,plumber,pl_08,Tap replacement,2025-05-23,81.13,255.33,336.46,77.39,413.85,paid
+INV-2025-0080,cust_0048,carpenter,cp_13,Kitchen cabinet repair,2025-04-16,163.28,93.02,256.3,58.95,315.25,paid
+INV-2024-0081,cust_0062,carpenter,cp_04,Wooden floor laying,2024-12-07,744.24,158.02,902.26,207.52,1109.79,paid
+INV-2025-0082,cust_0044,carpenter,cp_15,Fence panel replacement,2025-12-22,177.82,226.04,403.86,92.89,496.75,paid
+INV-2024-0083,cust_0041,carpenter,cp_03,Door hanging,2024-12-11,115.97,571.02,687.0,158.02,845.02,paid
+INV-2026-0084,cust_0087,electrician,el_06,Smoke alarm installation,2026-04-14,160.4,234.32,394.73,90.79,485.53,paid
+INV-2025-0085,cust_0072,carpenter,cp_14,Garden shed build,2025-04-15,772.94,1580.03,2352.97,541.19,2894.16,paid
+INV-2025-0086,cust_0051,carpenter,cp_01,Kitchen installation,2025-11-15,1464.14,431.51,1895.66,436.01,2331.68,paid
+INV-2024-0087,cust_0091,electrician,el_07,Outdoor lighting,2024-09-28,210.14,332.22,542.36,124.75,667.12,paid
+INV-2024-0088,cust_0047,carpenter,cp_11,Built-in bookcase,2024-09-22,561.99,426.0,988.0,227.25,1215.26,paid
+INV-2025-0089,cust_0077,carpenter,cp_13,Kitchen cabinet repair,2025-08-09,147.9,84.51,232.41,53.46,285.88,paid
+INV-2026-0090,cust_0105,electrician,el_10,CCTV installation,2026-04-05,397.45,1020.82,1418.28,326.21,1744.5,paid
+INV-2024-0091,cust_0040,plumber,pl_04,Bathroom suite installation,2024-09-11,784.64,1146.52,1931.16,444.17,2375.34,paid
+INV-2025-0092,cust_0074,carpenter,cp_13,Kitchen cabinet repair,2025-03-16,139.53,137.54,277.07,63.73,340.81,overdue
+INV-2024-0093,cust_0022,plumber,pl_16,Dishwasher plumbing,2024-12-02,82.61,48.13,130.74,30.08,160.82,paid
+INV-2024-0094,cust_0063,carpenter,cp_05,Skirting board fitting,2024-09-20,286.03,182.04,468.07,107.66,575.74,paid
+INV-2025-0095,cust_0054,carpenter,cp_15,Fence panel replacement,2025-05-06,175.79,210.0,385.79,88.74,474.54,paid
+INV-2024-0096,cust_0029,plumber,pl_18,Outside tap installation,2024-12-02,134.19,99.54,233.73,53.76,287.5,overdue
+INV-2024-0097,cust_0015,plumber,pl_19,Burst pipe emergency,2024-07-19,171.42,43.22,214.64,49.37,264.01,paid
+INV-2025-0098,cust_0070,carpenter,cp_07,Decking construction,2025-03-18,998.42,218.03,1216.45,279.79,1496.25,paid
+INV-2025-0099,cust_0045,carpenter,cp_03,Door hanging,2025-03-29,144.78,227.03,371.81,85.52,457.33,paid
+INV-2025-0100,cust_0111,electrician,el_20,Landlord electrical report,2025-08-26,199.13,99.31,298.44,68.65,367.1,overdue
+INV-2024-0101,cust_0045,carpenter,cp_18,Worktop replacement,2024-11-26,395.64,264.02,659.66,151.73,811.39,overdue
+INV-2026-0102,cust_0035,plumber,pl_17,Immersion heater replace,2026-03-22,170.15,72.44,242.59,55.8,298.39,paid
+INV-2024-0103,cust_0090,electrician,el_05,EV charger installation,2024-11-01,505.72,1095.43,1601.15,368.27,1969.43,paid
+INV-2025-0104,cust_0074,carpenter,cp_09,Window frame repair,2025-08-22,218.21,130.53,348.75,80.22,428.98,overdue
+INV-2025-0105,cust_0096,electrician,el_09,Electrical safety cert,2025-10-13,203.91,88.45,292.37,67.25,359.62,paid
+INV-2025-0106,cust_0112,electrician,el_03,Light fitting installation,2025-11-10,91.4,460.03,551.43,126.83,678.26,overdue
+INV-2025-0107,cust_0051,carpenter,cp_07,Decking construction,2025-03-21,1212.98,212.04,1425.03,327.76,1752.8,overdue
+INV-2025-0108,cust_0074,carpenter,cp_05,Skirting board fitting,2025-07-05,288.65,126.05,414.69,95.38,510.07,paid
+INV-2026-0109,cust_0003,plumber,pl_04,Bathroom suite installation,2026-04-13,889.26,1296.52,2185.78,502.73,2688.52,paid
+INV-2024-0110,cust_0113,electrician,el_10,CCTV installation,2024-08-23,424.12,582.62,1006.74,231.56,1238.31,paid
+INV-2024-0111,cust_0048,carpenter,cp_06,Staircase repair,2024-06-01,335.59,208.04,543.63,125.04,668.67,paid
+INV-2024-0112,cust_0091,electrician,el_04,Consumer unit upgrade,2024-04-22,450.06,207.52,657.58,151.25,808.84,paid
+INV-2025-0113,cust_0002,plumber,pl_01,Boiler installation,2025-10-14,437.75,1292.92,1730.67,398.06,2128.74,paid
+INV-2024-0114,cust_0030,plumber,pl_13,Underfloor heating install,2024-06-30,1292.77,263.02,1555.8,357.84,1913.64,paid
+INV-2025-0115,cust_0049,carpenter,cp_05,Skirting board fitting,2025-09-02,298.51,108.02,406.53,93.51,500.04,overdue
+INV-2025-0116,cust_0084,electrician,el_06,Smoke alarm installation,2025-03-29,136.48,514.12,650.6,149.64,800.25,overdue
+INV-2026-0117,cust_0088,electrician,el_15,Bathroom lights upgrade,2026-02-18,131.42,120.05,251.46,57.84,309.31,paid
+INV-2024-0118,cust_0045,carpenter,cp_14,Garden shed build,2024-12-22,896.75,856.02,1752.78,403.14,2155.93,overdue
+INV-2025-0119,cust_0077,carpenter,cp_20,Staircase balustrade,2025-11-03,709.96,392.04,1102.01,253.47,1355.49,overdue
+INV-2024-0120,cust_0078,carpenter,cp_17,Architrave fitting,2024-09-15,151.47,134.02,285.5,65.67,351.18,paid
+INV-2025-0121,cust_0015,plumber,pl_08,Tap replacement,2025-05-15,78.93,96.52,175.45,40.36,215.81,paid
+INV-2025-0122,cust_0050,carpenter,cp_19,Floor sanding,2025-03-14,371.9,162.03,533.93,122.81,656.75,overdue
+INV-2024-0123,cust_0009,plumber,pl_01,Boiler installation,2024-11-11,422.22,1293.33,1715.55,394.58,2110.14,overdue
+INV-2025-0124,cust_0099,electrician,el_14,Garden socket installation,2025-03-17,160.43,602.12,762.55,175.39,937.94,paid
+INV-2024-0125,cust_0036,plumber,pl_03,Leaking pipe repair,2024-12-18,108.17,34.02,142.19,32.71,174.91,overdue
+INV-2024-0126,cust_0082,electrician,el_03,Light fitting installation,2024-12-18,85.5,190.93,276.43,63.58,340.01,paid
+INV-2025-0127,cust_0015,plumber,pl_15,Washing machine plumbing,2025-08-10,99.22,69.62,168.84,38.84,207.69,paid
+INV-2025-0128,cust_0016,plumber,pl_01,Boiler installation,2025-10-23,412.68,1202.62,1615.31,371.53,1986.85,overdue
+INV-2024-0129,cust_0101,electrician,el_09,Electrical safety cert,2024-08-29,176.48,140.72,317.2,72.96,390.16,paid
+INV-2024-0130,cust_0104,electrician,el_14,Garden socket installation,2024-11-19,153.22,620.23,773.45,177.9,951.36,paid
+INV-2025-0131,cust_0059,carpenter,cp_17,Architrave fitting,2025-01-26,125.3,112.02,237.32,54.59,291.91,paid
+INV-2025-0132,cust_0115,electrician,el_19,Fuse box test,2025-09-27,102.14,84.41,186.56,42.91,229.47,paid
+INV-2025-0133,cust_0032,plumber,pl_02,Boiler service,2025-04-23,92.94,50.73,143.66,33.05,176.71,paid
+INV-2024-0134,cust_0029,plumber,pl_11,Pipe insulation,2024-10-31,138.94,40.02,178.95,41.16,220.11,paid
+INV-2025-0135,cust_0016,plumber,pl_17,Immersion heater replace,2025-09-26,179.77,80.94,260.71,59.97,320.68,paid
+INV-2026-0136,cust_0113,electrician,el_15,Bathroom lights upgrade,2026-02-23,133.88,210.13,344.01,79.13,423.14,paid
+INV-2024-0137,cust_0048,carpenter,cp_07,Decking construction,2024-12-04,1135.46,276.03,1411.5,324.65,1736.16,paid
+INV-2025-0138,cust_0076,carpenter,cp_16,Garden gate installation,2025-12-13,305.06,181.01,486.07,111.8,597.88,paid
+INV-2025-0139,cust_0004,plumber,pl_08,Tap replacement,2025-06-16,73.02,323.51,396.53,91.21,487.74,paid
+INV-2024-0140,cust_0109,electrician,el_10,CCTV installation,2024-07-11,355.46,621.3,976.76,224.66,1201.43,paid
+INV-2026-0141,cust_0012,plumber,pl_02,Boiler service,2026-04-07,89.54,51.22,140.75,32.38,173.13,paid
+INV-2025-0142,cust_0075,carpenter,cp_04,Wooden floor laying,2025-05-19,687.04,210.03,897.07,206.33,1103.41,paid
+INV-2024-0143,cust_0085,electrician,el_05,EV charger installation,2024-10-22,527.32,1316.42,1843.74,424.07,2267.82,paid
+INV-2024-0144,cust_0058,carpenter,cp_09,Window frame repair,2024-10-20,198.04,86.53,284.57,65.46,350.03,paid
+INV-2025-0145,cust_0022,plumber,pl_15,Washing machine plumbing,2025-04-18,91.66,38.13,129.79,29.86,159.65,paid
+INV-2026-0146,cust_0060,carpenter,cp_09,Window frame repair,2026-02-13,200.73,152.02,352.75,81.14,433.89,overdue
+INV-2026-0147,cust_0006,plumber,pl_07,Shower installation,2026-01-31,244.49,182.12,426.62,98.13,524.75,paid
+INV-2025-0148,cust_0066,carpenter,cp_02,Fitted wardrobe building,2025-09-29,864.62,110.53,975.15,224.29,1199.45,overdue
+INV-2025-0149,cust_0032,plumber,pl_04,Bathroom suite installation,2025-04-15,726.02,692.0,1418.03,326.15,1744.18,paid
+INV-2025-0150,cust_0026,plumber,pl_13,Underfloor heating install,2025-02-05,1278.36,354.02,1632.38,375.45,2007.84,paid

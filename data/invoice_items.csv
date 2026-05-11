@@ -1,0 +1,751 @@
+invoice_id,line_no,item_id,item_name,quantity,unit,unit_price_ex_vat,line_total_ex_vat
+INV-2025-0001,1,it_pl_019,Drain rod set,2,set,35.0,70.0
+INV-2025-0001,2,it_pl_003,PTFE tape,4,roll,1.2,4.8
+INV-2025-0001,3,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2025-0001,4,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2025-0001,5,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2024-0002,1,it_pl_025,Outside tap kit,4,kit,32.0,128.0
+INV-2024-0002,2,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2024-0002,3,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2024-0002,4,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2024-0002,5,it_pl_007,Pipe clip pack of 10,3,pack,3.2,9.61
+INV-2024-0003,1,it_pl_014,Kitchen tap chrome,3,unit,75.0,225.0
+INV-2024-0003,2,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2024-0003,3,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2024-0003,4,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2024-0003,5,it_pl_007,Pipe clip pack of 10,1,pack,3.2,3.21
+INV-2025-0004,1,it_cp_001,MDF sheet 18mm 8x4,4,sheet,38.0,152.0
+INV-2025-0004,2,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0004,3,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0004,4,it_cp_020,Shelf bracket pair,3,pair,6.0,18.0
+INV-2025-0004,5,it_cp_028,Floor lacquer 5L,1,tin,58.0,58.01
+INV-2025-0005,1,it_el_017,Outdoor PIR light LED,2,unit,42.0,84.0
+INV-2025-0005,2,it_el_003,Twin & earth 1.5mm 100m,2,reel,85.0,170.0
+INV-2025-0005,3,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2025-0005,4,it_el_028,Back box metal 35mm,4,each,1.8,7.21
+INV-2025-0005,5,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2024-0006,1,it_el_011,RCD 40A 30mA,4,each,28.0,112.0
+INV-2024-0006,2,it_el_009,MCB 16A type-B,1,each,6.8,6.8
+INV-2024-0006,3,it_el_010,MCB 32A type-B,1,each,7.5,7.5
+INV-2024-0006,4,it_el_029,Earth bond cable 10mm,2,metre,2.2,4.41
+INV-2024-0006,5,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2025-0007,1,it_el_002,Twin & earth 6mm 50m,4,reel,165.0,660.0
+INV-2025-0007,2,it_el_030,Cooker switch 45A,2,each,14.0,28.0
+INV-2025-0007,3,it_el_010,MCB 32A type-B,1,each,7.5,7.5
+INV-2025-0007,4,it_el_011,RCD 40A 30mA,1,each,28.0,28.0
+INV-2025-0007,5,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2026-0008,1,it_cp_009,Engineered oak flooring,2,sqm,42.0,84.0
+INV-2026-0008,2,it_cp_011,Floor underlay 15sqm,2,roll,28.0,56.01
+INV-2026-0008,3,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2026-0008,4,it_cp_012,MDF skirting 18x145mm 4m,3,length,16.0,48.01
+INV-2026-0008,5,it_cp_026,Wood filler tub,3,tub,8.0,24.0
+INV-2026-0009,1,it_el_018,EV charger 7.4kW type-2,2,unit,420.0,840.0
+INV-2026-0009,2,it_el_002,Twin & earth 6mm 50m,1,reel,165.0,165.0
+INV-2026-0009,3,it_el_010,MCB 32A type-B,1,each,7.5,7.5
+INV-2026-0009,4,it_el_011,RCD 40A 30mA,2,each,28.0,56.01
+INV-2026-0009,5,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2025-0010,1,it_el_011,RCD 40A 30mA,4,each,28.0,112.0
+INV-2025-0010,2,it_el_009,MCB 16A type-B,2,each,6.8,13.61
+INV-2025-0010,3,it_el_029,Earth bond cable 10mm,2,metre,2.2,4.41
+INV-2025-0010,4,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2025-0010,5,it_el_028,Back box metal 35mm,4,each,1.8,7.21
+INV-2026-0011,1,it_pl_024,Pressure booster pump,2,unit,220.0,440.0
+INV-2026-0011,2,it_pl_002,22mm copper pipe,2,metre,6.8,13.61
+INV-2026-0011,3,it_pl_005,22mm compression fitting,3,each,3.8,11.4
+INV-2026-0011,4,it_pl_003,PTFE tape,2,roll,1.2,2.4
+INV-2026-0011,5,it_pl_006,Lead-free solder 250g,1,pack,8.5,8.51
+INV-2024-0012,1,it_el_012,Consumer unit 10-way,2,unit,145.0,290.0
+INV-2024-0012,2,it_el_011,RCD 40A 30mA,2,each,28.0,56.01
+INV-2024-0012,3,it_el_009,MCB 16A type-B,1,each,6.8,6.8
+INV-2024-0012,4,it_el_010,MCB 32A type-B,1,each,7.5,7.5
+INV-2024-0012,5,it_el_029,Earth bond cable 10mm,2,metre,2.2,4.41
+INV-2025-0013,1,it_pl_027,Washing machine hose pair,2,pair,12.0,24.0
+INV-2025-0013,2,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0013,3,it_pl_004,15mm compression fitting,3,each,2.5,7.5
+INV-2025-0013,4,it_pl_003,PTFE tape,4,roll,1.2,4.8
+INV-2025-0013,5,it_pl_007,Pipe clip pack of 10,3,pack,3.2,9.61
+INV-2025-0014,1,it_pl_003,PTFE tape,4,roll,1.2,4.8
+INV-2025-0014,2,it_pl_007,Pipe clip pack of 10,1,pack,3.2,3.21
+INV-2025-0014,3,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0014,4,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2025-0014,5,it_pl_018,Pipe insulation 15mm 2m,1,length,4.8,4.8
+INV-2026-0015,1,it_el_024,Intercom video kit,4,kit,180.0,720.0
+INV-2026-0015,2,it_el_021,CAT6 cable 100m,2,reel,45.0,90.0
+INV-2026-0015,3,it_el_003,Twin & earth 1.5mm 100m,4,reel,85.0,340.0
+INV-2026-0015,4,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2026-0015,5,it_el_028,Back box metal 35mm,4,each,1.8,7.21
+INV-2024-0016,1,it_cp_029,Balustrade oak spindle,1,each,9.5,9.51
+INV-2024-0016,2,it_cp_030,Newel post oak,2,each,48.0,96.0
+INV-2024-0016,3,it_cp_031,Handrail oak 3m,1,length,62.0,62.01
+INV-2024-0016,4,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2024-0016,5,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2025-0017,1,it_cp_023,Garden shed kit 8x6,2,kit,680.0,1360.01
+INV-2025-0017,2,it_cp_003,Timber C24 2x6 4.8m,3,length,28.0,84.0
+INV-2025-0017,3,it_cp_005,Wood screws 5.0x90 box,4,box,22.0,88.0
+INV-2025-0017,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0017,5,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0018,1,it_el_015,LED pendant fitting,4,unit,24.0,96.0
+INV-2025-0018,2,it_el_003,Twin & earth 1.5mm 100m,2,reel,85.0,170.0
+INV-2025-0018,3,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2025-0018,4,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2025-0018,5,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2026-0019,1,it_el_026,Bathroom pull cord switch,3,each,6.5,19.5
+INV-2026-0019,2,it_el_003,Twin & earth 1.5mm 100m,3,reel,85.0,255.0
+INV-2026-0019,3,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2026-0019,4,it_el_028,Back box metal 35mm,1,each,1.8,1.8
+INV-2026-0019,5,it_el_029,Earth bond cable 10mm,2,metre,2.2,4.41
+INV-2025-0020,1,it_cp_009,Engineered oak flooring,3,sqm,42.0,126.0
+INV-2025-0020,2,it_cp_011,Floor underlay 15sqm,2,roll,28.0,56.01
+INV-2025-0020,3,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0020,4,it_cp_012,MDF skirting 18x145mm 4m,3,length,16.0,48.01
+INV-2025-0020,5,it_cp_026,Wood filler tub,2,tub,8.0,16.0
+INV-2025-0021,1,it_cp_012,MDF skirting 18x145mm 4m,3,length,16.0,48.01
+INV-2025-0021,2,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0021,3,it_cp_026,Wood filler tub,3,tub,8.0,24.0
+INV-2025-0021,4,it_cp_013,Architrave MDF 4m,2,length,12.0,24.0
+INV-2025-0021,5,it_cp_002,Timber C16 2x4 4.8m,4,length,18.0,72.0
+INV-2025-0022,1,it_el_001,Twin & earth 2.5mm 100m,1,reel,120.0,120.0
+INV-2025-0022,2,it_el_003,Twin & earth 1.5mm 100m,4,reel,85.0,340.0
+INV-2025-0022,3,it_el_011,RCD 40A 30mA,1,each,28.0,28.0
+INV-2025-0022,4,it_el_012,Consumer unit 10-way,3,unit,145.0,435.0
+INV-2025-0022,5,it_el_004,Double socket white,1,each,3.8,3.8
+INV-2025-0023,1,it_cp_024,Loft hatch insulated,1,unit,95.0,95.0
+INV-2025-0023,2,it_cp_025,Loft ladder 3-section,1,unit,145.0,145.0
+INV-2025-0023,3,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2025-0023,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0023,5,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2025-0024,1,it_pl_021,Radiator type-22 600x1000,4,unit,95.0,380.0
+INV-2025-0024,2,it_pl_008,Radiator valve pair,4,pair,18.0,72.0
+INV-2025-0024,3,it_pl_003,PTFE tape,2,roll,1.2,2.4
+INV-2025-0024,4,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2025-0024,5,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0025,1,it_el_002,Twin & earth 6mm 50m,4,reel,165.0,660.0
+INV-2025-0025,2,it_el_030,Cooker switch 45A,3,each,14.0,42.01
+INV-2025-0025,3,it_el_010,MCB 32A type-B,1,each,7.5,7.5
+INV-2025-0025,4,it_el_011,RCD 40A 30mA,4,each,28.0,112.0
+INV-2025-0025,5,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2025-0026,1,it_pl_025,Outside tap kit,4,kit,32.0,128.0
+INV-2025-0026,2,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2025-0026,3,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2025-0026,4,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2025-0026,5,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2025-0027,1,it_el_026,Bathroom pull cord switch,1,each,6.5,6.5
+INV-2025-0027,2,it_el_003,Twin & earth 1.5mm 100m,1,reel,85.0,85.0
+INV-2025-0027,3,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2025-0027,4,it_el_028,Back box metal 35mm,2,each,1.8,3.6
+INV-2025-0027,5,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2024-0028,1,it_pl_011,Bathroom suite white,2,unit,420.0,840.0
+INV-2024-0028,2,it_pl_010,Toilet pan and cistern,3,unit,180.0,540.0
+INV-2024-0028,3,it_pl_015,Bathroom mixer tap,1,unit,85.0,85.0
+INV-2024-0028,4,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2024-0028,5,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2024-0029,1,it_pl_024,Pressure booster pump,4,unit,220.0,880.0
+INV-2024-0029,2,it_pl_002,22mm copper pipe,4,metre,6.8,27.2
+INV-2024-0029,3,it_pl_005,22mm compression fitting,1,each,3.8,3.8
+INV-2024-0029,4,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2024-0029,5,it_pl_006,Lead-free solder 250g,4,pack,8.5,34.01
+INV-2024-0030,1,it_cp_015,Fence panel 6x6ft,1,panel,38.0,38.01
+INV-2024-0030,2,it_cp_016,Fence post treated,1,each,18.0,18.0
+INV-2024-0030,3,it_cp_005,Wood screws 5.0x90 box,3,box,22.0,66.0
+INV-2024-0030,4,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2024-0030,5,it_cp_003,Timber C24 2x6 4.8m,1,length,28.0,28.0
+INV-2025-0031,1,it_cp_027,Sanding discs pack,2,pack,14.0,28.0
+INV-2025-0031,2,it_cp_028,Floor lacquer 5L,1,tin,58.0,58.01
+INV-2025-0031,3,it_cp_026,Wood filler tub,2,tub,8.0,16.0
+INV-2025-0031,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0031,5,it_cp_002,Timber C16 2x4 4.8m,4,length,18.0,72.0
+INV-2024-0032,1,it_pl_020,Waste disposal unit,3,unit,150.0,450.0
+INV-2024-0032,2,it_pl_001,15mm copper pipe,3,metre,4.5,13.51
+INV-2024-0032,3,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2024-0032,4,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2024-0032,5,it_pl_007,Pipe clip pack of 10,4,pack,3.2,12.81
+INV-2024-0033,1,it_cp_002,Timber C16 2x4 4.8m,4,length,18.0,72.0
+INV-2024-0033,2,it_cp_005,Wood screws 5.0x90 box,4,box,22.0,88.0
+INV-2024-0033,3,it_cp_006,Butt hinges pair brass,2,pair,6.5,13.01
+INV-2024-0033,4,it_cp_022,Door latch set,3,set,8.5,25.5
+INV-2024-0033,5,it_cp_003,Timber C24 2x6 4.8m,2,length,28.0,56.01
+INV-2024-0034,1,it_cp_012,MDF skirting 18x145mm 4m,3,length,16.0,48.01
+INV-2024-0034,2,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2024-0034,3,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2024-0034,4,it_cp_013,Architrave MDF 4m,1,length,12.0,12.01
+INV-2024-0034,5,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2026-0035,1,it_el_016,LED downlight IP65,2,each,9.5,19.0
+INV-2026-0035,2,it_el_003,Twin & earth 1.5mm 100m,2,reel,85.0,170.0
+INV-2026-0035,3,it_el_006,Light switch 1-gang,3,each,3.2,9.61
+INV-2026-0035,4,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2026-0035,5,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2024-0036,1,it_pl_016,Hot water cylinder 210L,1,unit,340.0,340.0
+INV-2024-0036,2,it_pl_017,Immersion heater element,2,each,42.0,84.0
+INV-2024-0036,3,it_pl_002,22mm copper pipe,2,metre,6.8,13.61
+INV-2024-0036,4,it_pl_005,22mm compression fitting,1,each,3.8,3.8
+INV-2024-0036,5,it_pl_006,Lead-free solder 250g,3,pack,8.5,25.5
+INV-2025-0037,1,it_pl_016,Hot water cylinder 210L,3,unit,340.0,1020.0
+INV-2025-0037,2,it_pl_017,Immersion heater element,1,each,42.0,42.01
+INV-2025-0037,3,it_pl_002,22mm copper pipe,1,metre,6.8,6.8
+INV-2025-0037,4,it_pl_005,22mm compression fitting,1,each,3.8,3.8
+INV-2025-0037,5,it_pl_006,Lead-free solder 250g,3,pack,8.5,25.5
+INV-2024-0038,1,it_pl_027,Washing machine hose pair,2,pair,12.0,24.0
+INV-2024-0038,2,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2024-0038,3,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2024-0038,4,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2024-0038,5,it_pl_007,Pipe clip pack of 10,1,pack,3.2,3.21
+INV-2026-0039,1,it_el_017,Outdoor PIR light LED,3,unit,42.0,126.0
+INV-2026-0039,2,it_el_003,Twin & earth 1.5mm 100m,4,reel,85.0,340.0
+INV-2026-0039,3,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2026-0039,4,it_el_028,Back box metal 35mm,2,each,1.8,3.6
+INV-2026-0039,5,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2025-0040,1,it_cp_001,MDF sheet 18mm 8x4,4,sheet,38.0,152.0
+INV-2025-0040,2,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2025-0040,3,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2025-0040,4,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2025-0040,5,it_cp_027,Sanding discs pack,2,pack,14.0,28.0
+INV-2025-0041,1,it_el_017,Outdoor PIR light LED,4,unit,42.0,168.0
+INV-2025-0041,2,it_el_003,Twin & earth 1.5mm 100m,2,reel,85.0,170.0
+INV-2025-0041,3,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2025-0041,4,it_el_028,Back box metal 35mm,1,each,1.8,1.8
+INV-2025-0041,5,it_el_006,Light switch 1-gang,2,each,3.2,6.41
+INV-2025-0042,1,it_cp_001,MDF sheet 18mm 8x4,4,sheet,38.0,152.0
+INV-2025-0042,2,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0042,3,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0042,4,it_cp_006,Butt hinges pair brass,2,pair,6.5,13.01
+INV-2025-0042,5,it_cp_021,Handle knob chrome,3,each,4.5,13.51
+INV-2024-0043,1,it_cp_023,Garden shed kit 8x6,2,kit,680.0,1360.01
+INV-2024-0043,2,it_cp_003,Timber C24 2x6 4.8m,1,length,28.0,28.0
+INV-2024-0043,3,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2024-0043,4,it_cp_004,Wood screws 4.0x40 box,3,box,14.0,42.01
+INV-2024-0043,5,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2024-0044,1,it_cp_001,MDF sheet 18mm 8x4,2,sheet,38.0,76.0
+INV-2024-0044,2,it_cp_002,Timber C16 2x4 4.8m,4,length,18.0,72.0
+INV-2024-0044,3,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2024-0044,4,it_cp_020,Shelf bracket pair,4,pair,6.0,24.0
+INV-2024-0044,5,it_cp_028,Floor lacquer 5L,2,tin,58.0,116.0
+INV-2024-0045,1,it_pl_003,PTFE tape,3,roll,1.2,3.6
+INV-2024-0045,2,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2024-0045,3,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2024-0045,4,it_pl_004,15mm compression fitting,3,each,2.5,7.5
+INV-2024-0045,5,it_pl_018,Pipe insulation 15mm 2m,4,length,4.8,19.2
+INV-2026-0046,1,it_cp_001,MDF sheet 18mm 8x4,4,sheet,38.0,152.0
+INV-2026-0046,2,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2026-0046,3,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2026-0046,4,it_cp_006,Butt hinges pair brass,2,pair,6.5,13.01
+INV-2026-0046,5,it_cp_021,Handle knob chrome,1,each,4.5,4.5
+INV-2024-0047,1,it_pl_021,Radiator type-22 600x1000,2,unit,95.0,190.0
+INV-2024-0047,2,it_pl_008,Radiator valve pair,2,pair,18.0,36.01
+INV-2024-0047,3,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2024-0047,4,it_pl_004,15mm compression fitting,3,each,2.5,7.5
+INV-2024-0047,5,it_pl_001,15mm copper pipe,4,metre,4.5,18.0
+INV-2025-0048,1,it_el_017,Outdoor PIR light LED,1,unit,42.0,42.01
+INV-2025-0048,2,it_el_003,Twin & earth 1.5mm 100m,3,reel,85.0,255.0
+INV-2025-0048,3,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2025-0048,4,it_el_028,Back box metal 35mm,2,each,1.8,3.6
+INV-2025-0048,5,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2025-0049,1,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0049,2,it_cp_026,Wood filler tub,3,tub,8.0,24.0
+INV-2025-0049,3,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2025-0049,4,it_cp_006,Butt hinges pair brass,4,pair,6.5,26.0
+INV-2025-0049,5,it_cp_013,Architrave MDF 4m,2,length,12.0,24.0
+INV-2025-0050,1,it_pl_011,Bathroom suite white,1,unit,420.0,420.0
+INV-2025-0050,2,it_pl_010,Toilet pan and cistern,3,unit,180.0,540.0
+INV-2025-0050,3,it_pl_015,Bathroom mixer tap,3,unit,85.0,255.0
+INV-2025-0050,4,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0050,5,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2024-0051,1,it_el_002,Twin & earth 6mm 50m,2,reel,165.0,330.0
+INV-2024-0051,2,it_el_030,Cooker switch 45A,2,each,14.0,28.0
+INV-2024-0051,3,it_el_010,MCB 32A type-B,3,each,7.5,22.5
+INV-2024-0051,4,it_el_011,RCD 40A 30mA,1,each,28.0,28.0
+INV-2024-0051,5,it_el_027,Cable clip pack 100,4,pack,4.5,18.0
+INV-2025-0052,1,it_pl_001,15mm copper pipe,4,metre,4.5,18.0
+INV-2025-0052,2,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2025-0052,3,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2025-0052,4,it_pl_006,Lead-free solder 250g,2,pack,8.5,17.0
+INV-2025-0052,5,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2024-0053,1,it_cp_002,Timber C16 2x4 4.8m,4,length,18.0,72.0
+INV-2024-0053,2,it_cp_005,Wood screws 5.0x90 box,1,box,22.0,22.0
+INV-2024-0053,3,it_cp_006,Butt hinges pair brass,1,pair,6.5,6.5
+INV-2024-0053,4,it_cp_022,Door latch set,2,set,8.5,17.0
+INV-2024-0053,5,it_cp_003,Timber C24 2x6 4.8m,2,length,28.0,56.01
+INV-2026-0054,1,it_cp_009,Engineered oak flooring,1,sqm,42.0,42.01
+INV-2026-0054,2,it_cp_011,Floor underlay 15sqm,1,roll,28.0,28.0
+INV-2026-0054,3,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2026-0054,4,it_cp_012,MDF skirting 18x145mm 4m,4,length,16.0,64.0
+INV-2026-0054,5,it_cp_026,Wood filler tub,3,tub,8.0,24.0
+INV-2026-0055,1,it_pl_003,PTFE tape,2,roll,1.2,2.4
+INV-2026-0055,2,it_pl_007,Pipe clip pack of 10,3,pack,3.2,9.61
+INV-2026-0055,3,it_pl_018,Pipe insulation 15mm 2m,3,length,4.8,14.4
+INV-2026-0055,4,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2026-0055,5,it_pl_006,Lead-free solder 250g,1,pack,8.5,8.51
+INV-2024-0056,1,it_el_022,Extractor fan humidity,3,unit,48.0,144.0
+INV-2024-0056,2,it_el_003,Twin & earth 1.5mm 100m,1,reel,85.0,85.0
+INV-2024-0056,3,it_el_027,Cable clip pack 100,4,pack,4.5,18.0
+INV-2024-0056,4,it_el_028,Back box metal 35mm,2,each,1.8,3.6
+INV-2024-0056,5,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2024-0057,1,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2024-0057,2,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2024-0057,3,it_pl_005,22mm compression fitting,3,each,3.8,11.4
+INV-2024-0057,4,it_pl_006,Lead-free solder 250g,2,pack,8.5,17.0
+INV-2024-0057,5,it_pl_003,PTFE tape,2,roll,1.2,2.4
+INV-2025-0058,1,it_el_015,LED pendant fitting,2,unit,24.0,48.01
+INV-2025-0058,2,it_el_003,Twin & earth 1.5mm 100m,1,reel,85.0,85.0
+INV-2025-0058,3,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2025-0058,4,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2025-0058,5,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2025-0059,1,it_cp_029,Balustrade oak spindle,3,each,9.5,28.5
+INV-2025-0059,2,it_cp_030,Newel post oak,2,each,48.0,96.0
+INV-2025-0059,3,it_cp_031,Handrail oak 3m,2,length,62.0,124.0
+INV-2025-0059,4,it_cp_005,Wood screws 5.0x90 box,1,box,22.0,22.0
+INV-2025-0059,5,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2025-0060,1,it_el_016,LED downlight IP65,3,each,9.5,28.5
+INV-2025-0060,2,it_el_003,Twin & earth 1.5mm 100m,2,reel,85.0,170.0
+INV-2025-0060,3,it_el_006,Light switch 1-gang,2,each,3.2,6.41
+INV-2025-0060,4,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2025-0060,5,it_el_029,Earth bond cable 10mm,4,metre,2.2,8.81
+INV-2024-0061,1,it_el_002,Twin & earth 6mm 50m,2,reel,165.0,330.0
+INV-2024-0061,2,it_el_030,Cooker switch 45A,1,each,14.0,14.01
+INV-2024-0061,3,it_el_010,MCB 32A type-B,4,each,7.5,30.0
+INV-2024-0061,4,it_el_011,RCD 40A 30mA,1,each,28.0,28.0
+INV-2024-0061,5,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2025-0062,1,it_pl_022,Underfloor heating mat,1,sqm,28.0,28.0
+INV-2025-0062,2,it_pl_023,Manifold 6-port,4,unit,185.0,740.0
+INV-2025-0062,3,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0062,4,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2025-0062,5,it_pl_008,Radiator valve pair,2,pair,18.0,36.01
+INV-2024-0063,1,it_pl_009,Gas boiler 24kW,2,unit,1100.0,2200.01
+INV-2024-0063,2,it_pl_026,Boiler flue kit,1,kit,85.0,85.0
+INV-2024-0063,3,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2024-0063,4,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2024-0063,5,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2025-0064,1,it_cp_018,Worktop laminate 3m,1,length,140.0,140.0
+INV-2025-0064,2,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0064,3,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2025-0064,4,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2025-0064,5,it_cp_027,Sanding discs pack,3,pack,14.0,42.01
+INV-2025-0065,1,it_cp_029,Balustrade oak spindle,2,each,9.5,19.0
+INV-2025-0065,2,it_cp_030,Newel post oak,1,each,48.0,48.01
+INV-2025-0065,3,it_cp_031,Handrail oak 3m,2,length,62.0,124.0
+INV-2025-0065,4,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2025-0065,5,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2026-0066,1,it_el_026,Bathroom pull cord switch,1,each,6.5,6.5
+INV-2026-0066,2,it_el_003,Twin & earth 1.5mm 100m,3,reel,85.0,255.0
+INV-2026-0066,3,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2026-0066,4,it_el_028,Back box metal 35mm,1,each,1.8,1.8
+INV-2026-0066,5,it_el_029,Earth bond cable 10mm,4,metre,2.2,8.81
+INV-2024-0067,1,it_pl_021,Radiator type-22 600x1000,2,unit,95.0,190.0
+INV-2024-0067,2,it_pl_008,Radiator valve pair,1,pair,18.0,18.0
+INV-2024-0067,3,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2024-0067,4,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2024-0067,5,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0068,1,it_cp_001,MDF sheet 18mm 8x4,2,sheet,38.0,76.0
+INV-2025-0068,2,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2025-0068,3,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0068,4,it_cp_005,Wood screws 5.0x90 box,4,box,22.0,88.0
+INV-2025-0068,5,it_cp_027,Sanding discs pack,4,pack,14.0,56.01
+INV-2024-0069,1,it_cp_029,Balustrade oak spindle,1,each,9.5,9.51
+INV-2024-0069,2,it_cp_030,Newel post oak,2,each,48.0,96.0
+INV-2024-0069,3,it_cp_031,Handrail oak 3m,1,length,62.0,62.01
+INV-2024-0069,4,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2024-0069,5,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2025-0070,1,it_cp_001,MDF sheet 18mm 8x4,4,sheet,38.0,152.0
+INV-2025-0070,2,it_cp_002,Timber C16 2x4 4.8m,3,length,18.0,54.01
+INV-2025-0070,3,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0070,4,it_cp_020,Shelf bracket pair,2,pair,6.0,12.01
+INV-2025-0070,5,it_cp_028,Floor lacquer 5L,2,tin,58.0,116.0
+INV-2025-0071,1,it_el_017,Outdoor PIR light LED,2,unit,42.0,84.0
+INV-2025-0071,2,it_el_001,Twin & earth 2.5mm 100m,2,reel,120.0,240.0
+INV-2025-0071,3,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2025-0071,4,it_el_029,Earth bond cable 10mm,4,metre,2.2,8.81
+INV-2025-0071,5,it_el_016,LED downlight IP65,4,each,9.5,38.01
+INV-2024-0072,1,it_cp_020,Shelf bracket pair,2,pair,6.0,12.01
+INV-2024-0072,2,it_cp_001,MDF sheet 18mm 8x4,2,sheet,38.0,76.0
+INV-2024-0072,3,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2024-0072,4,it_cp_002,Timber C16 2x4 4.8m,3,length,18.0,54.01
+INV-2024-0072,5,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2025-0073,1,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0073,2,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2025-0073,3,it_cp_029,Balustrade oak spindle,2,each,9.5,19.0
+INV-2025-0073,4,it_cp_031,Handrail oak 3m,4,length,62.0,248.0
+INV-2025-0073,5,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2026-0074,1,it_el_019,CCTV camera 4MP,2,each,85.0,170.0
+INV-2026-0074,2,it_el_020,CCTV NVR 8-channel,4,unit,220.0,880.0
+INV-2026-0074,3,it_el_021,CAT6 cable 100m,2,reel,45.0,90.0
+INV-2026-0074,4,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2026-0074,5,it_el_028,Back box metal 35mm,4,each,1.8,7.21
+INV-2025-0075,1,it_pl_016,Hot water cylinder 210L,2,unit,340.0,680.0
+INV-2025-0075,2,it_pl_017,Immersion heater element,2,each,42.0,84.0
+INV-2025-0075,3,it_pl_002,22mm copper pipe,1,metre,6.8,6.8
+INV-2025-0075,4,it_pl_005,22mm compression fitting,2,each,3.8,7.6
+INV-2025-0075,5,it_pl_006,Lead-free solder 250g,3,pack,8.5,25.5
+INV-2025-0076,1,it_cp_006,Butt hinges pair brass,4,pair,6.5,26.0
+INV-2025-0076,2,it_cp_021,Handle knob chrome,2,each,4.5,9.01
+INV-2025-0076,3,it_cp_022,Door latch set,3,set,8.5,25.5
+INV-2025-0076,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0076,5,it_cp_026,Wood filler tub,2,tub,8.0,16.0
+INV-2024-0077,1,it_cp_007,Internal door oak,4,unit,120.0,480.0
+INV-2024-0077,2,it_cp_006,Butt hinges pair brass,4,pair,6.5,26.0
+INV-2024-0077,3,it_cp_022,Door latch set,2,set,8.5,17.0
+INV-2024-0077,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2024-0077,5,it_cp_013,Architrave MDF 4m,4,length,12.0,48.01
+INV-2025-0078,1,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0078,2,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2025-0078,3,it_pl_005,22mm compression fitting,2,each,3.8,7.6
+INV-2025-0078,4,it_pl_006,Lead-free solder 250g,1,pack,8.5,8.51
+INV-2025-0078,5,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2025-0079,1,it_pl_014,Kitchen tap chrome,3,unit,75.0,225.0
+INV-2025-0079,2,it_pl_003,PTFE tape,3,roll,1.2,3.6
+INV-2025-0079,3,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2025-0079,4,it_pl_001,15mm copper pipe,3,metre,4.5,13.51
+INV-2025-0079,5,it_pl_007,Pipe clip pack of 10,1,pack,3.2,3.21
+INV-2025-0080,1,it_cp_006,Butt hinges pair brass,3,pair,6.5,19.5
+INV-2025-0080,2,it_cp_021,Handle knob chrome,4,each,4.5,18.0
+INV-2025-0080,3,it_cp_022,Door latch set,3,set,8.5,25.5
+INV-2025-0080,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0080,5,it_cp_026,Wood filler tub,2,tub,8.0,16.0
+INV-2024-0081,1,it_cp_009,Engineered oak flooring,1,sqm,42.0,42.01
+INV-2024-0081,2,it_cp_011,Floor underlay 15sqm,1,roll,28.0,28.0
+INV-2024-0081,3,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2024-0081,4,it_cp_012,MDF skirting 18x145mm 4m,1,length,16.0,16.0
+INV-2024-0081,5,it_cp_026,Wood filler tub,2,tub,8.0,16.0
+INV-2025-0082,1,it_cp_015,Fence panel 6x6ft,2,panel,38.0,76.0
+INV-2025-0082,2,it_cp_016,Fence post treated,2,each,18.0,36.01
+INV-2025-0082,3,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2025-0082,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0082,5,it_cp_003,Timber C24 2x6 4.8m,2,length,28.0,56.01
+INV-2024-0083,1,it_cp_007,Internal door oak,4,unit,120.0,480.0
+INV-2024-0083,2,it_cp_006,Butt hinges pair brass,1,pair,6.5,6.5
+INV-2024-0083,3,it_cp_022,Door latch set,1,set,8.5,8.51
+INV-2024-0083,4,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2024-0083,5,it_cp_013,Architrave MDF 4m,4,length,12.0,48.01
+INV-2026-0084,1,it_el_013,Smoke alarm mains optical,1,unit,38.0,38.01
+INV-2026-0084,2,it_el_014,Heat alarm mains,3,unit,32.0,96.0
+INV-2026-0084,3,it_el_003,Twin & earth 1.5mm 100m,1,reel,85.0,85.0
+INV-2026-0084,4,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2026-0084,5,it_el_028,Back box metal 35mm,1,each,1.8,1.8
+INV-2025-0085,1,it_cp_023,Garden shed kit 8x6,2,kit,680.0,1360.01
+INV-2025-0085,2,it_cp_003,Timber C24 2x6 4.8m,4,length,28.0,112.0
+INV-2025-0085,3,it_cp_005,Wood screws 5.0x90 box,1,box,22.0,22.0
+INV-2025-0085,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0085,5,it_cp_002,Timber C16 2x4 4.8m,4,length,18.0,72.0
+INV-2025-0086,1,it_cp_017,Kitchen cabinet 600mm,1,unit,95.0,95.0
+INV-2025-0086,2,it_cp_018,Worktop laminate 3m,2,length,140.0,280.0
+INV-2025-0086,3,it_cp_006,Butt hinges pair brass,3,pair,6.5,19.5
+INV-2025-0086,4,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2025-0086,5,it_cp_021,Handle knob chrome,2,each,4.5,9.01
+INV-2024-0087,1,it_el_017,Outdoor PIR light LED,4,unit,42.0,168.0
+INV-2024-0087,2,it_el_001,Twin & earth 2.5mm 100m,1,reel,120.0,120.0
+INV-2024-0087,3,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2024-0087,4,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2024-0087,5,it_el_016,LED downlight IP65,3,each,9.5,28.5
+INV-2024-0088,1,it_cp_001,MDF sheet 18mm 8x4,2,sheet,38.0,76.0
+INV-2024-0088,2,it_cp_002,Timber C16 2x4 4.8m,4,length,18.0,72.0
+INV-2024-0088,3,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2024-0088,4,it_cp_020,Shelf bracket pair,3,pair,6.0,18.0
+INV-2024-0088,5,it_cp_028,Floor lacquer 5L,4,tin,58.0,232.0
+INV-2025-0089,1,it_cp_006,Butt hinges pair brass,1,pair,6.5,6.5
+INV-2025-0089,2,it_cp_021,Handle knob chrome,2,each,4.5,9.01
+INV-2025-0089,3,it_cp_022,Door latch set,2,set,8.5,17.0
+INV-2025-0089,4,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2025-0089,5,it_cp_026,Wood filler tub,3,tub,8.0,24.0
+INV-2026-0090,1,it_el_019,CCTV camera 4MP,1,each,85.0,85.0
+INV-2026-0090,2,it_el_020,CCTV NVR 8-channel,4,unit,220.0,880.0
+INV-2026-0090,3,it_el_021,CAT6 cable 100m,1,reel,45.0,45.01
+INV-2026-0090,4,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2026-0090,5,it_el_028,Back box metal 35mm,1,each,1.8,1.8
+INV-2024-0091,1,it_pl_011,Bathroom suite white,1,unit,420.0,420.0
+INV-2024-0091,2,it_pl_010,Toilet pan and cistern,3,unit,180.0,540.0
+INV-2024-0091,3,it_pl_015,Bathroom mixer tap,2,unit,85.0,170.0
+INV-2024-0091,4,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2024-0091,5,it_pl_004,15mm compression fitting,3,each,2.5,7.5
+INV-2025-0092,1,it_cp_006,Butt hinges pair brass,4,pair,6.5,26.0
+INV-2025-0092,2,it_cp_021,Handle knob chrome,3,each,4.5,13.51
+INV-2025-0092,3,it_cp_022,Door latch set,4,set,8.5,34.01
+INV-2025-0092,4,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2025-0092,5,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2024-0093,1,it_pl_027,Washing machine hose pair,2,pair,12.0,24.0
+INV-2024-0093,2,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2024-0093,3,it_pl_004,15mm compression fitting,3,each,2.5,7.5
+INV-2024-0093,4,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2024-0093,5,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2024-0094,1,it_cp_012,MDF skirting 18x145mm 4m,3,length,16.0,48.01
+INV-2024-0094,2,it_cp_004,Wood screws 4.0x40 box,3,box,14.0,42.01
+INV-2024-0094,3,it_cp_026,Wood filler tub,4,tub,8.0,32.01
+INV-2024-0094,4,it_cp_013,Architrave MDF 4m,2,length,12.0,24.0
+INV-2024-0094,5,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2025-0095,1,it_cp_015,Fence panel 6x6ft,3,panel,38.0,114.0
+INV-2025-0095,2,it_cp_016,Fence post treated,1,each,18.0,18.0
+INV-2025-0095,3,it_cp_005,Wood screws 5.0x90 box,1,box,22.0,22.0
+INV-2025-0095,4,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2025-0095,5,it_cp_003,Timber C24 2x6 4.8m,1,length,28.0,28.0
+INV-2024-0096,1,it_pl_025,Outside tap kit,2,kit,32.0,64.0
+INV-2024-0096,2,it_pl_001,15mm copper pipe,3,metre,4.5,13.51
+INV-2024-0096,3,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2024-0096,4,it_pl_003,PTFE tape,2,roll,1.2,2.4
+INV-2024-0096,5,it_pl_007,Pipe clip pack of 10,3,pack,3.2,9.61
+INV-2024-0097,1,it_pl_001,15mm copper pipe,3,metre,4.5,13.51
+INV-2024-0097,2,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2024-0097,3,it_pl_005,22mm compression fitting,3,each,3.8,11.4
+INV-2024-0097,4,it_pl_006,Lead-free solder 250g,1,pack,8.5,8.51
+INV-2024-0097,5,it_pl_003,PTFE tape,4,roll,1.2,4.8
+INV-2025-0098,1,it_cp_014,Decking board 4.8m,4,board,24.0,96.0
+INV-2025-0098,2,it_cp_003,Timber C24 2x6 4.8m,1,length,28.0,28.0
+INV-2025-0098,3,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2025-0098,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0098,5,it_cp_016,Fence post treated,2,each,18.0,36.01
+INV-2025-0099,1,it_cp_007,Internal door oak,1,unit,120.0,120.0
+INV-2025-0099,2,it_cp_006,Butt hinges pair brass,1,pair,6.5,6.5
+INV-2025-0099,3,it_cp_022,Door latch set,1,set,8.5,8.51
+INV-2025-0099,4,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2025-0099,5,it_cp_013,Architrave MDF 4m,3,length,12.0,36.01
+INV-2025-0100,1,it_el_011,RCD 40A 30mA,3,each,28.0,84.0
+INV-2025-0100,2,it_el_009,MCB 16A type-B,1,each,6.8,6.8
+INV-2025-0100,3,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2025-0100,4,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2025-0100,5,it_el_028,Back box metal 35mm,1,each,1.8,1.8
+INV-2024-0101,1,it_cp_018,Worktop laminate 3m,1,length,140.0,140.0
+INV-2024-0101,2,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2024-0101,3,it_cp_026,Wood filler tub,4,tub,8.0,32.01
+INV-2024-0101,4,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2024-0101,5,it_cp_027,Sanding discs pack,2,pack,14.0,28.0
+INV-2026-0102,1,it_pl_017,Immersion heater element,1,each,42.0,42.01
+INV-2026-0102,2,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2026-0102,3,it_pl_006,Lead-free solder 250g,2,pack,8.5,17.0
+INV-2026-0102,4,it_pl_007,Pipe clip pack of 10,1,pack,3.2,3.21
+INV-2026-0102,5,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2024-0103,1,it_el_018,EV charger 7.4kW type-2,2,unit,420.0,840.0
+INV-2024-0103,2,it_el_002,Twin & earth 6mm 50m,1,reel,165.0,165.0
+INV-2024-0103,3,it_el_010,MCB 32A type-B,4,each,7.5,30.0
+INV-2024-0103,4,it_el_011,RCD 40A 30mA,2,each,28.0,56.01
+INV-2024-0103,5,it_el_029,Earth bond cable 10mm,2,metre,2.2,4.41
+INV-2025-0104,1,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2025-0104,2,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2025-0104,3,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2025-0104,4,it_cp_006,Butt hinges pair brass,1,pair,6.5,6.5
+INV-2025-0104,5,it_cp_013,Architrave MDF 4m,2,length,12.0,24.0
+INV-2025-0105,1,it_el_011,RCD 40A 30mA,2,each,28.0,56.01
+INV-2025-0105,2,it_el_009,MCB 16A type-B,2,each,6.8,13.61
+INV-2025-0105,3,it_el_029,Earth bond cable 10mm,2,metre,2.2,4.41
+INV-2025-0105,4,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2025-0105,5,it_el_028,Back box metal 35mm,3,each,1.8,5.41
+INV-2025-0106,1,it_el_015,LED pendant fitting,4,unit,24.0,96.0
+INV-2025-0106,2,it_el_003,Twin & earth 1.5mm 100m,4,reel,85.0,340.0
+INV-2025-0106,3,it_el_006,Light switch 1-gang,4,each,3.2,12.81
+INV-2025-0106,4,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2025-0106,5,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2025-0107,1,it_cp_014,Decking board 4.8m,2,board,24.0,48.01
+INV-2025-0107,2,it_cp_003,Timber C24 2x6 4.8m,2,length,28.0,56.01
+INV-2025-0107,3,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2025-0107,4,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2025-0107,5,it_cp_016,Fence post treated,2,each,18.0,36.01
+INV-2025-0108,1,it_cp_012,MDF skirting 18x145mm 4m,2,length,16.0,32.01
+INV-2025-0108,2,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2025-0108,3,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2025-0108,4,it_cp_013,Architrave MDF 4m,1,length,12.0,12.01
+INV-2025-0108,5,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2026-0109,1,it_pl_011,Bathroom suite white,2,unit,420.0,840.0
+INV-2026-0109,2,it_pl_010,Toilet pan and cistern,2,unit,180.0,360.0
+INV-2026-0109,3,it_pl_015,Bathroom mixer tap,1,unit,85.0,85.0
+INV-2026-0109,4,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2026-0109,5,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2024-0110,1,it_el_019,CCTV camera 4MP,2,each,85.0,170.0
+INV-2024-0110,2,it_el_020,CCTV NVR 8-channel,1,unit,220.0,220.0
+INV-2024-0110,3,it_el_021,CAT6 cable 100m,4,reel,45.0,180.0
+INV-2024-0110,4,it_el_027,Cable clip pack 100,2,pack,4.5,9.01
+INV-2024-0110,5,it_el_028,Back box metal 35mm,2,each,1.8,3.6
+INV-2024-0111,1,it_cp_002,Timber C16 2x4 4.8m,2,length,18.0,36.01
+INV-2024-0111,2,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2024-0111,3,it_cp_029,Balustrade oak spindle,4,each,9.5,38.01
+INV-2024-0111,4,it_cp_031,Handrail oak 3m,1,length,62.0,62.01
+INV-2024-0111,5,it_cp_026,Wood filler tub,2,tub,8.0,16.0
+INV-2024-0112,1,it_el_012,Consumer unit 10-way,1,unit,145.0,145.0
+INV-2024-0112,2,it_el_011,RCD 40A 30mA,1,each,28.0,28.0
+INV-2024-0112,3,it_el_009,MCB 16A type-B,3,each,6.8,20.4
+INV-2024-0112,4,it_el_010,MCB 32A type-B,1,each,7.5,7.5
+INV-2024-0112,5,it_el_029,Earth bond cable 10mm,3,metre,2.2,6.61
+INV-2025-0113,1,it_pl_009,Gas boiler 24kW,1,unit,1100.0,1100.01
+INV-2025-0113,2,it_pl_026,Boiler flue kit,2,kit,85.0,170.0
+INV-2025-0113,3,it_pl_001,15mm copper pipe,4,metre,4.5,18.0
+INV-2025-0113,4,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2025-0113,5,it_pl_003,PTFE tape,2,roll,1.2,2.4
+INV-2024-0114,1,it_pl_022,Underfloor heating mat,1,sqm,28.0,28.0
+INV-2024-0114,2,it_pl_023,Manifold 6-port,1,unit,185.0,185.0
+INV-2024-0114,3,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2024-0114,4,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2024-0114,5,it_pl_008,Radiator valve pair,2,pair,18.0,36.01
+INV-2025-0115,1,it_cp_012,MDF skirting 18x145mm 4m,1,length,16.0,16.0
+INV-2025-0115,2,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0115,3,it_cp_026,Wood filler tub,3,tub,8.0,24.0
+INV-2025-0115,4,it_cp_013,Architrave MDF 4m,3,length,12.0,36.01
+INV-2025-0115,5,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0116,1,it_el_013,Smoke alarm mains optical,1,unit,38.0,38.01
+INV-2025-0116,2,it_el_014,Heat alarm mains,4,unit,32.0,128.0
+INV-2025-0116,3,it_el_003,Twin & earth 1.5mm 100m,4,reel,85.0,340.0
+INV-2025-0116,4,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2025-0116,5,it_el_028,Back box metal 35mm,2,each,1.8,3.6
+INV-2026-0117,1,it_el_016,LED downlight IP65,1,each,9.5,9.51
+INV-2026-0117,2,it_el_003,Twin & earth 1.5mm 100m,1,reel,85.0,85.0
+INV-2026-0117,3,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2026-0117,4,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2026-0117,5,it_el_029,Earth bond cable 10mm,4,metre,2.2,8.81
+INV-2024-0118,1,it_cp_023,Garden shed kit 8x6,1,kit,680.0,680.0
+INV-2024-0118,2,it_cp_003,Timber C24 2x6 4.8m,2,length,28.0,56.01
+INV-2024-0118,3,it_cp_005,Wood screws 5.0x90 box,4,box,22.0,88.0
+INV-2024-0118,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2024-0118,5,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0119,1,it_cp_029,Balustrade oak spindle,4,each,9.5,38.01
+INV-2025-0119,2,it_cp_030,Newel post oak,1,each,48.0,48.01
+INV-2025-0119,3,it_cp_031,Handrail oak 3m,4,length,62.0,248.0
+INV-2025-0119,4,it_cp_005,Wood screws 5.0x90 box,2,box,22.0,44.01
+INV-2025-0119,5,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2024-0120,1,it_cp_013,Architrave MDF 4m,2,length,12.0,24.0
+INV-2024-0120,2,it_cp_004,Wood screws 4.0x40 box,4,box,14.0,56.01
+INV-2024-0120,3,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2024-0120,4,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2024-0120,5,it_cp_027,Sanding discs pack,2,pack,14.0,28.0
+INV-2025-0121,1,it_pl_014,Kitchen tap chrome,1,unit,75.0,75.0
+INV-2025-0121,2,it_pl_003,PTFE tape,3,roll,1.2,3.6
+INV-2025-0121,3,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2025-0121,4,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0121,5,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2025-0122,1,it_cp_027,Sanding discs pack,4,pack,14.0,56.01
+INV-2025-0122,2,it_cp_028,Floor lacquer 5L,1,tin,58.0,58.01
+INV-2025-0122,3,it_cp_026,Wood filler tub,2,tub,8.0,16.0
+INV-2025-0122,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0122,5,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2024-0123,1,it_pl_009,Gas boiler 24kW,1,unit,1100.0,1100.01
+INV-2024-0123,2,it_pl_026,Boiler flue kit,2,kit,85.0,170.0
+INV-2024-0123,3,it_pl_001,15mm copper pipe,3,metre,4.5,13.51
+INV-2024-0123,4,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2024-0123,5,it_pl_003,PTFE tape,4,roll,1.2,4.8
+INV-2025-0124,1,it_el_025,Garden socket IP66,1,each,18.0,18.0
+INV-2025-0124,2,it_el_001,Twin & earth 2.5mm 100m,4,reel,120.0,480.0
+INV-2025-0124,3,it_el_011,RCD 40A 30mA,3,each,28.0,84.0
+INV-2025-0124,4,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2025-0124,5,it_el_029,Earth bond cable 10mm,3,metre,2.2,6.61
+INV-2024-0125,1,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2024-0125,2,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2024-0125,3,it_pl_003,PTFE tape,3,roll,1.2,3.6
+INV-2024-0125,4,it_pl_006,Lead-free solder 250g,2,pack,8.5,17.0
+INV-2024-0125,5,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2024-0126,1,it_el_015,LED pendant fitting,4,unit,24.0,96.0
+INV-2024-0126,2,it_el_003,Twin & earth 1.5mm 100m,1,reel,85.0,85.0
+INV-2024-0126,3,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2024-0126,4,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2024-0126,5,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2025-0127,1,it_pl_027,Washing machine hose pair,2,pair,12.0,24.0
+INV-2025-0127,2,it_pl_001,15mm copper pipe,4,metre,4.5,18.0
+INV-2025-0127,3,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2025-0127,4,it_pl_003,PTFE tape,4,roll,1.2,4.8
+INV-2025-0127,5,it_pl_007,Pipe clip pack of 10,4,pack,3.2,12.81
+INV-2025-0128,1,it_pl_009,Gas boiler 24kW,1,unit,1100.0,1100.01
+INV-2025-0128,2,it_pl_026,Boiler flue kit,1,kit,85.0,85.0
+INV-2025-0128,3,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2025-0128,4,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2025-0128,5,it_pl_003,PTFE tape,3,roll,1.2,3.6
+INV-2024-0129,1,it_el_011,RCD 40A 30mA,4,each,28.0,112.0
+INV-2024-0129,2,it_el_009,MCB 16A type-B,2,each,6.8,13.61
+INV-2024-0129,3,it_el_029,Earth bond cable 10mm,4,metre,2.2,8.81
+INV-2024-0129,4,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2024-0129,5,it_el_028,Back box metal 35mm,1,each,1.8,1.8
+INV-2024-0130,1,it_el_025,Garden socket IP66,2,each,18.0,36.01
+INV-2024-0130,2,it_el_001,Twin & earth 2.5mm 100m,4,reel,120.0,480.0
+INV-2024-0130,3,it_el_011,RCD 40A 30mA,3,each,28.0,84.0
+INV-2024-0130,4,it_el_027,Cable clip pack 100,4,pack,4.5,18.0
+INV-2024-0130,5,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2025-0131,1,it_cp_013,Architrave MDF 4m,3,length,12.0,36.01
+INV-2025-0131,2,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2025-0131,3,it_cp_026,Wood filler tub,2,tub,8.0,16.0
+INV-2025-0131,4,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0131,5,it_cp_027,Sanding discs pack,2,pack,14.0,28.0
+INV-2025-0132,1,it_el_011,RCD 40A 30mA,1,each,28.0,28.0
+INV-2025-0132,2,it_el_009,MCB 16A type-B,4,each,6.8,27.2
+INV-2025-0132,3,it_el_010,MCB 32A type-B,3,each,7.5,22.5
+INV-2025-0132,4,it_el_029,Earth bond cable 10mm,1,metre,2.2,2.21
+INV-2025-0132,5,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2025-0133,1,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2025-0133,2,it_pl_007,Pipe clip pack of 10,1,pack,3.2,3.21
+INV-2025-0133,3,it_pl_018,Pipe insulation 15mm 2m,1,length,4.8,4.8
+INV-2025-0133,4,it_pl_004,15mm compression fitting,3,each,2.5,7.5
+INV-2025-0133,5,it_pl_006,Lead-free solder 250g,4,pack,8.5,34.01
+INV-2024-0134,1,it_pl_018,Pipe insulation 15mm 2m,4,length,4.8,19.2
+INV-2024-0134,2,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2024-0134,3,it_pl_003,PTFE tape,2,roll,1.2,2.4
+INV-2024-0134,4,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2024-0134,5,it_pl_004,15mm compression fitting,3,each,2.5,7.5
+INV-2025-0135,1,it_pl_017,Immersion heater element,1,each,42.0,42.01
+INV-2025-0135,2,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2025-0135,3,it_pl_006,Lead-free solder 250g,3,pack,8.5,25.5
+INV-2025-0135,4,it_pl_007,Pipe clip pack of 10,1,pack,3.2,3.21
+INV-2025-0135,5,it_pl_001,15mm copper pipe,2,metre,4.5,9.01
+INV-2026-0136,1,it_el_016,LED downlight IP65,2,each,9.5,19.0
+INV-2026-0136,2,it_el_003,Twin & earth 1.5mm 100m,2,reel,85.0,170.0
+INV-2026-0136,3,it_el_006,Light switch 1-gang,1,each,3.2,3.21
+INV-2026-0136,4,it_el_027,Cable clip pack 100,3,pack,4.5,13.51
+INV-2026-0136,5,it_el_029,Earth bond cable 10mm,2,metre,2.2,4.41
+INV-2024-0137,1,it_cp_014,Decking board 4.8m,2,board,24.0,48.01
+INV-2024-0137,2,it_cp_003,Timber C24 2x6 4.8m,4,length,28.0,112.0
+INV-2024-0137,3,it_cp_005,Wood screws 5.0x90 box,3,box,22.0,66.0
+INV-2024-0137,4,it_cp_004,Wood screws 4.0x40 box,1,box,14.0,14.01
+INV-2024-0137,5,it_cp_016,Fence post treated,2,each,18.0,36.01
+INV-2025-0138,1,it_cp_002,Timber C16 2x4 4.8m,4,length,18.0,72.0
+INV-2025-0138,2,it_cp_005,Wood screws 5.0x90 box,3,box,22.0,66.0
+INV-2025-0138,3,it_cp_006,Butt hinges pair brass,1,pair,6.5,6.5
+INV-2025-0138,4,it_cp_022,Door latch set,1,set,8.5,8.51
+INV-2025-0138,5,it_cp_003,Timber C24 2x6 4.8m,1,length,28.0,28.0
+INV-2025-0139,1,it_pl_014,Kitchen tap chrome,4,unit,75.0,300.0
+INV-2025-0139,2,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2025-0139,3,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2025-0139,4,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2025-0139,5,it_pl_007,Pipe clip pack of 10,4,pack,3.2,12.81
+INV-2024-0140,1,it_el_019,CCTV camera 4MP,1,each,85.0,85.0
+INV-2024-0140,2,it_el_020,CCTV NVR 8-channel,2,unit,220.0,440.0
+INV-2024-0140,3,it_el_021,CAT6 cable 100m,2,reel,45.0,90.0
+INV-2024-0140,4,it_el_027,Cable clip pack 100,1,pack,4.5,4.5
+INV-2024-0140,5,it_el_028,Back box metal 35mm,1,each,1.8,1.8
+INV-2026-0141,1,it_pl_003,PTFE tape,3,roll,1.2,3.6
+INV-2026-0141,2,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2026-0141,3,it_pl_018,Pipe insulation 15mm 2m,4,length,4.8,19.2
+INV-2026-0141,4,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2026-0141,5,it_pl_006,Lead-free solder 250g,2,pack,8.5,17.0
+INV-2025-0142,1,it_cp_009,Engineered oak flooring,2,sqm,42.0,84.0
+INV-2025-0142,2,it_cp_011,Floor underlay 15sqm,1,roll,28.0,28.0
+INV-2025-0142,3,it_cp_004,Wood screws 4.0x40 box,3,box,14.0,42.01
+INV-2025-0142,4,it_cp_012,MDF skirting 18x145mm 4m,3,length,16.0,48.01
+INV-2025-0142,5,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2024-0143,1,it_el_018,EV charger 7.4kW type-2,2,unit,420.0,840.0
+INV-2024-0143,2,it_el_002,Twin & earth 6mm 50m,2,reel,165.0,330.0
+INV-2024-0143,3,it_el_010,MCB 32A type-B,4,each,7.5,30.0
+INV-2024-0143,4,it_el_011,RCD 40A 30mA,4,each,28.0,112.0
+INV-2024-0143,5,it_el_029,Earth bond cable 10mm,2,metre,2.2,4.41
+INV-2024-0144,1,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2024-0144,2,it_cp_026,Wood filler tub,1,tub,8.0,8.01
+INV-2024-0144,3,it_cp_004,Wood screws 4.0x40 box,3,box,14.0,42.01
+INV-2024-0144,4,it_cp_006,Butt hinges pair brass,1,pair,6.5,6.5
+INV-2024-0144,5,it_cp_013,Architrave MDF 4m,1,length,12.0,12.01
+INV-2025-0145,1,it_pl_027,Washing machine hose pair,1,pair,12.0,12.01
+INV-2025-0145,2,it_pl_001,15mm copper pipe,3,metre,4.5,13.51
+INV-2025-0145,3,it_pl_004,15mm compression fitting,2,each,2.5,5.0
+INV-2025-0145,4,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2025-0145,5,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2026-0146,1,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2026-0146,2,it_cp_026,Wood filler tub,4,tub,8.0,32.01
+INV-2026-0146,3,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2026-0146,4,it_cp_006,Butt hinges pair brass,4,pair,6.5,26.0
+INV-2026-0146,5,it_cp_013,Architrave MDF 4m,4,length,12.0,48.01
+INV-2026-0147,1,it_pl_012,Electric shower 8.5kW,1,unit,160.0,160.0
+INV-2026-0147,2,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2026-0147,3,it_pl_004,15mm compression fitting,4,each,2.5,10.01
+INV-2026-0147,4,it_pl_003,PTFE tape,1,roll,1.2,1.2
+INV-2026-0147,5,it_pl_007,Pipe clip pack of 10,2,pack,3.2,6.41
+INV-2025-0148,1,it_cp_001,MDF sheet 18mm 8x4,1,sheet,38.0,38.01
+INV-2025-0148,2,it_cp_002,Timber C16 2x4 4.8m,1,length,18.0,18.0
+INV-2025-0148,3,it_cp_004,Wood screws 4.0x40 box,2,box,14.0,28.0
+INV-2025-0148,4,it_cp_006,Butt hinges pair brass,2,pair,6.5,13.01
+INV-2025-0148,5,it_cp_021,Handle knob chrome,3,each,4.5,13.51
+INV-2025-0149,1,it_pl_011,Bathroom suite white,1,unit,420.0,420.0
+INV-2025-0149,2,it_pl_010,Toilet pan and cistern,1,unit,180.0,180.0
+INV-2025-0149,3,it_pl_015,Bathroom mixer tap,1,unit,85.0,85.0
+INV-2025-0149,4,it_pl_001,15mm copper pipe,1,metre,4.5,4.5
+INV-2025-0149,5,it_pl_004,15mm compression fitting,1,each,2.5,2.5
+INV-2025-0150,1,it_pl_022,Underfloor heating mat,4,sqm,28.0,112.0
+INV-2025-0150,2,it_pl_023,Manifold 6-port,1,unit,185.0,185.0
+INV-2025-0150,3,it_pl_001,15mm copper pipe,3,metre,4.5,13.51
+INV-2025-0150,4,it_pl_004,15mm compression fitting,3,each,2.5,7.5
+INV-2025-0150,5,it_pl_008,Radiator valve pair,2,pair,18.0,36.01

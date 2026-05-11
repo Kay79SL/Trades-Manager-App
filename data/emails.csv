@@ -1,0 +1,898 @@
+email_id,from_name,from_email,to_email,trade_contacted,subject,sent_at,template_kind,is_returning_customer,customer_id_if_known,target_job_type_id,target_job_name,body
+msg_0001,Donal Sheehan,donal.sheehan@gmail.com,info@plumbers-ireland.ie,plumber,Follow up - shower installation,2026-03-10 10:59:49,returning_customer,True,cust_0016,pl_07,Shower installation,"Hi again,
+
+Donal Sheehan here - you did immersion heater replace for me 17 months back.
+
+Now we're hoping to get a quote for installing a new shower.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Donal"
+msg_0002,Diarmuid O'Sullivan,diarmuid.osullivan3@gmail.com,info@electricians-ireland.ie,electrician,Follow up - garden socket installation,2026-04-21 02:15:04,returning_customer,True,cust_0091,el_14,Garden socket installation,"Hi again,
+
+Diarmuid O'Sullivan here - you did outdoor lighting for me 18 months back.
+
+Now we're hoping to get a quote for fitting an outdoor socket.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Diarmuid"
+msg_0003,Dervla O'Brien,dobrien@gmail.com,info@carpenters-ireland.ie,carpenter,Follow up - fence panel replacement,2026-03-31 06:06:41,returning_customer,True,cust_0058,cp_15,Fence panel replacement,"Hi again,
+
+Dervla O'Brien here - you did window frame repair for me 7 months back.
+
+Now we're hoping to get a quote for replacing a few fence panels.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Dervla"
+msg_0004,Bridget O'Sullivan,bridget.osullivan@outlook.com,info@carpenters-ireland.ie,carpenter,Follow up - kitchen cabinet repair,2026-04-03 10:24:33,returning_customer,True,cust_0041,cp_13,Kitchen cabinet repair,"Hi again,
+
+Bridget O'Sullivan here - you did floor sanding for me 16 months back.
+
+Now we're hoping to get a quote for repairing some kitchen cabinet doors.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Bridget"
+msg_0005,Aidan Fitzgerald,aidanfitzgerald@gmail.com,info@carpenters-ireland.ie,carpenter,Multiple trades needed - carpenter,2026-04-02 21:47:36,multi_trade,False,,cp_19,Floor sanding,"Hi,
+
+We're doing a kitchen renovation and need quotes for a few bits. Existing bath to come out and be replaced with a walk-in shower, plus new tiling, new extractor fan, and the lights moved.
+
+The property is in Kildare. Could you let me know what you can cover and send a quote for your part?
+
+Thanks,
+Aidan Fitzgerald"
+msg_0006,Padraig Dunne,padraigdunne@hotmail.com,info@electricians-ireland.ie,electrician,"Issue at home, need someone to take a look",2026-03-12 09:09:26,vague_symptom,False,,el_02,Extra socket installation,"Hi,
+
+A socket in the living room isn't working - tripped a few times then stopped. Not sure what's involved but was hoping to get someone out to take a look.
+
+I'm based in Kildare. Let me know your availability and a rough idea of cost.
+
+Thanks,
+Padraig Dunne
+085 6335227"
+msg_0007,Dervla Byrne,dervla.byrne@eircom.net,info@electricians-ireland.ie,electrician,Follow up - doorbell installation,2026-03-24 13:00:47,returning_customer,True,cust_0084,el_08,Doorbell installation,"Hi again,
+
+Dervla Byrne here - you did fuse box test for me 19 months back.
+
+Now we're hoping to get a quote for fitting a new doorbell.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Dervla"
+msg_0008,Aoife McCarthy,aoifemccarthy@live.ie,info@carpenters-ireland.ie,carpenter,Looking for a quote - fitted wardrobe building,2026-04-11 07:55:40,casual_specific,False,,cp_02,Fitted wardrobe building,"Hi there,
+
+Looking to get a quote for building fitted wardrobes in two bedrooms. The area is about 20 square metres. Based in Louth.
+
+Let me know when you could pop out.
+
+Cheers,
+Aoife"
+msg_0009,Diarmuid Kennedy,diarmuid.kennedy23@yahoo.ie,info@electricians-ireland.ie,electrician,Multiple trades needed - electrician,2026-04-04 10:54:49,multi_trade,False,,el_20,Landlord electrical report,"Hi,
+
+We're doing a kitchen renovation and need quotes for a few bits. Converting the attic - need flooring, some lighting and sockets added, and a radiator brought up there.
+
+The property is in Louth. Could you let me know what you can cover and send a quote for your part?
+
+Thanks,
+Diarmuid Kennedy"
+msg_0010,Diarmuid Byrne,diarmuid.byrne16@gmail.com,info@carpenters-ireland.ie,carpenter,Follow up - skirting board fitting,2026-04-09 12:38:06,returning_customer,True,cust_0077,cp_05,Skirting board fitting,"Hi again,
+
+Diarmuid Byrne here - you did staircase balustrade for me 5 months back.
+
+Now we're hoping to get a quote for fitting new skirting boards throughout.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Diarmuid"
+msg_0011,Sean Quinn,sean.quinn@yahoo.ie,info@carpenters-ireland.ie,carpenter,Multiple trades needed - carpenter,2026-03-29 21:47:16,multi_trade,False,,cp_15,Fence panel replacement,"Hello,
+
+Planning a bathroom refit and I'm trying to line up the trades. We need the old units ripped out, new ones fitted, plumbing rerouted for the sink and dishwasher, and the lighting upgraded with under-cabinet LEDs.
+
+Can you come out and give me a quote for the carpenter side? Property in Limerick.
+
+Sean Quinn
+086 2812519"
+msg_0012,Roisin Brennan,roisin.brennan@live.ie,info@plumbers-ireland.ie,plumber,Follow up - drain unblocking,2026-03-15 19:28:02,returning_customer,True,cust_0026,pl_10,Drain unblocking,"Hi again,
+
+Roisin Brennan here - you did outside tap installation for me 13 months back.
+
+Now we're hoping to get a quote for unblocking a kitchen drain.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Roisin"
+msg_0013,Fiona Sweeney,fiona.sweeney@eircom.net,info@electricians-ireland.ie,electrician,Multiple trades needed - electrician,2026-03-27 01:45:51,multi_trade,False,,el_03,Light fitting installation,"Hello,
+
+Planning a bathroom refit and I'm trying to line up the trades. We need the old units ripped out, new ones fitted, plumbing rerouted for the sink and dishwasher, and the lighting upgraded with under-cabinet LEDs.
+
+Can you come out and give me a quote for the electrician side? Property in Louth.
+
+Fiona Sweeney
+085 8284673"
+msg_0014,Niamh Hughes,niamh.hughes@yahoo.ie,info@carpenters-ireland.ie,carpenter,Quote request: Skirting board fitting,2026-04-08 03:49:42,formal_specific,False,,cp_05,Skirting board fitting,"Hello,
+
+I would like to obtain a quote for the following work: fitting new skirting boards throughout.
+
+The area is about 20 square metres.
+
+Please let me know what additional information you need from me and when you could come out to have a look.
+
+Best regards,
+Niamh Hughes"
+msg_0015,Tadhg Hughes,tadhg.hughes@yahoo.ie,info@plumbers-ireland.ie,plumber,"Issue at home, need someone to take a look",2026-03-28 07:44:30,vague_symptom,False,,pl_12,Gas safety certificate,"Hello,
+
+There's a damp patch appearing on the ceiling downstairs, I think something is leaking upstairs. Can you come out and give me a quote?
+
+Address is 68 Pearse St, Galway.
+
+Tadhg"
+msg_0016,Feargal Lynch,feargal.lynch@eircom.net,info@electricians-ireland.ie,electrician,Multiple trades needed - electrician,2026-03-29 03:16:11,multi_trade,False,,el_16,Security light install,"Hi,
+
+We're doing a kitchen renovation and need quotes for a few bits. Converting the attic - need flooring, some lighting and sockets added, and a radiator brought up there.
+
+The property is in Wicklow. Could you let me know what you can cover and send a quote for your part?
+
+Thanks,
+Feargal Lynch"
+msg_0017,Sinead Flynn,sinead.flynn@eircom.net,info@electricians-ireland.ie,electrician,Follow up - ev charger installation,2026-04-03 19:11:23,returning_customer,True,cust_0104,el_05,EV charger installation,"Hi again,
+
+Sinead Flynn here - you did garden socket installation for me 11 months back.
+
+Now we're hoping to get a quote for installing a home EV charger.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Sinead"
+msg_0018,Dervla Moore,dmoore@yahoo.ie,info@carpenters-ireland.ie,carpenter,Follow up - architrave fitting,2026-04-05 12:59:34,returning_customer,True,cust_0048,cp_17,Architrave fitting,"Hi again,
+
+Dervla Moore here - you did kitchen cabinet repair for me 3 months back.
+
+Now we're hoping to get a quote for fitting new architrave around the doors.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Dervla"
+msg_0019,Feargal O'Connor,foconnor@eircom.net,info@plumbers-ireland.ie,plumber,"Issue at home, need someone to take a look",2026-04-13 04:51:41,vague_symptom,False,,pl_04,Bathroom suite installation,"Hi,
+
+Radiator in the living room is cold at the top and warm at the bottom. Not sure what's involved but was hoping to get someone out to take a look.
+
+I'm based in Waterford. Let me know your availability and a rough idea of cost.
+
+Thanks,
+Feargal O'Connor
+086 7426403"
+msg_0020,Aoife Moore,amoore@live.ie,info@carpenters-ireland.ie,carpenter,Looking for a quote - loft hatch installation,2026-03-31 12:26:13,casual_specific,False,,cp_12,Loft hatch installation,"Hi there,
+
+Looking to get a quote for fitting a loft hatch and ladder. The area is about 20 square metres. Based in Waterford.
+
+Let me know when you could pop out.
+
+Cheers,
+Aoife"
+msg_0021,Aidan Gallagher,aidan.gallagher40@hotmail.com,info@carpenters-ireland.ie,carpenter,"Issue at home, need someone to take a look",2026-04-21 19:27:31,vague_symptom,False,,cp_02,Fitted wardrobe building,"Hello,
+
+Window frame is rotting and the window is hard to open. Can you come out and give me a quote?
+
+Address is 45 Parnell St, Cork.
+
+Aidan"
+msg_0022,Sean Collins,scollins@eircom.net,info@plumbers-ireland.ie,plumber,Follow up - tap replacement,2026-03-15 22:30:25,returning_customer,True,cust_0031,pl_08,Tap replacement,"Hi again,
+
+Sean Collins here - you did hot water cylinder install for me 18 months back.
+
+Now we're hoping to get a quote for replacing the kitchen and bathroom taps.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Sean"
+msg_0023,Brendan Kelly,brendankelly@live.ie,info@carpenters-ireland.ie,carpenter,URGENT - carpenter needed,2026-04-15 21:04:30,urgent,False,,cp_03,Door hanging,"URGENT
+
+Someone tried to break in last night and damaged the back door, I need it secured today.
+
+Please call me back ASAP on 089 4595669 or reply here. Kildare area.
+
+Brendan Kelly"
+msg_0024,Niamh Sheehan,niamh.sheehan82@gmail.com,info@carpenters-ireland.ie,carpenter,Follow up - staircase balustrade,2026-03-18 14:13:55,returning_customer,True,cust_0050,cp_20,Staircase balustrade,"Hi again,
+
+Niamh Sheehan here - you did floor sanding for me 12 months back.
+
+Now we're hoping to get a quote for fitting a new balustrade on the stairs.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Niamh"
+msg_0025,Una Martin,una.martin@outlook.com,info@electricians-ireland.ie,electrician,Looking for a quote - intercom system,2026-04-16 02:23:37,casual_specific,False,,el_17,Intercom system,"Hey,
+
+Hoping you can give me a rough price on installing a video door intercom? We've recently extended so there's some new wiring in one section.
+
+Thanks,
+Una Martin"
+msg_0026,Kieran Doyle,kieran.doyle84@yahoo.ie,info@electricians-ireland.ie,electrician,"Issue at home, need someone to take a look",2026-04-17 19:24:54,vague_symptom,False,,el_13,Cooker circuit installation,"Hi,
+
+One of the sockets sparked when I plugged in the hoover. Not sure what's involved but was hoping to get someone out to take a look.
+
+I'm based in Dublin. Let me know your availability and a rough idea of cost.
+
+Thanks,
+Kieran Doyle
+086 8022366"
+msg_0027,Brendan O'Connor,boconnor@icloud.com,info@electricians-ireland.ie,electrician,Multiple trades needed - electrician,2026-03-10 14:32:17,multi_trade,False,,el_06,Smoke alarm installation,"Hello,
+
+Planning a bathroom refit and I'm trying to line up the trades. Existing bath to come out and be replaced with a walk-in shower, plus new tiling, new extractor fan, and the lights moved.
+
+Can you come out and give me a quote for the electrician side? Property in Wicklow.
+
+Brendan O'Connor
+089 4071377"
+msg_0028,Una O'Sullivan,una.osullivan@live.ie,info@electricians-ireland.ie,electrician,Multiple trades needed - electrician,2026-03-31 16:04:22,multi_trade,False,,el_19,Fuse box test,"Hello,
+
+Planning a bathroom refit and I'm trying to line up the trades. We need the old units ripped out, new ones fitted, plumbing rerouted for the sink and dishwasher, and the lighting upgraded with under-cabinet LEDs.
+
+Can you come out and give me a quote for the electrician side? Property in Wicklow.
+
+Una O'Sullivan
+087 9889215"
+msg_0029,Saoirse Murphy,smurphy@eircom.net,info@plumbers-ireland.ie,plumber,Follow up - pipe insulation,2026-04-14 02:41:17,returning_customer,True,cust_0029,pl_11,Pipe insulation,"Hi again,
+
+Saoirse Murphy here - you did pipe insulation for me 4 months back.
+
+Now we're hoping to get a quote for insulating the pipes in the attic.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Saoirse"
+msg_0030,Siobhan Burke,sburke@gmail.com,info@plumbers-ireland.ie,plumber,Follow up - radiator replacement,2026-03-09 19:57:11,returning_customer,True,cust_0032,pl_05,Radiator replacement,"Hi again,
+
+Siobhan Burke here - you did boiler service for me 16 months back.
+
+Now we're hoping to get a quote for replacing two old radiators.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Siobhan"
+msg_0031,Sean Fitzgerald,sean.fitzgerald@icloud.com,info@electricians-ireland.ie,electrician,Quote request: Immersion heater wiring,2026-04-05 22:49:16,formal_specific,False,,el_12,Immersion heater wiring,"Dear electrical contractor,
+
+I hope this email finds you well. I am writing to request a quotation for wiring in a new immersion heater timer at my property in Kilkenny.
+
+Would need certification for insurance purposes.
+
+Would it be possible to arrange a site visit at your earliest convenience? My availability is generally evenings after 6pm and Saturdays.
+
+Kind regards,
+Sean Fitzgerald
+083 5174559"
+msg_0032,Fiona Buckley,fionabuckley@hotmail.com,info@carpenters-ireland.ie,carpenter,Quote request: Skirting board fitting,2026-03-10 07:52:40,formal_specific,False,,cp_05,Skirting board fitting,"Dear carpentry contractor,
+
+I hope this email finds you well. I am writing to request a quotation for fitting new skirting boards throughout at my property in Meath.
+
+It's a weekend when we're both off, but evenings work too.
+
+Would it be possible to arrange a site visit at your earliest convenience? My availability is generally evenings after 6pm and Saturdays.
+
+Kind regards,
+Fiona Buckley
+087 1320859"
+msg_0033,Niamh Walsh,niamh.walsh57@gmail.com,info@electricians-ireland.ie,electrician,Quote request: Full house rewiring,2026-04-06 23:40:13,formal_specific,False,,el_01,Full house rewiring,"Hello,
+
+I would like to obtain a quote for the following work: rewiring the full house.
+
+Ideally during school hours when we're out of the house.
+
+Please let me know what additional information you need from me and when you could come out to have a look.
+
+Best regards,
+Niamh Walsh"
+msg_0034,Siobhan Farrell,sfarrell@live.ie,info@plumbers-ireland.ie,plumber,Follow up - bathroom suite installation,2026-03-27 21:24:02,returning_customer,True,cust_0003,pl_04,Bathroom suite installation,"Hi again,
+
+Siobhan Farrell here - you did bathroom suite installation for me 9 months back.
+
+Now we're hoping to get a quote for a full bathroom refit.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Siobhan"
+msg_0035,Siobhan Farrell,sfarrell@live.ie,info@plumbers-ireland.ie,plumber,Follow up - outside tap installation,2026-03-12 07:41:44,returning_customer,True,cust_0003,pl_18,Outside tap installation,"Hi again,
+
+Siobhan Farrell here - you did bathroom suite installation for me 9 months back.
+
+Now we're hoping to get a quote for fitting an outside tap.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Siobhan"
+msg_0036,Sinead Ryan,sinead.ryan@yahoo.ie,info@electricians-ireland.ie,electrician,Looking for a quote - security light install,2026-04-18 08:39:01,casual_specific,False,,el_16,Security light install,"Hey,
+
+Hoping you can give me a rough price on fitting a security light at the back? The house is from the mid-90s, original fuse box is still in place.
+
+Thanks,
+Sinead Ryan"
+msg_0037,Fiona Gallagher,fionagallagher@live.ie,info@electricians-ireland.ie,electrician,Follow up - smoke alarm installation,2026-03-13 12:37:26,returning_customer,True,cust_0093,el_06,Smoke alarm installation,"Hi again,
+
+Fiona Gallagher here - you did shower pull cord install for me 14 months back.
+
+Now we're hoping to get a quote for fitting mains-connected smoke alarms.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Fiona"
+msg_0038,Tadhg McGrath,tadhgmcgrath@gmail.com,info@carpenters-ireland.ie,carpenter,"Issue at home, need someone to take a look",2026-04-20 02:07:18,vague_symptom,False,,cp_09,Window frame repair,"Hello,
+
+There's a soft patch in the floor upstairs, feels spongy when you walk on it. Can you come out and give me a quote?
+
+Address is 41 Oak Drive, Kildare.
+
+Tadhg"
+msg_0039,Fergal Fitzgerald,fergalfitzgerald@icloud.com,info@plumbers-ireland.ie,plumber,"Issue at home, need someone to take a look",2026-04-08 05:36:49,vague_symptom,False,,pl_03,Leaking pipe repair,"Hello,
+
+The toilet keeps running on and on after I flush it. Can you come out and give me a quote?
+
+Address is 134 Beech Park, Dublin.
+
+Fergal"
+msg_0040,Blathnaid Gallagher,blathnaid.gallagher97@yahoo.ie,info@electricians-ireland.ie,electrician,Looking for a quote - security light install,2026-04-01 03:28:55,casual_specific,False,,el_16,Security light install,"Hey,
+
+Hoping you can give me a rough price on fitting a security light at the back? Ideally during school hours when we're out of the house.
+
+Thanks,
+Blathnaid Gallagher"
+msg_0041,Clodagh Nolan,clodagh.nolan@live.ie,info@plumbers-ireland.ie,plumber,URGENT - plumber needed,2026-04-08 21:39:19,urgent,False,,pl_04,Bathroom suite installation,"Hi, emergency call out please.
+
+Massive leak coming from somewhere in the attic, water coming through the ceiling. Happened about an hour ago, need someone today if at all possible.
+
+Clodagh Nolan - 083 6110305"
+msg_0042,Maire Sweeney,maire.sweeney16@icloud.com,info@carpenters-ireland.ie,carpenter,Follow up - wooden floor laying,2026-04-02 08:09:24,returning_customer,True,cust_0055,cp_04,Wooden floor laying,"Hi again,
+
+Maire Sweeney here - you did loft hatch installation for me 10 months back.
+
+Now we're hoping to get a quote for laying engineered oak flooring in the living room.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Maire"
+msg_0043,Saoirse Murphy,smurphy@eircom.net,info@plumbers-ireland.ie,plumber,Follow up - boiler service,2026-03-13 20:40:44,returning_customer,True,cust_0029,pl_02,Boiler service,"Hi again,
+
+Saoirse Murphy here - you did waste disposal unit for me 18 months back.
+
+Now we're hoping to get a quote for a boiler service.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Saoirse"
+msg_0044,Ciara Reilly,ciara.reilly14@gmail.com,info@carpenters-ireland.ie,carpenter,"Issue at home, need someone to take a look",2026-04-16 13:49:41,vague_symptom,False,,cp_07,Decking construction,"Hello,
+
+Skirting board has pulled away from the wall in a few places. Can you come out and give me a quote?
+
+Address is 116 Castle View, Meath.
+
+Ciara"
+msg_0045,Feargal Farrell,feargal.farrell41@icloud.com,info@carpenters-ireland.ie,carpenter,Follow up - staircase balustrade,2026-03-22 06:44:13,returning_customer,True,cust_0063,cp_20,Staircase balustrade,"Hi again,
+
+Feargal Farrell here - you did skirting board fitting for me 13 months back.
+
+Now we're hoping to get a quote for fitting a new balustrade on the stairs.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Feargal"
+msg_0046,Eamon Sweeney,esweeney@icloud.com,info@plumbers-ireland.ie,plumber,Multiple trades needed - plumber,2026-03-31 07:40:17,multi_trade,False,,pl_05,Radiator replacement,"Hi,
+
+We're doing a kitchen renovation and need quotes for a few bits. Converting the attic - need flooring, some lighting and sockets added, and a radiator brought up there.
+
+The property is in Kilkenny. Could you let me know what you can cover and send a quote for your part?
+
+Thanks,
+Eamon Sweeney"
+msg_0047,Eoin Burke,eoin.burke@gmail.com,info@electricians-ireland.ie,electrician,Looking for a quote - garden socket installation,2026-04-16 12:24:33,casual_specific,False,,el_14,Garden socket installation,"Hi there,
+
+Looking to get a quote for fitting an outdoor socket. We've recently extended so there's some new wiring in one section. Based in Kildare.
+
+Let me know when you could pop out.
+
+Cheers,
+Eoin"
+msg_0048,Padraig Sheehan,psheehan@icloud.com,info@electricians-ireland.ie,electrician,"Issue at home, need someone to take a look",2026-04-06 06:59:48,vague_symptom,False,,el_18,Shower pull cord install,"Hello,
+
+One of the sockets sparked when I plugged in the hoover. Can you come out and give me a quote?
+
+Address is 100 Riverside, Kildare.
+
+Padraig"
+msg_0049,Una Burke,uburke@live.ie,info@electricians-ireland.ie,electrician,Follow up - outdoor lighting,2026-03-13 19:03:26,returning_customer,True,cust_0102,el_07,Outdoor lighting,"Hi again,
+
+Una Burke here - you did light fitting installation for me 17 months back.
+
+Now we're hoping to get a quote for fitting garden lighting.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Una"
+msg_0050,Blathnaid O'Donnell,blathnaid.odonnell29@icloud.com,info@carpenters-ireland.ie,carpenter,Follow up - window frame repair,2026-04-11 10:50:52,returning_customer,True,cust_0047,cp_09,Window frame repair,"Hi again,
+
+Blathnaid O'Donnell here - you did built-in bookcase for me 11 months back.
+
+Now we're hoping to get a quote for repairing two rotten window frames.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Blathnaid"
+msg_0051,Kieran Sweeney,ksweeney@eircom.net,info@plumbers-ireland.ie,plumber,Looking for a quote - radiator replacement,2026-04-09 04:50:26,casual_specific,False,,pl_05,Radiator replacement,"Hey,
+
+Hoping you can give me a rough price on replacing two old radiators? It's a semi-detached house, roughly 10 years old.
+
+Thanks,
+Kieran Sweeney"
+msg_0052,Conor Collins,conorcollins@eircom.net,info@carpenters-ireland.ie,carpenter,Follow up - attic flooring,2026-03-19 16:01:32,returning_customer,True,cust_0075,cp_10,Attic flooring,"Hi again,
+
+Conor Collins here - you did garden shed build for me 22 months back.
+
+Now we're hoping to get a quote for putting flooring down in the attic for storage.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Conor"
+msg_0053,Roisin O'Brien,roisin.obrien@eircom.net,info@electricians-ireland.ie,electrician,"Issue at home, need someone to take a look",2026-03-08 08:32:26,vague_symptom,False,,el_20,Landlord electrical report,"Hello,
+
+A socket in the living room isn't working - tripped a few times then stopped. Can you come out and give me a quote?
+
+Address is 7 Abbey Ct, Meath.
+
+Roisin"
+msg_0054,Saoirse O'Connor,saoirse.oconnor69@icloud.com,info@plumbers-ireland.ie,plumber,"Issue at home, need someone to take a look",2026-03-27 15:12:57,vague_symptom,False,,pl_07,Shower installation,"Hi,
+
+There's a strange gurgling sound coming from the kitchen sink when it drains. Not sure what's involved but was hoping to get someone out to take a look.
+
+I'm based in Limerick. Let me know your availability and a rough idea of cost.
+
+Thanks,
+Saoirse O'Connor
+083 3579573"
+msg_0055,Orla Healy,orla.healy@live.ie,info@plumbers-ireland.ie,plumber,Quote request: Underfloor heating install,2026-03-15 14:07:48,formal_specific,False,,pl_13,Underfloor heating install,"Hello,
+
+I would like to obtain a quote for the following work: installing wet underfloor heating in the kitchen.
+
+Access should be straightforward, the area is tiled.
+
+Please let me know what additional information you need from me and when you could come out to have a look.
+
+Best regards,
+Orla Healy"
+msg_0056,Eoin Burke,eburke@gmail.com,info@plumbers-ireland.ie,plumber,Quote request: Underfloor heating install,2026-03-16 22:22:01,formal_specific,False,,pl_13,Underfloor heating install,"Hello,
+
+I would like to obtain a quote for the following work: installing wet underfloor heating in the kitchen.
+
+Access should be straightforward, the area is tiled.
+
+Please let me know what additional information you need from me and when you could come out to have a look.
+
+Best regards,
+Eoin Burke"
+msg_0057,Padraig Boyle,padraig.boyle39@yahoo.ie,info@carpenters-ireland.ie,carpenter,Follow up - decking construction,2026-03-12 18:24:50,returning_customer,True,cust_0052,cp_07,Decking construction,"Hi again,
+
+Padraig Boyle here - you did fence panel replacement for me 8 months back.
+
+Now we're hoping to get a quote for building a garden deck.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Padraig"
+msg_0058,Fiona Gallagher,fionagallagher@live.ie,info@electricians-ireland.ie,electrician,Follow up - security light install,2026-04-20 16:42:51,returning_customer,True,cust_0093,el_16,Security light install,"Hi again,
+
+Fiona Gallagher here - you did shower pull cord install for me 14 months back.
+
+Now we're hoping to get a quote for fitting a security light at the back.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Fiona"
+msg_0059,Diarmuid Byrne,diarmuid.byrne16@gmail.com,info@carpenters-ireland.ie,carpenter,Follow up - fence panel replacement,2026-03-08 05:37:46,returning_customer,True,cust_0077,cp_15,Fence panel replacement,"Hi again,
+
+Diarmuid Byrne here - you did staircase balustrade for me 22 months back.
+
+Now we're hoping to get a quote for replacing a few fence panels.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Diarmuid"
+msg_0060,Cillian Power,cillian.power4@outlook.com,info@plumbers-ireland.ie,plumber,Follow up - waste disposal unit,2026-04-14 14:40:08,returning_customer,True,cust_0039,pl_14,Waste disposal unit,"Hi again,
+
+Cillian Power here - you did leaking pipe repair for me 14 months back.
+
+Now we're hoping to get a quote for fitting a waste disposal unit.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Cillian"
+msg_0061,Feargal Martin,feargal.martin@icloud.com,info@electricians-ireland.ie,electrician,Follow up - consumer unit upgrade,2026-04-12 14:38:29,returning_customer,True,cust_0087,el_04,Consumer unit upgrade,"Hi again,
+
+Feargal Martin here - you did shower pull cord install for me 22 months back.
+
+Now we're hoping to get a quote for upgrading the fuse board.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Feargal"
+msg_0062,Aoife O'Reilly,aoife.oreilly75@live.ie,info@plumbers-ireland.ie,plumber,Looking for a quote - leaking pipe repair,2026-03-25 15:56:02,casual_specific,False,,pl_03,Leaking pipe repair,"Hi there,
+
+Looking to get a quote for repairing a leaking pipe behind the kitchen wall. The existing installation is fairly old, probably 20+ years. Based in Dublin.
+
+Let me know when you could pop out.
+
+Cheers,
+Aoife"
+msg_0063,Una Gallagher,una.gallagher18@hotmail.com,info@electricians-ireland.ie,electrician,Quote request: Doorbell installation,2026-03-09 22:29:32,formal_specific,False,,el_08,Doorbell installation,"Dear electrical contractor,
+
+I hope this email finds you well. I am writing to request a quotation for fitting a new doorbell at my property in Kilkenny.
+
+Ideally during school hours when we're out of the house.
+
+Would it be possible to arrange a site visit at your earliest convenience? My availability is generally evenings after 6pm and Saturdays.
+
+Kind regards,
+Una Gallagher
+085 3452813"
+msg_0064,Nuala Brennan,nualabrennan@eircom.net,info@carpenters-ireland.ie,carpenter,Looking for a quote - wooden floor laying,2026-04-19 19:38:39,casual_specific,False,,cp_04,Wooden floor laying,"Hey,
+
+Hoping you can give me a rough price on laying engineered oak flooring in the living room? The area is about 20 square metres.
+
+Thanks,
+Nuala Brennan"
+msg_0065,Sean Collins,scollins@eircom.net,info@plumbers-ireland.ie,plumber,Follow up - tap replacement,2026-04-06 05:24:16,returning_customer,True,cust_0031,pl_08,Tap replacement,"Hi again,
+
+Sean Collins here - you did washing machine plumbing for me 19 months back.
+
+Now we're hoping to get a quote for replacing the kitchen and bathroom taps.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Sean"
+msg_0066,Eamon Moore,eamon.moore62@eircom.net,info@plumbers-ireland.ie,plumber,Looking for a quote - tap replacement,2026-03-27 16:23:27,casual_specific,False,,pl_08,Tap replacement,"Hi there,
+
+Looking to get a quote for replacing the kitchen and bathroom taps. The existing installation is fairly old, probably 20+ years. Based in Cork.
+
+Let me know when you could pop out.
+
+Cheers,
+Eamon"
+msg_0067,Brendan Ryan,brendan.ryan58@live.ie,info@electricians-ireland.ie,electrician,Looking for a quote - full house rewiring,2026-03-19 03:45:08,casual_specific,False,,el_01,Full house rewiring,"Hi there,
+
+Looking to get a quote for rewiring the full house. Ideally during school hours when we're out of the house. Based in Limerick.
+
+Let me know when you could pop out.
+
+Cheers,
+Brendan"
+msg_0068,Roisin Brennan,roisin.brennan@live.ie,info@plumbers-ireland.ie,plumber,Follow up - bathroom suite installation,2026-04-20 18:26:58,returning_customer,True,cust_0026,pl_04,Bathroom suite installation,"Hi again,
+
+Roisin Brennan here - you did outside tap installation for me 9 months back.
+
+Now we're hoping to get a quote for a full bathroom refit.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Roisin"
+msg_0069,Aidan Walsh,aidanwalsh@outlook.com,info@plumbers-ireland.ie,plumber,Quote request: Outside tap installation,2026-03-14 11:59:06,formal_specific,False,,pl_18,Outside tap installation,"Hello,
+
+I would like to obtain a quote for the following work: fitting an outside tap.
+
+We have a combi boiler already in place.
+
+Please let me know what additional information you need from me and when you could come out to have a look.
+
+Best regards,
+Aidan Walsh"
+msg_0070,Donal Mahony,donalmahony@icloud.com,info@plumbers-ireland.ie,plumber,Follow up - leaking pipe repair,2026-04-02 08:48:14,returning_customer,True,cust_0035,pl_03,Leaking pipe repair,"Hi again,
+
+Donal Mahony here - you did boiler service for me 22 months back.
+
+Now we're hoping to get a quote for repairing a leaking pipe behind the kitchen wall.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Donal"
+msg_0071,Donal Sheehan,donal.sheehan@gmail.com,info@plumbers-ireland.ie,plumber,Follow up - underfloor heating install,2026-04-08 15:08:27,returning_customer,True,cust_0016,pl_13,Underfloor heating install,"Hi again,
+
+Donal Sheehan here - you did immersion heater replace for me 9 months back.
+
+Now we're hoping to get a quote for installing wet underfloor heating in the kitchen.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Donal"
+msg_0072,Saoirse Dunne,sdunne@icloud.com,info@carpenters-ireland.ie,carpenter,Looking for a quote - worktop replacement,2026-03-19 03:42:10,casual_specific,False,,cp_18,Worktop replacement,"Hey,
+
+Hoping you can give me a rough price on replacing the kitchen worktop? We have the materials picked out already but happy to take recommendations.
+
+Thanks,
+Saoirse Dunne"
+msg_0073,Declan Doherty,ddoherty@live.ie,info@electricians-ireland.ie,electrician,Quote request: Smoke alarm installation,2026-04-12 04:05:51,formal_specific,False,,el_06,Smoke alarm installation,"Hello,
+
+I would like to obtain a quote for the following work: fitting mains-connected smoke alarms.
+
+Would need certification for insurance purposes.
+
+Please let me know what additional information you need from me and when you could come out to have a look.
+
+Best regards,
+Declan Doherty"
+msg_0074,Mairead Brennan,mairead.brennan36@hotmail.com,info@carpenters-ireland.ie,carpenter,Follow up - staircase balustrade,2026-03-08 12:28:42,returning_customer,True,cust_0045,cp_20,Staircase balustrade,"Hi again,
+
+Mairead Brennan here - you did door hanging for me 19 months back.
+
+Now we're hoping to get a quote for fitting a new balustrade on the stairs.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Mairead"
+msg_0075,Una Burke,uburke@live.ie,info@electricians-ireland.ie,electrician,Follow up - intercom system,2026-03-19 14:45:15,returning_customer,True,cust_0102,el_17,Intercom system,"Hi again,
+
+Una Burke here - you did light fitting installation for me 9 months back.
+
+Now we're hoping to get a quote for installing a video door intercom.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Una"
+msg_0076,Eimear Martin,eimear.martin86@eircom.net,info@plumbers-ireland.ie,plumber,"Issue at home, need someone to take a look",2026-03-27 14:38:36,vague_symptom,False,,pl_03,Leaking pipe repair,"Hello,
+
+The water pressure in the shower has gone really weak over the last week. Can you come out and give me a quote?
+
+Address is 133 Main St, Meath.
+
+Eimear"
+msg_0077,Eamon O'Reilly,eamon.oreilly@outlook.com,info@carpenters-ireland.ie,carpenter,Multiple trades needed - carpenter,2026-04-18 20:19:47,multi_trade,False,,cp_06,Staircase repair,"Hello,
+
+Planning a bathroom refit and I'm trying to line up the trades. Converting the attic - need flooring, some lighting and sockets added, and a radiator brought up there.
+
+Can you come out and give me a quote for the carpenter side? Property in Cork.
+
+Eamon O'Reilly
+086 6703681"
+msg_0078,Sean Collins,scollins@eircom.net,info@plumbers-ireland.ie,plumber,Follow up - hot water cylinder install,2026-04-03 00:04:46,returning_customer,True,cust_0031,pl_09,Hot water cylinder install,"Hi again,
+
+Sean Collins here - you did washing machine plumbing for me 15 months back.
+
+Now we're hoping to get a quote for fitting a new hot water cylinder.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Sean"
+msg_0079,Clodagh Sheehan,csheehan@outlook.com,info@carpenters-ireland.ie,carpenter,Follow up - shelving installation,2026-03-23 05:41:17,returning_customer,True,cust_0073,cp_08,Shelving installation,"Hi again,
+
+Clodagh Sheehan here - you did wooden floor laying for me 5 months back.
+
+Now we're hoping to get a quote for fitting built-in shelving in the alcove.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Clodagh"
+msg_0080,Feargal Martin,feargal.martin@icloud.com,info@electricians-ireland.ie,electrician,Follow up - electrical safety cert,2026-03-18 00:54:52,returning_customer,True,cust_0087,el_09,Electrical safety cert,"Hi again,
+
+Feargal Martin here - you did shower pull cord install for me 9 months back.
+
+Now we're hoping to get a quote for an electrical safety certificate.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Feargal"
+msg_0081,Declan Sheehan,declansheehan@icloud.com,info@plumbers-ireland.ie,plumber,Follow up - pressure booster install,2026-03-08 07:43:01,returning_customer,True,cust_0022,pl_20,Pressure booster install,"Hi again,
+
+Declan Sheehan here - you did radiator replacement for me 7 months back.
+
+Now we're hoping to get a quote for installing a pressure booster pump.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Declan"
+msg_0082,Ronan Hughes,ronan.hughes41@outlook.com,info@electricians-ireland.ie,electrician,Looking for a quote - extra socket installation,2026-03-13 20:14:20,casual_specific,False,,el_02,Extra socket installation,"Hi there,
+
+Looking to get a quote for adding a couple of extra sockets. Ideally during school hours when we're out of the house. Based in Louth.
+
+Let me know when you could pop out.
+
+Cheers,
+Ronan"
+msg_0083,Sean Murphy,sean.murphy@yahoo.ie,info@carpenters-ireland.ie,carpenter,Looking for a quote - built-in bookcase,2026-03-29 21:08:14,casual_specific,False,,cp_11,Built-in bookcase,"Hi there,
+
+Looking to get a quote for building a floor-to-ceiling bookcase. It's a weekend when we're both off, but evenings work too. Based in Limerick.
+
+Let me know when you could pop out.
+
+Cheers,
+Sean"
+msg_0084,Fergal Boyle,fergalboyle@icloud.com,info@plumbers-ireland.ie,plumber,Follow up - burst pipe emergency,2026-03-17 12:25:48,returning_customer,True,cust_0012,pl_19,Burst pipe emergency,"Hi again,
+
+Fergal Boyle here - you did boiler service for me 10 months back.
+
+Now we're hoping to get a quote for repairing a burst pipe.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Fergal"
+msg_0085,Blathnaid Buckley,blathnaid.buckley11@gmail.com,info@electricians-ireland.ie,electrician,Follow up - ev charger installation,2026-04-02 22:08:05,returning_customer,True,cust_0112,el_05,EV charger installation,"Hi again,
+
+Blathnaid Buckley here - you did light fitting installation for me 3 months back.
+
+Now we're hoping to get a quote for installing a home EV charger.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Blathnaid"
+msg_0086,Fergal Sheehan,fergal.sheehan7@gmail.com,info@carpenters-ireland.ie,carpenter,Looking for a quote - attic flooring,2026-04-19 02:33:27,casual_specific,False,,cp_10,Attic flooring,"Hey,
+
+Hoping you can give me a rough price on putting flooring down in the attic for storage? The property is a 3-bed semi, relatively modern construction.
+
+Thanks,
+Fergal Sheehan"
+msg_0087,Feargal Dunne,fdunne@yahoo.ie,info@electricians-ireland.ie,electrician,Quote request: Outdoor lighting,2026-03-27 15:35:39,formal_specific,False,,el_07,Outdoor lighting,"Dear electrical contractor,
+
+I hope this email finds you well. I am writing to request a quotation for fitting garden lighting at my property in Kilkenny.
+
+Ideally during school hours when we're out of the house.
+
+Would it be possible to arrange a site visit at your earliest convenience? My availability is generally evenings after 6pm and Saturdays.
+
+Kind regards,
+Feargal Dunne
+086 9563838"
+msg_0088,Cillian Moore,cmoore@icloud.com,info@plumbers-ireland.ie,plumber,"Issue at home, need someone to take a look",2026-04-12 07:54:58,vague_symptom,False,,pl_03,Leaking pipe repair,"Hello,
+
+The water pressure in the shower has gone really weak over the last week. Can you come out and give me a quote?
+
+Address is 155 Newtown Ave, Limerick.
+
+Cillian"
+msg_0089,Conor Collins,conorcollins@eircom.net,info@carpenters-ireland.ie,carpenter,Follow up - door hanging,2026-03-10 14:42:40,returning_customer,True,cust_0075,cp_03,Door hanging,"Hi again,
+
+Conor Collins here - you did garden shed build for me 8 months back.
+
+Now we're hoping to get a quote for hanging three internal doors.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Conor"
+msg_0090,Mairead Brennan,mairead.brennan36@hotmail.com,info@carpenters-ireland.ie,carpenter,Follow up - architrave fitting,2026-03-19 03:13:08,returning_customer,True,cust_0045,cp_17,Architrave fitting,"Hi again,
+
+Mairead Brennan here - you did garden shed build for me 5 months back.
+
+Now we're hoping to get a quote for fitting new architrave around the doors.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Mairead"
+msg_0091,Niamh Sweeney,nsweeney@hotmail.com,info@carpenters-ireland.ie,carpenter,Follow up - fence panel replacement,2026-04-18 22:54:50,returning_customer,True,cust_0070,cp_15,Fence panel replacement,"Hi again,
+
+Niamh Sweeney here - you did decking construction for me 7 months back.
+
+Now we're hoping to get a quote for replacing a few fence panels.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Niamh"
+msg_0092,Dervla O'Donnell,dervlaodonnell@outlook.com,info@electricians-ireland.ie,electrician,Multiple trades needed - electrician,2026-03-28 00:15:08,multi_trade,False,,el_09,Electrical safety cert,"Hello,
+
+Planning a bathroom refit and I'm trying to line up the trades. Existing bath to come out and be replaced with a walk-in shower, plus new tiling, new extractor fan, and the lights moved.
+
+Can you come out and give me a quote for the electrician side? Property in Galway.
+
+Dervla O'Donnell
+089 8659527"
+msg_0093,Siobhan Gallagher,siobhangallagher@gmail.com,info@carpenters-ireland.ie,carpenter,Follow up - kitchen installation,2026-04-21 18:18:39,returning_customer,True,cust_0053,cp_01,Kitchen installation,"Hi again,
+
+Siobhan Gallagher here - you did built-in bookcase for me 19 months back.
+
+Now we're hoping to get a quote for fitting a new kitchen.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Siobhan"
+msg_0094,Sean Flynn,seanflynn@live.ie,info@carpenters-ireland.ie,carpenter,Looking for a quote - attic flooring,2026-04-14 02:45:06,casual_specific,False,,cp_10,Attic flooring,"Hey,
+
+Hoping you can give me a rough price on putting flooring down in the attic for storage? The area is about 20 square metres.
+
+Thanks,
+Sean Flynn"
+msg_0095,Brendan Healy,brendanhealy@live.ie,info@electricians-ireland.ie,electrician,Quote request: Electrical safety cert,2026-03-12 23:09:26,formal_specific,False,,el_09,Electrical safety cert,"Dear electrician,
+
+I hope this email finds you well. I am writing to request a quotation for an electrical safety certificate at my property in Waterford.
+
+The house is from the mid-90s, original fuse box is still in place.
+
+Would it be possible to arrange a site visit at your earliest convenience? My availability is generally evenings after 6pm and Saturdays.
+
+Kind regards,
+Brendan Healy
+083 4060284"
+msg_0096,Siobhan Burke,sburke@gmail.com,info@plumbers-ireland.ie,plumber,Follow up - washing machine plumbing,2026-03-24 14:21:26,returning_customer,True,cust_0032,pl_15,Washing machine plumbing,"Hi again,
+
+Siobhan Burke here - you did bathroom suite installation for me 3 months back.
+
+Now we're hoping to get a quote for plumbing in a new washing machine.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Siobhan"
+msg_0097,Ciara O'Brien,ciaraobrien@gmail.com,info@carpenters-ireland.ie,carpenter,Quote request: Loft hatch installation,2026-03-30 08:54:40,formal_specific,False,,cp_12,Loft hatch installation,"Dear carpentry contractor,
+
+I hope this email finds you well. I am writing to request a quotation for fitting a loft hatch and ladder at my property in Meath.
+
+The area is about 20 square metres.
+
+Would it be possible to arrange a site visit at your earliest convenience? My availability is generally evenings after 6pm and Saturdays.
+
+Kind regards,
+Ciara O'Brien
+086 7583744"
+msg_0098,Caoimhe McGrath,cmcgrath@yahoo.ie,info@plumbers-ireland.ie,plumber,Multiple trades needed - plumber,2026-03-08 17:33:18,multi_trade,False,,pl_17,Immersion heater replace,"Hi,
+
+We're doing a kitchen renovation and need quotes for a few bits. Existing bath to come out and be replaced with a walk-in shower, plus new tiling, new extractor fan, and the lights moved.
+
+The property is in Kildare. Could you let me know what you can cover and send a quote for your part?
+
+Thanks,
+Caoimhe McGrath"
+msg_0099,Padraig Boyle,padraig.boyle39@yahoo.ie,info@carpenters-ireland.ie,carpenter,Follow up - floor sanding,2026-04-05 22:38:15,returning_customer,True,cust_0052,cp_19,Floor sanding,"Hi again,
+
+Padraig Boyle here - you did fence panel replacement for me 15 months back.
+
+Now we're hoping to get a quote for sanding and refinishing the hall floor.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Padraig"
+msg_0100,Saoirse Murphy,smurphy@eircom.net,info@plumbers-ireland.ie,plumber,Follow up - tap replacement,2026-03-15 11:19:40,returning_customer,True,cust_0029,pl_08,Tap replacement,"Hi again,
+
+Saoirse Murphy here - you did waste disposal unit for me 18 months back.
+
+Now we're hoping to get a quote for replacing the kitchen and bathroom taps.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Saoirse"

@@ -1,0 +1,89 @@
+item_id,item_name,unit,unit_price_ex_vat,category
+it_pl_001,15mm copper pipe,metre,4.5,plumbing
+it_pl_002,22mm copper pipe,metre,6.8,plumbing
+it_pl_003,PTFE tape,roll,1.2,plumbing
+it_pl_004,15mm compression fitting,each,2.5,plumbing
+it_pl_005,22mm compression fitting,each,3.8,plumbing
+it_pl_006,Lead-free solder 250g,pack,8.5,plumbing
+it_pl_007,Pipe clip pack of 10,pack,3.2,plumbing
+it_pl_008,Radiator valve pair,pair,18.0,plumbing
+it_pl_009,Gas boiler 24kW,unit,1100.0,plumbing
+it_pl_010,Toilet pan and cistern,unit,180.0,plumbing
+it_pl_011,Bathroom suite white,unit,420.0,plumbing
+it_pl_012,Electric shower 8.5kW,unit,160.0,plumbing
+it_pl_013,Mixer shower thermostatic,unit,210.0,plumbing
+it_pl_014,Kitchen tap chrome,unit,75.0,plumbing
+it_pl_015,Bathroom mixer tap,unit,85.0,plumbing
+it_pl_016,Hot water cylinder 210L,unit,340.0,plumbing
+it_pl_017,Immersion heater element,each,42.0,plumbing
+it_pl_018,Pipe insulation 15mm 2m,length,4.8,plumbing
+it_pl_019,Drain rod set,set,35.0,plumbing
+it_pl_020,Waste disposal unit,unit,150.0,plumbing
+it_pl_021,Radiator type-22 600x1000,unit,95.0,plumbing
+it_pl_022,Underfloor heating mat,sqm,28.0,plumbing
+it_pl_023,Manifold 6-port,unit,185.0,plumbing
+it_pl_024,Pressure booster pump,unit,220.0,plumbing
+it_pl_025,Outside tap kit,kit,32.0,plumbing
+it_pl_026,Boiler flue kit,kit,85.0,plumbing
+it_pl_027,Washing machine hose pair,pair,12.0,plumbing
+it_cp_001,MDF sheet 18mm 8x4,sheet,38.0,carpentry
+it_cp_002,Timber C16 2x4 4.8m,length,18.0,carpentry
+it_cp_003,Timber C24 2x6 4.8m,length,28.0,carpentry
+it_cp_004,Wood screws 4.0x40 box,box,14.0,carpentry
+it_cp_005,Wood screws 5.0x90 box,box,22.0,carpentry
+it_cp_006,Butt hinges pair brass,pair,6.5,carpentry
+it_cp_007,Internal door oak,unit,120.0,carpentry
+it_cp_008,External door hardwood,unit,340.0,carpentry
+it_cp_009,Engineered oak flooring,sqm,42.0,carpentry
+it_cp_010,Solid oak flooring,sqm,68.0,carpentry
+it_cp_011,Floor underlay 15sqm,roll,28.0,carpentry
+it_cp_012,MDF skirting 18x145mm 4m,length,16.0,carpentry
+it_cp_013,Architrave MDF 4m,length,12.0,carpentry
+it_cp_014,Decking board 4.8m,board,24.0,carpentry
+it_cp_015,Fence panel 6x6ft,panel,38.0,carpentry
+it_cp_016,Fence post treated,each,18.0,carpentry
+it_cp_017,Kitchen cabinet 600mm,unit,95.0,carpentry
+it_cp_018,Worktop laminate 3m,length,140.0,carpentry
+it_cp_019,Worktop solid oak 3m,length,320.0,carpentry
+it_cp_020,Shelf bracket pair,pair,6.0,carpentry
+it_cp_021,Handle knob chrome,each,4.5,carpentry
+it_cp_022,Door latch set,set,8.5,carpentry
+it_cp_023,Garden shed kit 8x6,kit,680.0,carpentry
+it_cp_024,Loft hatch insulated,unit,95.0,carpentry
+it_cp_025,Loft ladder 3-section,unit,145.0,carpentry
+it_cp_026,Wood filler tub,tub,8.0,carpentry
+it_cp_027,Sanding discs pack,pack,14.0,carpentry
+it_cp_028,Floor lacquer 5L,tin,58.0,carpentry
+it_cp_029,Balustrade oak spindle,each,9.5,carpentry
+it_cp_030,Newel post oak,each,48.0,carpentry
+it_cp_031,Handrail oak 3m,length,62.0,carpentry
+it_el_001,Twin & earth 2.5mm 100m,reel,120.0,electrical
+it_el_002,Twin & earth 6mm 50m,reel,165.0,electrical
+it_el_003,Twin & earth 1.5mm 100m,reel,85.0,electrical
+it_el_004,Double socket white,each,3.8,electrical
+it_el_005,Single socket white,each,2.8,electrical
+it_el_006,Light switch 1-gang,each,3.2,electrical
+it_el_007,Light switch 2-gang,each,4.5,electrical
+it_el_008,Junction box 30A,each,5.5,electrical
+it_el_009,MCB 16A type-B,each,6.8,electrical
+it_el_010,MCB 32A type-B,each,7.5,electrical
+it_el_011,RCD 40A 30mA,each,28.0,electrical
+it_el_012,Consumer unit 10-way,unit,145.0,electrical
+it_el_013,Smoke alarm mains optical,unit,38.0,electrical
+it_el_014,Heat alarm mains,unit,32.0,electrical
+it_el_015,LED pendant fitting,unit,24.0,electrical
+it_el_016,LED downlight IP65,each,9.5,electrical
+it_el_017,Outdoor PIR light LED,unit,42.0,electrical
+it_el_018,EV charger 7.4kW type-2,unit,420.0,electrical
+it_el_019,CCTV camera 4MP,each,85.0,electrical
+it_el_020,CCTV NVR 8-channel,unit,220.0,electrical
+it_el_021,CAT6 cable 100m,reel,45.0,electrical
+it_el_022,Extractor fan humidity,unit,48.0,electrical
+it_el_023,Doorbell wired,kit,22.0,electrical
+it_el_024,Intercom video kit,kit,180.0,electrical
+it_el_025,Garden socket IP66,each,18.0,electrical
+it_el_026,Bathroom pull cord switch,each,6.5,electrical
+it_el_027,Cable clip pack 100,pack,4.5,electrical
+it_el_028,Back box metal 35mm,each,1.8,electrical
+it_el_029,Earth bond cable 10mm,metre,2.2,electrical
+it_el_030,Cooker switch 45A,each,14.0,electrical
