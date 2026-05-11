@@ -211,13 +211,17 @@ def _format_mongo(mongo: dict) -> tuple[str, list[str]]:
             lines.append(f"  - {c['customer_id']}: {c.get('first_name')} {c.get('last_name')} <{c.get('email')}>")
         has_content = True
 
-    if "customer" in mongo and mongo["customer"]:  # single resolved customer record
+    if "customer" in mongo and mongo["customer"]:
         c = mongo["customer"]
         lines.append(
             f"**Customer:** {c['customer_id']} - "
-            f"{c.get('first_name', '')} {c.get('last_name', '')} "
-            f"<{c.get('email', '')}> ({c.get('preferred_trade', '?')})"
+            f"{c.get('first_name', '')} {c.get('last_name', '')}"
         )
+        lines.append(f"  - Email: {c.get('email', 'N/A')}")
+        lines.append(f"  - Phone: {c.get('phone', 'N/A')}")
+        lines.append(f"  - Address: {c.get('address_line_1', '')} {c.get('address_line_2', '')}".strip())
+        lines.append(f"  - County: {c.get('county', 'N/A')} {c.get('eircode', '')}")
+        lines.append(f"  - Trade: {c.get('preferred_trade', 'N/A')}")
         sources.append(f"Customer {c['customer_id']}")
         has_content = True
 
