@@ -1,0 +1,61 @@
+run,question_id,type,question,routing,latency_s,status
+1,q01,exact_lookup,Show me PO-2026-P0042,po_lookup,2.472,ok
+1,q02,exact_lookup,Get me invoice INV-2025-0001,invoice_lookup,1.711,ok
+1,q03,exact_lookup,Look up customer cust_0001,customer_lookup,2.108,ok
+1,q04,exact_lookup,Find email msg_0001,email_lookup,1.941,ok
+1,q05,exact_lookup,Show all purchase orders for Gerard Walsh,po_lookup,3.495,ok
+1,q06,semantic_paraphrase,Any customers complaining about water dripping?,open_search,10.147,ok
+1,q07,semantic_paraphrase,Lights keep going on and off in the kitchen,general_question,3.615,ok
+1,q08,semantic_paraphrase,Heating not working properly since last week,general_question,4.686,ok
+1,q09,semantic_paraphrase,"Something wrong with my shower, not draining",general_question,3.6,ok
+1,q10,semantic_paraphrase,"Need someone urgently, job is dangerous",general_question,4.583,ok
+1,q11,multi_hop_graph,What has Gerard Walsh had done before?,customer_lookup_by_name,2.495,ok
+1,q16,aggregation,How much does boiler installation usually cost?,pricing_query,3.607,ok
+2,q01,exact_lookup,Show me PO-2026-P0042,po_lookup,2.224,ok
+2,q02,exact_lookup,Get me invoice INV-2025-0001,invoice_lookup,1.339,ok
+2,q03,exact_lookup,Look up customer cust_0001,customer_lookup,1.386,ok
+2,q04,exact_lookup,Find email msg_0001,email_lookup,1.247,ok
+2,q05,exact_lookup,Show all purchase orders for Gerard Walsh,po_lookup,4.058,ok
+2,q06,semantic_paraphrase,Any customers complaining about water dripping?,open_search,3.656,ok
+2,q07,semantic_paraphrase,Lights keep going on and off in the kitchen,general_question,4.249,ok
+2,q08,semantic_paraphrase,Heating not working properly since last week,general_question,4.112,ok
+2,q09,semantic_paraphrase,"Something wrong with my shower, not draining",general_question,3.211,ok
+2,q10,semantic_paraphrase,"Need someone urgently, job is dangerous",general_question,4.463,ok
+2,q11,multi_hop_graph,What has Gerard Walsh had done before?,customer_lookup_by_name,3.581,ok
+2,q16,aggregation,How much does boiler installation usually cost?,pricing_query,4.157,ok
+3,q01,exact_lookup,Show me PO-2026-P0042,po_lookup,1.338,ok
+3,q02,exact_lookup,Get me invoice INV-2025-0001,invoice_lookup,1.368,ok
+3,q03,exact_lookup,Look up customer cust_0001,customer_lookup,2.393,ok
+3,q04,exact_lookup,Find email msg_0001,email_lookup,1.17,ok
+3,q05,exact_lookup,Show all purchase orders for Gerard Walsh,po_lookup,2.407,ok
+3,q06,semantic_paraphrase,Any customers complaining about water dripping?,open_search,3.588,ok
+3,q07,semantic_paraphrase,Lights keep going on and off in the kitchen,general_question,3.442,ok
+3,q08,semantic_paraphrase,Heating not working properly since last week,open_search,4.439,ok
+3,q09,semantic_paraphrase,"Something wrong with my shower, not draining",general_question,3.634,ok
+3,q10,semantic_paraphrase,"Need someone urgently, job is dangerous",general_question,3.838,ok
+3,q11,multi_hop_graph,What has Gerard Walsh had done before?,customer_lookup_by_name,2.712,ok
+3,q16,aggregation,How much does boiler installation usually cost?,pricing_query,3.145,ok
+4,q01,exact_lookup,Show me PO-2026-P0042,po_lookup,1.391,ok
+4,q02,exact_lookup,Get me invoice INV-2025-0001,invoice_lookup,1.114,ok
+4,q03,exact_lookup,Look up customer cust_0001,customer_lookup,1.255,ok
+4,q04,exact_lookup,Find email msg_0001,email_lookup,1.465,ok
+4,q05,exact_lookup,Show all purchase orders for Gerard Walsh,po_lookup,2.572,ok
+4,q06,semantic_paraphrase,Any customers complaining about water dripping?,open_search,3.45,ok
+4,q07,semantic_paraphrase,Lights keep going on and off in the kitchen,general_question,4.139,ok
+4,q08,semantic_paraphrase,Heating not working properly since last week,general_question,4.849,ok
+4,q09,semantic_paraphrase,"Something wrong with my shower, not draining",general_question,3.749,ok
+4,q10,semantic_paraphrase,"Need someone urgently, job is dangerous",general_question,4.023,ok
+4,q11,multi_hop_graph,What has Gerard Walsh had done before?,customer_lookup_by_name,2.585,ok
+4,q16,aggregation,How much does boiler installation usually cost?,pricing_query,3.143,ok
+5,q01,exact_lookup,Show me PO-2026-P0042,po_lookup,1.246,ok
+5,q02,exact_lookup,Get me invoice INV-2025-0001,invoice_lookup,1.656,ok
+5,q03,exact_lookup,Look up customer cust_0001,customer_lookup,1.774,ok
+5,q04,exact_lookup,Find email msg_0001,email_lookup,1.638,ok
+5,q05,exact_lookup,Show all purchase orders for Gerard Walsh,customer_lookup_by_name,2.891,ok
+5,q06,semantic_paraphrase,Any customers complaining about water dripping?,open_search,2.814,ok
+5,q07,semantic_paraphrase,Lights keep going on and off in the kitchen,general_question,4.337,ok
+5,q08,semantic_paraphrase,Heating not working properly since last week,general_question,4.535,ok
+5,q09,semantic_paraphrase,"Something wrong with my shower, not draining",general_question,3.452,ok
+5,q10,semantic_paraphrase,"Need someone urgently, job is dangerous",general_question,4.259,ok
+5,q11,multi_hop_graph,What has Gerard Walsh had done before?,customer_lookup_by_name,3.613,ok
+5,q16,aggregation,How much does boiler installation usually cost?,pricing_query,3.677,ok

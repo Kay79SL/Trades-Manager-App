@@ -1,0 +1,403 @@
+DACARag — Human Evaluation Output
+Generated: 2026-05-05 22:13
+============================================================
+
+Instructions:
+  Read each ANSWER and SOURCES below.
+  Score each metric 0.0-1.0 in the scorecard widget.
+  Faithfulness  : are all claims backed by the sources shown?
+  Ans Relevancy : does the answer address the question asked?
+  Ctx Precision : were the retrieved sources actually useful?
+  Ctx Recall    : did sources contain everything needed?
+
+============================================================
+[q01] Show me PO-2026-P0058
+============================================================
+
+ROUTING : po_lookup via ['mongo', 'graph']
+LATENCY : 6353ms
+
+ANSWER:
+# PO-2026-P0058
+
+**Customer:** Siobhan Farrell (cust_0003) – sfarrell@live.ie
+
+**Job:** Annual boiler service
+
+**Status:** Confirmed
+
+**Total:** €140.59 inc VAT
+
+**Items:**
+- PTFE tape
+- Lead-free solder 250g
+- Pipe insulation 15mm 2m
+
+SOURCES (4 retrieved):
+  [1] Customer cust_0003
+  [2] PO PO-2026-P0058
+  [3] Neo4j customer history for cust_0003
+  [4] Neo4j PO graph for PO-2026-P0058
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q02] Get me invoice INV-2025-0001
+============================================================
+
+ROUTING : invoice_lookup via ['mongo']
+LATENCY : 1072ms
+
+ANSWER:
+# Invoice INV-2025-0001
+
+**Date:** 28 October 2025
+
+**Job:** pl_10
+
+**Total:** €245.25 (inc VAT)
+
+SOURCES (2 retrieved):
+  [1] Customer cust_0006
+  [2] Invoice INV-2025-0001
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q03] Look up customer cust_0005
+============================================================
+
+ROUTING : customer_lookup via ['mongo', 'graph']
+LATENCY : 1133ms
+
+ANSWER:
+# Customer Lookup: cust_0005
+
+**Name:** Diarmuid Doherty
+
+**Email:** diarmuid.doherty@outlook.com
+
+**Trade:** Plumber
+
+SOURCES (1 retrieved):
+  [1] Customer cust_0005
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q04] Find email msg_0001
+============================================================
+
+ROUTING : email_lookup via ['mongo']
+LATENCY : 1204ms
+
+ANSWER:
+**Email msg_0001:**
+
+**From:** Donal Sheehan <donal.sheehan@gmail.com>  
+**Subject:** Follow up - shower installation  
+**Sent:** 2026-03-10 10:59:49  
+
+**Body:**
+Hi again,
+
+Donal Sheehan here - you did immersion heater replace for me 17 months back.
+
+Now we're hoping to get a quote for installing a new shower.
+
+Would you be able to come out and have a look?
+
+Cheers,
+Donal
+
+SOURCES (1 retrieved):
+  [1] Email msg_0001
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q05] Show all purchase orders for Gerard Walsh
+============================================================
+
+ROUTING : po_lookup via ['mongo', 'graph']
+LATENCY : 2378ms
+
+ANSWER:
+# Purchase Orders for Gerard Walsh
+
+**Active Purchase Orders (1):**
+
+- **PO-2026-P0042**
+  - Service: Boiler installation
+  - Total: €2,106.50
+  - Status: Awaiting confirmation
+
+SOURCES (3 retrieved):
+  [1] Customer cust_0001
+  [2] PO PO-2026-P0042
+  [3] Neo4j customer history for cust_0001
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q06] Any customers complaining about water dripping?
+============================================================
+
+ROUTING : open_search via ['vector', 'graph']
+LATENCY : 9654ms
+
+ANSWER:
+Based on the context provided, I can identify customers reporting water-related issues:
+
+• **Email msg_0041** - URGENT: Customer reports a massive leak from the attic with water coming through the ceiling (happened about an hour ago). This is an emergency callout request.
+
+• **Email msg_0015** - Customer reports a damp patch appearing on the ceiling downstairs, suggesting a leak from upstairs.
+
+These are the only records in the context that specifically mention water dripping or leaking into/through ceilings. There are also two other customers (msgs_0088 and 0076) reporting weak water pressure issues, but these are not dripping/leaking complaints.
+
+SOURCES (5 retrieved):
+  [1] email_msg_0088 (emails, similarity 0.68)
+  [2] email_msg_0041 (emails, similarity 0.68)
+  [3] email_msg_0076 (emails, similarity 0.67)
+  [4] jobtype_pl_19 (job_types, similarity 0.66)
+  [5] email_msg_0015 (emails, similarity 0.65)
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q10] Need someone urgently, job is dangerous
+============================================================
+
+ROUTING : general_question via ['vector', 'graph']
+LATENCY : 4489ms
+
+ANSWER:
+Based on the context provided, I can see there are **two urgent emergency requests** that match dangerous situations:
+
+1. **URGENT - Carpenter needed** (email_msg_0023)
+   - **Issue:** Break-in with damaged back door requiring urgent securing
+   - **Contact:** 089 4595669
+   - **Location:** Kildare area
+
+2. **URGENT - Plumber needed** (email_msg_0041)
+   - **Issue:** Major attic leak with water coming through ceiling (happened ~1 hour ago)
+   - **Urgency:** Same-day service needed
+
+Both of these are legitimate emergency situations. However, **I don't have information about:**
+- Current availability of tradespeople
+- Response times
+- Pricing for emergency call-outs
+- Which job you're referring to
+
+**If your situation is new and different from these two**, please provide details about:
+- What the dangerous job is (plumbing, carpentry, electrical, or gas-related)
+- Your location
+- Contact number for callback
+
+For genuine emergencies with gas or electrical hazards, consider contacting emergency services if there's immediate risk to safety.
+
+SOURCES (5 retrieved):
+  [1] email_msg_0023 (emails, similarity 0.71)
+  [2] email_msg_0041 (emails, similarity 0.70)
+  [3] email_msg_0006 (emails, similarity 0.67)
+  [4] jobtype_el_09 (job_types, similarity 0.67)
+  [5] jobtype_pl_12 (job_types, similarity 0.66)
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q11] What has Gerard Walsh had done before?
+============================================================
+
+ROUTING : customer_lookup_by_name via ['mongo', 'graph']
+LATENCY : 3045ms
+
+ANSWER:
+Based on the context provided, I can only see that Gerard Walsh (cust_0001) currently has **one active purchase order**:
+
+- **PO-2026-P0042**: Boiler installation, €2,106.50 (Awaiting confirmation)
+
+However, the context does not contain information about Gerard Walsh's historical work or past jobs. To provide details about previous work completed for this customer, I would need access to completed/closed purchase orders or job history records, which are not included in the current information.
+
+SOURCES (3 retrieved):
+  [1] Customer cust_0001
+  [2] PO PO-2026-P0042
+  [3] Neo4j customer history for cust_0001
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q16] How much does boiler installation usually cost?
+============================================================
+
+ROUTING : pricing_query via ['predict_quote']
+LATENCY : 6093ms
+
+ANSWER:
+Based on our pricing data for boiler installations:
+
+**Total estimate: €2,002.06 inc VAT**
+
+This breaks down as:
+- **Materials:** €1,197.70 ex VAT
+  - Gas boiler 24kW: €1,100.00
+  - Boiler flue kit: €85.00
+  - 15mm compression fitting: €2.50
+  - 15mm copper pipe: €9.00
+  - PTFE tape: €1.20
+
+- **Labour:** €429.99 (median range: €412.68 - €450.04)
+
+- **VAT:** €374.37
+
+**Confidence level:** High
+
+**Benchmark comparison:** Our average from similar past jobs was €2,106.50 inc VAT, so this estimate is competitive.
+
+Note: This is an estimate based on standard boiler installation. The actual cost may vary depending on your specific requirements and site conditions.
+
+SOURCES (3 retrieved):
+  [1] Neo4j USES_ITEM recipe (5 items)
+  [2] MongoDB invoices (4 records)
+  [3] PO PO-2026-P0042
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q_mat] What materials are needed for invoice INV-2025-0001?
+============================================================
+
+ROUTING : invoice_lookup via ['mongo']
+LATENCY : 2017ms
+
+ANSWER:
+I don't have information about the materials needed for invoice INV-2025-0001 in the context provided.
+
+What I can tell you about this invoice:
+- **Customer:** Dervla Kennedy (cust_0006)
+- **Job:** pl_10
+- **Date:** 2025-10-28
+- **Total:** €245.25 inc VAT
+
+To find the materials list, you would need to check the job details for pl_10 or the original invoice documentation, which are not included in the available context.
+
+SOURCES (2 retrieved):
+  [1] Customer cust_0006
+  [2] Invoice INV-2025-0001
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+[q_quote] Get me a quote for a boiler installation
+============================================================
+
+ROUTING : pricing_query via ['predict_quote']
+LATENCY : 3520ms
+
+ANSWER:
+# Boiler Installation Quote
+
+**Job Type:** Boiler Installation
+
+---
+
+## Materials Estimate: €1,197.70 (ex VAT)
+
+| Item | Qty | Unit Price | Total |
+|------|-----|-----------|-------|
+| Gas boiler 24kW | 1 | €1,100.00 | €1,100.00 |
+| Boiler flue kit | 1 | €85.00 | €85.00 |
+| 15mm copper pipe | 2 | €4.50 | €9.00 |
+| 15mm compression fitting | 1 | €2.50 | €2.50 |
+| PTFE tape | 1 | €1.20 | €1.20 |
+
+---
+
+## Labour Estimate: €429.99
+
+Based on 4 past similar jobs (range: €412.68 - €450.04)
+
+---
+
+## **Total Quote: €2,002.06 (inc VAT)**
+
+- Subtotal (ex VAT): €1,627.69
+- VAT @ 23%: €374.37
+
+---
+
+**Confidence Level:** High
+
+**Note:** This estimate is based on historical data from similar boiler installation jobs. Final pricing may vary depending on site conditions and specific requirements.
+
+SOURCES (3 retrieved):
+  [1] Neo4j USES_ITEM recipe (5 items)
+  [2] MongoDB invoices (4 records)
+  [3] PO PO-2026-P0042
+
+YOUR SCORES (fill in after reading above):
+  Faithfulness   : ___
+  Ans Relevancy  : ___
+  Ctx Precision  : ___
+  Ctx Recall     : ___
+
+============================================================
+SUMMARY TABLE (copy into report)
+============================================================
+
+Q ID     | Question                                    | Faith | AnsRel | CtxPre | CtxRec
+---------|---------------------------------------------|-------|--------|--------|-------
+q01      | Show me PO-2026-P0058                       |  ___  |  ___   |  ___   |  ___
+q02      | Get me invoice INV-2025-0001                |  ___  |  ___   |  ___   |  ___
+q03      | Look up customer cust_0005                  |  ___  |  ___   |  ___   |  ___
+q04      | Find email msg_0001                         |  ___  |  ___   |  ___   |  ___
+q05      | Show all purchase orders for Gerard Walsh   |  ___  |  ___   |  ___   |  ___
+q06      | Any customers complaining about water dripp |  ___  |  ___   |  ___   |  ___
+q10      | Need someone urgently, job is dangerous     |  ___  |  ___   |  ___   |  ___
+q11      | What has Gerard Walsh had done before?      |  ___  |  ___   |  ___   |  ___
+q16      | How much does boiler installation usually c |  ___  |  ___   |  ___   |  ___
+q_mat    | What materials are needed for invoice INV-2 |  ___  |  ___   |  ___   |  ___
+q_quote  | Get me a quote for a boiler installation    |  ___  |  ___   |  ___   |  ___
+         | AVERAGE                                     |  ___  |  ___   |  ___   |  ___
+
+Targets: Faithfulness > 0.90 | Ans Relevancy > 0.85 | Ctx Precision > 0.80 | Ctx Recall > 0.85

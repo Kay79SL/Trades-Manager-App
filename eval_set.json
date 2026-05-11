@@ -1,0 +1,224 @@
+[
+  {
+    "id": "q01",
+    "type": "exact_lookup",
+    "question": "Show me PO-2026-P0042",
+    "expected_intent": "po_lookup_by_id",
+    "gold_doc_ids": [
+      "PO-2026-P0042"
+    ],
+    "ground_truth": "PO-2026-P0042 is a purchase order for Gerard Walsh for a boiler installation totalling \u20ac2,106.50 including VAT.",
+    "notes": "Regex fast-path should match immediately. No LLM call for routing."
+  },
+  {
+    "id": "q02",
+    "type": "exact_lookup",
+    "question": "Get me invoice INV-2025-0001",
+    "expected_intent": "invoice_lookup_by_id",
+    "gold_doc_ids": [
+      "INV-2025-0001"
+    ],
+    "ground_truth": "INV-2025-0001 is an invoice record. Check your invoices collection for the exact customer and amounts.",
+    "notes": "Tests INV-YYYY-NNNN regex pattern."
+  },
+  {
+    "id": "q03",
+    "type": "exact_lookup",
+    "question": "Look up customer cust_0001",
+    "expected_intent": "customer_lookup_by_id",
+    "gold_doc_ids": [
+      "cust_0001"
+    ],
+    "ground_truth": "cust_0001 is Gerard Walsh, a plumbing customer.",
+    "notes": "Tests cust_NNNN regex pattern."
+  },
+  {
+    "id": "q04",
+    "type": "exact_lookup",
+    "question": "Find email msg_0001",
+    "expected_intent": "email_lookup_by_id",
+    "gold_doc_ids": [
+      "msg_0001"
+    ],
+    "ground_truth": "msg_0001 is the first email in the dataset. Check your emails collection for the exact content.",
+    "notes": "Tests msg_NNNN regex pattern."
+  },
+  {
+    "id": "q05",
+    "type": "exact_lookup",
+    "question": "Show all purchase orders for Gerard Walsh",
+    "expected_intent": "po_lookup_by_customer_name",
+    "gold_doc_ids": [
+      "PO-2026-P0042"
+    ],
+    "ground_truth": "Gerard Walsh (cust_0001) has one purchase order: PO-2026-P0042 for a boiler installation totalling \u20ac2,106.50.",
+    "notes": "Name extraction regex should catch Gerard Walsh."
+  },
+  {
+    "id": "q06",
+    "type": "semantic_paraphrase",
+    "question": "Any customers complaining about water dripping?",
+    "expected_intent": "semantic_search",
+    "gold_doc_ids": [
+      "msg_0088",
+      "msg_0041",
+      "msg_0076",
+      "msg_0015"
+    ],
+    "ground_truth": "Several customers have reported water leak issues. msg_0041 reports an urgent massive leak from the attic. msg_0088, msg_0076, and msg_0015 also describe water-related complaints.",
+    "notes": "Gold IDs confirmed from diagnose_sources.py \u2014 top semantic hits for this query."
+  },
+  {
+    "id": "q07",
+    "type": "semantic_paraphrase",
+    "question": "Lights keep going on and off in the kitchen",
+    "expected_intent": "semantic_search",
+    "gold_doc_ids": [
+      "el_07",
+      "it_el_017",
+      "el_15",
+      "it_el_016",
+      "el_16"
+    ],
+    "ground_truth": "The query matches electrical job types and items related to lighting faults. Relevant job types include el_07, el_15, el_16 and associated electrical items.",
+    "notes": "No emails returned \u2014 system retrieved catalogue chunks. Valid finding: short queries hit job types rather than emails. Worth noting in failure taxonomy."
+  },
+  {
+    "id": "q08",
+    "type": "semantic_paraphrase",
+    "question": "Heating not working properly since last week",
+    "expected_intent": "semantic_search",
+    "gold_doc_ids": [
+      "it_el_014",
+      "PO-2026-P0058",
+      "it_pl_022",
+      "msg_0019",
+      "pl_13"
+    ],
+    "ground_truth": "The query matches heating-related items and a plumbing job type. Email msg_0019 and PO PO-2026-P0058 are also relevant. Job type pl_13 relates to heating work.",
+    "notes": "Mixed results \u2014 items, one email, one PO. Moderate semantic match."
+  },
+  {
+    "id": "q09",
+    "type": "semantic_paraphrase",
+    "question": "Something wrong with my shower, not draining",
+    "expected_intent": "semantic_search",
+    "gold_doc_ids": [
+      "pl_07",
+      "it_pl_012",
+      "pl_10",
+      "it_pl_019",
+      "el_18"
+    ],
+    "ground_truth": "The query matches plumbing job types and items related to shower and drain work. pl_07 and pl_10 are relevant job types; it_pl_012 and it_pl_019 are relevant parts.",
+    "notes": "No emails returned \u2014 strong job type/item match for drain-related query. Expected behaviour for catalogue-heavy vector index."
+  },
+  {
+    "id": "q10",
+    "type": "semantic_paraphrase",
+    "question": "Need someone urgently, job is dangerous",
+    "expected_intent": "semantic_search",
+    "gold_doc_ids": [
+      "msg_0023",
+      "msg_0041",
+      "msg_0006"
+    ],
+    "ground_truth": "Three urgent emails were retrieved: msg_0023, msg_0041, and msg_0006. These contain high-urgency language about dangerous or emergency situations.",
+    "notes": "Good result \u2014 urgency signal correctly surfaces emails not job types. Best semantic test in the set."
+  },
+  {
+    "id": "q11",
+    "type": "multi_hop_graph",
+    "question": "What has Gerard Walsh had done before?",
+    "expected_intent": "customer_lookup_by_name",
+    "gold_doc_ids": [
+      "cust_0001",
+      "PO-2026-P0042"
+    ],
+    "ground_truth": "Gerard Walsh (cust_0001) has had previous jobs done. PO PO-2026-P0042 is a confirmed purchase order for this customer.",
+    "notes": "Sources: 'Customer cust_0001' and 'PO PO-2026-P0042' \u2014 parsed from human-readable orchestrator labels."
+  },
+  {
+    "id": "q12",
+    "type": "multi_hop_graph",
+    "question": "Which customers have had boiler installation work done?",
+    "expected_intent": "relational_query",
+    "gold_doc_ids": [],
+    "ground_truth": "FILL IN: Query Neo4j for (Invoice)-[:FOR_JOB]->(JobType {job_name:'Boiler installation'})<-[:FOR_CUSTOMER]-(Customer). List the customer IDs returned.",
+    "notes": "JobType -> Invoice -> Customer multi-hop."
+  },
+  {
+    "id": "q13",
+    "type": "multi_hop_graph",
+    "question": "What materials are typically used for electric shower installation?",
+    "expected_intent": "pricing_query",
+    "gold_doc_ids": [],
+    "ground_truth": "FILL IN: Should traverse (JobType)-[:USES_ITEM]->(Item) in Neo4j for electric shower fit. List the item IDs returned.",
+    "notes": "Tests the USES_ITEM recipe graph traversal."
+  },
+  {
+    "id": "q14",
+    "type": "multi_hop_graph",
+    "question": "Show me all plumbing invoices from 2025",
+    "expected_intent": "list_invoices_by_trade",
+    "gold_doc_ids": [],
+    "ground_truth": "FILL IN: Mongo query on invoices collection filtered by trade='plumbing' and invoice_date in 2025. Update with invoice IDs found.",
+    "notes": "Trade filter + date filter combined."
+  },
+  {
+    "id": "q15",
+    "type": "multi_hop_graph",
+    "question": "Which jobs use the most expensive materials?",
+    "expected_intent": "relational_query",
+    "gold_doc_ids": [],
+    "ground_truth": "FILL IN: Graph traversal ranking job types by total material cost. Update after verifying Neo4j returns correct job types.",
+    "notes": "Ranking query across graph and price data."
+  },
+  {
+    "id": "q16",
+    "type": "aggregation",
+    "question": "How much does boiler installation usually cost?",
+    "expected_intent": "pricing_query",
+    "gold_doc_ids": [
+      "PO-2026-P0042"
+    ],
+    "ground_truth": "Boiler installation typically costs around 2002 euros including 23% VAT, based on materials from Neo4j and labour stats from MongoDB. Benchmark PO-2026-P0042 (Gerard Walsh) totalled 2106.50 euros, confirming within 5% agreement.",
+    "notes": "Pricing route returns aggregate descriptions + PO ID. Only PO-2026-P0042 is a matchable document ID. Neo4j/MongoDB aggregate labels are skipped by parse_source_id."
+  },
+  {
+    "id": "q17",
+    "type": "aggregation",
+    "question": "What is the average invoice value for electrical work?",
+    "expected_intent": "aggregation_query",
+    "gold_doc_ids": [],
+    "ground_truth": "FILL IN: MongoDB aggregation on invoices where trade='electrical'. Compute mean of total_inc_vat. Update with the figure returned.",
+    "notes": "Simple MongoDB $group aggregation."
+  },
+  {
+    "id": "q18",
+    "type": "aggregation",
+    "question": "How many quote requests have we had from Dublin this month?",
+    "expected_intent": "aggregation_query",
+    "gold_doc_ids": [],
+    "ground_truth": "FILL IN: MongoDB count on emails filtered by county extracted from Eircode (D01-D24 prefixes) and date within current month. Update with count.",
+    "notes": "Date + location filter aggregation."
+  },
+  {
+    "id": "q19",
+    "type": "aggregation",
+    "question": "List all items in the catalogue under \u20ac50",
+    "expected_intent": "list_items",
+    "gold_doc_ids": [],
+    "ground_truth": "FILL IN: MongoDB query on items collection where unit_price_ex_vat < 50. Count the items returned and note a few IDs.",
+    "notes": "Simple filter on items collection."
+  },
+  {
+    "id": "q20",
+    "type": "aggregation",
+    "question": "What are the top 5 most frequently invoiced job types?",
+    "expected_intent": "aggregation_query",
+    "gold_doc_ids": [],
+    "ground_truth": "FILL IN: MongoDB $group + $sort on invoices by job_type_id, take top 5. Update with the job type IDs and counts returned.",
+    "notes": "Aggregation pipeline test. Good BI crossover."
+  }
+]

@@ -1,0 +1,586 @@
+{
+  "summary": {
+    "exact_lookup": {
+      "n": 25,
+      "p50": 1.656,
+      "p95": 3.495,
+      "p99": 4.058,
+      "max": 4.058,
+      "mean": 1.906
+    },
+    "semantic_paraphrase": {
+      "n": 25,
+      "p50": 4.023,
+      "p95": 4.849,
+      "p99": 10.147,
+      "max": 10.147,
+      "mean": 4.195
+    },
+    "multi_hop_graph": {
+      "n": 5,
+      "p50": 2.712,
+      "p95": 3.613,
+      "p99": 3.613,
+      "max": 3.613,
+      "mean": 2.997
+    },
+    "aggregation": {
+      "n": 5,
+      "p50": 3.607,
+      "p95": 4.157,
+      "p99": 4.157,
+      "max": 4.157,
+      "mean": 3.546
+    },
+    "ALL": {
+      "n": 60,
+      "p50": 3.442,
+      "p95": 4.686,
+      "p99": 10.147,
+      "max": 10.147,
+      "mean": 3.087
+    }
+  },
+  "raw_rows": [
+    {
+      "run": 1,
+      "question_id": "q01",
+      "type": "exact_lookup",
+      "question": "Show me PO-2026-P0042",
+      "routing": "po_lookup",
+      "latency_s": 2.472,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q02",
+      "type": "exact_lookup",
+      "question": "Get me invoice INV-2025-0001",
+      "routing": "invoice_lookup",
+      "latency_s": 1.711,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q03",
+      "type": "exact_lookup",
+      "question": "Look up customer cust_0001",
+      "routing": "customer_lookup",
+      "latency_s": 2.108,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q04",
+      "type": "exact_lookup",
+      "question": "Find email msg_0001",
+      "routing": "email_lookup",
+      "latency_s": 1.941,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q05",
+      "type": "exact_lookup",
+      "question": "Show all purchase orders for Gerard Walsh",
+      "routing": "po_lookup",
+      "latency_s": 3.495,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q06",
+      "type": "semantic_paraphrase",
+      "question": "Any customers complaining about water dripping?",
+      "routing": "open_search",
+      "latency_s": 10.147,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q07",
+      "type": "semantic_paraphrase",
+      "question": "Lights keep going on and off in the kitchen",
+      "routing": "general_question",
+      "latency_s": 3.615,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q08",
+      "type": "semantic_paraphrase",
+      "question": "Heating not working properly since last week",
+      "routing": "general_question",
+      "latency_s": 4.686,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q09",
+      "type": "semantic_paraphrase",
+      "question": "Something wrong with my shower, not draining",
+      "routing": "general_question",
+      "latency_s": 3.6,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q10",
+      "type": "semantic_paraphrase",
+      "question": "Need someone urgently, job is dangerous",
+      "routing": "general_question",
+      "latency_s": 4.583,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q11",
+      "type": "multi_hop_graph",
+      "question": "What has Gerard Walsh had done before?",
+      "routing": "customer_lookup_by_name",
+      "latency_s": 2.495,
+      "status": "ok"
+    },
+    {
+      "run": 1,
+      "question_id": "q16",
+      "type": "aggregation",
+      "question": "How much does boiler installation usually cost?",
+      "routing": "pricing_query",
+      "latency_s": 3.607,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q01",
+      "type": "exact_lookup",
+      "question": "Show me PO-2026-P0042",
+      "routing": "po_lookup",
+      "latency_s": 2.224,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q02",
+      "type": "exact_lookup",
+      "question": "Get me invoice INV-2025-0001",
+      "routing": "invoice_lookup",
+      "latency_s": 1.339,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q03",
+      "type": "exact_lookup",
+      "question": "Look up customer cust_0001",
+      "routing": "customer_lookup",
+      "latency_s": 1.386,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q04",
+      "type": "exact_lookup",
+      "question": "Find email msg_0001",
+      "routing": "email_lookup",
+      "latency_s": 1.247,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q05",
+      "type": "exact_lookup",
+      "question": "Show all purchase orders for Gerard Walsh",
+      "routing": "po_lookup",
+      "latency_s": 4.058,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q06",
+      "type": "semantic_paraphrase",
+      "question": "Any customers complaining about water dripping?",
+      "routing": "open_search",
+      "latency_s": 3.656,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q07",
+      "type": "semantic_paraphrase",
+      "question": "Lights keep going on and off in the kitchen",
+      "routing": "general_question",
+      "latency_s": 4.249,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q08",
+      "type": "semantic_paraphrase",
+      "question": "Heating not working properly since last week",
+      "routing": "general_question",
+      "latency_s": 4.112,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q09",
+      "type": "semantic_paraphrase",
+      "question": "Something wrong with my shower, not draining",
+      "routing": "general_question",
+      "latency_s": 3.211,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q10",
+      "type": "semantic_paraphrase",
+      "question": "Need someone urgently, job is dangerous",
+      "routing": "general_question",
+      "latency_s": 4.463,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q11",
+      "type": "multi_hop_graph",
+      "question": "What has Gerard Walsh had done before?",
+      "routing": "customer_lookup_by_name",
+      "latency_s": 3.581,
+      "status": "ok"
+    },
+    {
+      "run": 2,
+      "question_id": "q16",
+      "type": "aggregation",
+      "question": "How much does boiler installation usually cost?",
+      "routing": "pricing_query",
+      "latency_s": 4.157,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q01",
+      "type": "exact_lookup",
+      "question": "Show me PO-2026-P0042",
+      "routing": "po_lookup",
+      "latency_s": 1.338,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q02",
+      "type": "exact_lookup",
+      "question": "Get me invoice INV-2025-0001",
+      "routing": "invoice_lookup",
+      "latency_s": 1.368,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q03",
+      "type": "exact_lookup",
+      "question": "Look up customer cust_0001",
+      "routing": "customer_lookup",
+      "latency_s": 2.393,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q04",
+      "type": "exact_lookup",
+      "question": "Find email msg_0001",
+      "routing": "email_lookup",
+      "latency_s": 1.17,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q05",
+      "type": "exact_lookup",
+      "question": "Show all purchase orders for Gerard Walsh",
+      "routing": "po_lookup",
+      "latency_s": 2.407,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q06",
+      "type": "semantic_paraphrase",
+      "question": "Any customers complaining about water dripping?",
+      "routing": "open_search",
+      "latency_s": 3.588,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q07",
+      "type": "semantic_paraphrase",
+      "question": "Lights keep going on and off in the kitchen",
+      "routing": "general_question",
+      "latency_s": 3.442,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q08",
+      "type": "semantic_paraphrase",
+      "question": "Heating not working properly since last week",
+      "routing": "open_search",
+      "latency_s": 4.439,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q09",
+      "type": "semantic_paraphrase",
+      "question": "Something wrong with my shower, not draining",
+      "routing": "general_question",
+      "latency_s": 3.634,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q10",
+      "type": "semantic_paraphrase",
+      "question": "Need someone urgently, job is dangerous",
+      "routing": "general_question",
+      "latency_s": 3.838,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q11",
+      "type": "multi_hop_graph",
+      "question": "What has Gerard Walsh had done before?",
+      "routing": "customer_lookup_by_name",
+      "latency_s": 2.712,
+      "status": "ok"
+    },
+    {
+      "run": 3,
+      "question_id": "q16",
+      "type": "aggregation",
+      "question": "How much does boiler installation usually cost?",
+      "routing": "pricing_query",
+      "latency_s": 3.145,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q01",
+      "type": "exact_lookup",
+      "question": "Show me PO-2026-P0042",
+      "routing": "po_lookup",
+      "latency_s": 1.391,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q02",
+      "type": "exact_lookup",
+      "question": "Get me invoice INV-2025-0001",
+      "routing": "invoice_lookup",
+      "latency_s": 1.114,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q03",
+      "type": "exact_lookup",
+      "question": "Look up customer cust_0001",
+      "routing": "customer_lookup",
+      "latency_s": 1.255,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q04",
+      "type": "exact_lookup",
+      "question": "Find email msg_0001",
+      "routing": "email_lookup",
+      "latency_s": 1.465,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q05",
+      "type": "exact_lookup",
+      "question": "Show all purchase orders for Gerard Walsh",
+      "routing": "po_lookup",
+      "latency_s": 2.572,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q06",
+      "type": "semantic_paraphrase",
+      "question": "Any customers complaining about water dripping?",
+      "routing": "open_search",
+      "latency_s": 3.45,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q07",
+      "type": "semantic_paraphrase",
+      "question": "Lights keep going on and off in the kitchen",
+      "routing": "general_question",
+      "latency_s": 4.139,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q08",
+      "type": "semantic_paraphrase",
+      "question": "Heating not working properly since last week",
+      "routing": "general_question",
+      "latency_s": 4.849,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q09",
+      "type": "semantic_paraphrase",
+      "question": "Something wrong with my shower, not draining",
+      "routing": "general_question",
+      "latency_s": 3.749,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q10",
+      "type": "semantic_paraphrase",
+      "question": "Need someone urgently, job is dangerous",
+      "routing": "general_question",
+      "latency_s": 4.023,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q11",
+      "type": "multi_hop_graph",
+      "question": "What has Gerard Walsh had done before?",
+      "routing": "customer_lookup_by_name",
+      "latency_s": 2.585,
+      "status": "ok"
+    },
+    {
+      "run": 4,
+      "question_id": "q16",
+      "type": "aggregation",
+      "question": "How much does boiler installation usually cost?",
+      "routing": "pricing_query",
+      "latency_s": 3.143,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q01",
+      "type": "exact_lookup",
+      "question": "Show me PO-2026-P0042",
+      "routing": "po_lookup",
+      "latency_s": 1.246,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q02",
+      "type": "exact_lookup",
+      "question": "Get me invoice INV-2025-0001",
+      "routing": "invoice_lookup",
+      "latency_s": 1.656,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q03",
+      "type": "exact_lookup",
+      "question": "Look up customer cust_0001",
+      "routing": "customer_lookup",
+      "latency_s": 1.774,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q04",
+      "type": "exact_lookup",
+      "question": "Find email msg_0001",
+      "routing": "email_lookup",
+      "latency_s": 1.638,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q05",
+      "type": "exact_lookup",
+      "question": "Show all purchase orders for Gerard Walsh",
+      "routing": "customer_lookup_by_name",
+      "latency_s": 2.891,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q06",
+      "type": "semantic_paraphrase",
+      "question": "Any customers complaining about water dripping?",
+      "routing": "open_search",
+      "latency_s": 2.814,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q07",
+      "type": "semantic_paraphrase",
+      "question": "Lights keep going on and off in the kitchen",
+      "routing": "general_question",
+      "latency_s": 4.337,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q08",
+      "type": "semantic_paraphrase",
+      "question": "Heating not working properly since last week",
+      "routing": "general_question",
+      "latency_s": 4.535,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q09",
+      "type": "semantic_paraphrase",
+      "question": "Something wrong with my shower, not draining",
+      "routing": "general_question",
+      "latency_s": 3.452,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q10",
+      "type": "semantic_paraphrase",
+      "question": "Need someone urgently, job is dangerous",
+      "routing": "general_question",
+      "latency_s": 4.259,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q11",
+      "type": "multi_hop_graph",
+      "question": "What has Gerard Walsh had done before?",
+      "routing": "customer_lookup_by_name",
+      "latency_s": 3.613,
+      "status": "ok"
+    },
+    {
+      "run": 5,
+      "question_id": "q16",
+      "type": "aggregation",
+      "question": "How much does boiler installation usually cost?",
+      "routing": "pricing_query",
+      "latency_s": 3.677,
+      "status": "ok"
+    }
+  ]
+}

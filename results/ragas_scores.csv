@@ -1,0 +1,11 @@
+question_id,question,faithfulness,answer_relevancy,context_precision,context_recall
+q01,Show me PO-2026-P0058,0.2,1.0,1.0,1.0
+q02,Get me invoice INV-2025-0001,0.0,1.0,1.0,1.0
+q03,Look up customer cust_0005,0.0,1.0,1.0,0.5
+q04,Find email msg_0001,1.0,1.0,1.0,1.0
+q05,Show all purchase orders for Gerard Walsh,0.25,0.7,0.33,0.5
+q06,Any customers complaining about water dripping?,0.5,0.9,,0.5
+q10,"Need someone urgently, job is dangerous",0.75,0.3,0.0,0.5
+q11,What has Gerard Walsh had done before?,0.4,0.3,0.0,0.5
+q16,How much does boiler installation usually cost?,0.0,0.95,0.0,0.0
+AVERAGE,,0.3444,0.7944,0.5413,0.6111

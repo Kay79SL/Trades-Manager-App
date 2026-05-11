@@ -1,0 +1,82 @@
+{
+  "questions": [
+    {
+      "question_id": "q01",
+      "question": "Show me PO-2026-P0058",
+      "faithfulness": 0.2,
+      "answer_relevancy": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": "q02",
+      "question": "Get me invoice INV-2025-0001",
+      "faithfulness": 0.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": "q03",
+      "question": "Look up customer cust_0005",
+      "faithfulness": 0.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 0.5
+    },
+    {
+      "question_id": "q04",
+      "question": "Find email msg_0001",
+      "faithfulness": 1.0,
+      "answer_relevancy": 1.0,
+      "context_precision": 1.0,
+      "context_recall": 1.0
+    },
+    {
+      "question_id": "q05",
+      "question": "Show all purchase orders for Gerard Walsh",
+      "faithfulness": 0.25,
+      "answer_relevancy": 0.7,
+      "context_precision": 0.33,
+      "context_recall": 0.5
+    },
+    {
+      "question_id": "q06",
+      "question": "Any customers complaining about water dripping?",
+      "faithfulness": 0.5,
+      "answer_relevancy": 0.9,
+      "context_precision": null,
+      "context_recall": 0.5
+    },
+    {
+      "question_id": "q10",
+      "question": "Need someone urgently, job is dangerous",
+      "faithfulness": 0.75,
+      "answer_relevancy": 0.3,
+      "context_precision": 0.0,
+      "context_recall": 0.5
+    },
+    {
+      "question_id": "q11",
+      "question": "What has Gerard Walsh had done before?",
+      "faithfulness": 0.4,
+      "answer_relevancy": 0.3,
+      "context_precision": 0.0,
+      "context_recall": 0.5
+    },
+    {
+      "question_id": "q16",
+      "question": "How much does boiler installation usually cost?",
+      "faithfulness": 0.0,
+      "answer_relevancy": 0.95,
+      "context_precision": 0.0,
+      "context_recall": 0.0
+    }
+  ],
+  "averages": {
+    "faithfulness": 0.3444,
+    "answer_relevancy": 0.7944,
+    "context_precision": 0.5413,
+    "context_recall": 0.6111
+  }
+}

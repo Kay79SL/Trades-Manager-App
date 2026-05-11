@@ -1,0 +1,21 @@
+id,type,question,gold_count,text_r5,text_p5,text_mrr,text_time_s,bm25_r5,bm25_p5,bm25_mrr,bm25_time_s,rag_r5,rag_p5,rag_mrr,rag_time_s
+q01,exact_lookup,Show me PO-2026-P0042,1,0.0,0.0,0.0,0.009,0.0,0.0,0.0,0.0,1.0,0.5,0.5,6.004
+q02,exact_lookup,Get me invoice INV-2025-0001,1,0.0,0.0,0.0,0.012,0.0,0.0,0.0,0.0,1.0,0.5,0.5,1.107
+q03,exact_lookup,Look up customer cust_0001,1,0.0,0.0,0.0,0.011,0.0,0.0,0.0,0.0,1.0,0.5,1.0,1.831
+q04,exact_lookup,Find email msg_0001,1,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.0,0.0,0.0,0.0,2.651
+q05,exact_lookup,Show all purchase orders for Gerard Walsh,1,1.0,0.2,1.0,0.022,1.0,0.2,1.0,0.0,1.0,0.5,0.5,1.932
+q06,semantic_paraphrase,Any customers complaining about water dripping?,4,0.75,0.6,0.5,0.009,0.5,0.4,1.0,0.0,1.0,0.8,1.0,9.913
+q07,semantic_paraphrase,Lights keep going on and off in the kitchen,5,0.0,0.0,0.0,0.014,0.2,0.2,0.2,0.001,1.0,1.0,1.0,3.365
+q08,semantic_paraphrase,Heating not working properly since last week,5,0.0,0.0,0.0,0.011,0.4,0.4,0.5,0.0,1.0,1.0,1.0,3.961
+q09,semantic_paraphrase,"Something wrong with my shower, not draining",5,0.0,0.0,0.0,0.01,0.0,0.0,0.0,0.001,1.0,1.0,1.0,3.285
+q10,semantic_paraphrase,"Need someone urgently, job is dangerous",3,1.0,0.6,1.0,0.012,0.3333333333333333,0.2,0.3333333333333333,0.001,1.0,0.6,1.0,4.65
+q11,multi_hop_graph,What has Gerard Walsh had done before?,2,0.5,0.2,1.0,0.009,0.5,0.2,0.5,0.001,1.0,1.0,1.0,2.089
+q12,multi_hop_graph,Which customers have had boiler installation work done?,0,,,,0.011,,,,0.001,,,,2.775
+q13,multi_hop_graph,What materials are typically used for electric shower installation?,0,,,,0.012,,,,0.001,,,,3.443
+q14,multi_hop_graph,Show me all plumbing invoices from 2025,0,,,,0.01,,,,0.0,,,,4.424
+q15,multi_hop_graph,Which jobs use the most expensive materials?,0,,,,0.01,,,,0.001,,,,7.195
+q16,aggregation,How much does boiler installation usually cost?,1,1.0,0.2,1.0,0.011,1.0,0.2,0.5,0.001,1.0,1.0,1.0,3.607
+q17,aggregation,What is the average invoice value for electrical work?,0,,,,0.011,,,,0.001,,,,2.531
+q18,aggregation,How many quote requests have we had from Dublin this month?,0,,,,0.036,,,,0.0,,,,3.774
+q19,aggregation,List all items in the catalogue under €50,0,,,,0.01,,,,0.001,,,,2.236
+q20,aggregation,What are the top 5 most frequently invoiced job types?,0,,,,0.01,,,,0.0,,,,2.342
