@@ -291,6 +291,41 @@ def query_kpi_materials_spend(trade: str, start: Optional[date], end: Optional[d
     return float(result[0]["total"]) if result else 0.0
 
 
+# The query_kpi_net_profit function calculates net profit per period.
+# Definition: subtotal_ex_vat − materials_cost_ex_vat (gross margin for a sole trader).
+# Labour charged to the customer is income for the owner, not a cost, so it is not subtracted.
+# VAT is excluded because it is collected for Revenue, not the owner's money.
+@st.cache_data(ttl=300, show_spinner=False)
+def query_kpi_net_profit(trade: str, start: Optional[date], end: Optional[date]) -> float:
+    """Net profit for the selected trade and date window.
+
+    Computed from invoices as subtotal_ex_vat − materials_cost_ex_vat. This is the
+    gross margin the owner keeps after paying suppliers, treating labour charged
+    to the customer as income (the sole-trader case).
+    """
+    db = get_mongo_db()
+    pipeline: list = []
+    date_stage = _date_match(start, end, "invoice_date")
+    if date_stage:
+        pipeline.append(date_stage)
+    pipeline += _invoice_job_lookup()
+    trade_stage = _trade_match(trade, "job.trade")
+    if trade_stage:
+        pipeline.append(trade_stage)
+    pipeline += [{
+        "$group": {
+            "_id": None,
+            "profit": {
+                "$sum": {
+                    "$subtract": ["$subtotal_ex_vat", "$materials_cost_ex_vat"]
+                }
+            }
+        }
+    }]
+    result = list(db[COLLECTIONS["invoices"]].aggregate(pipeline))
+    return float(result[0]["profit"]) if result else 0.0
+
+
 # -----------------------------------------------------------------------------
 # Chart queries
 # -----------------------------------------------------------------------------
@@ -459,16 +494,58 @@ def query_county_activity(trade: str, start: Optional[date], end: Optional[date]
 # UI helpers
 # -----------------------------------------------------------------------------
 
-# The _kpi_card function generates HTML for a KPI card that displays a title, a value, and an optional subtitle. The card is styled using the custom CSS defined in THEME_CSS.
-def _kpi_card(title: str, value: str, sub: Optional[str] = None) -> str:
+# The _kpi_card function generates HTML for a KPI card that displays a title, a value, an optional subtitle, and an optional period-over-period delta arrow.
+# The card is styled using the custom CSS defined in THEME_CSS. The delta arrow is colour-coded: green for growth and red for drop on standard KPIs,
+# reversed (red for growth, green for drop) when inverse=True for "lower is better" metrics like materials spend.
+def _kpi_card(title: str, value: str, sub: Optional[str] = None,
+              delta_pct: Optional[float] = None, inverse: bool = False) -> str:
     sub_html = f'<p class="kpi-sub">{sub}</p>' if sub else ""
+    arrow_html = ""
+    if delta_pct is not None:
+        rising = delta_pct >= 0
+        # Green for good direction, red for bad. Inverse flips it (materials spend rising is bad).
+        if inverse:
+            color = TERRA if rising else SAGE
+        else:
+            color = SAGE if rising else TERRA
+        arrow = "▲" if rising else "▼"
+        arrow_html = (
+            f'<p style="color:{color}; margin:2px 0 4px 0; '
+            f'font-size:0.85rem; font-weight:600;">'
+            f'{arrow} {abs(delta_pct):.1f}% vs previous period</p>'
+        )
     return (
         f'<div class="kpi-card">'
         f'<p class="kpi-title">{title}</p>'
         f'<p class="kpi-value">{value}</p>'
+        f'{arrow_html}'
         f"{sub_html}"
         f"</div>"
     )
+
+
+# Helpers for the period-over-period KPI arrows.
+# _previous_period returns the equivalent prior window, _pct_change computes the percentage change.
+def _previous_period(start: Optional[date], end: Optional[date]) -> tuple[Optional[date], Optional[date]]:
+    """Return the equivalent previous period for the given window.
+
+    For a 90-day window ending today, returns the 90 days before that. When the
+    user has selected 'All time' (start and end both None) returns (None, None)
+    so the caller can omit the delta arrow.
+    """
+    if start is None or end is None:
+        return None, None
+    period_length = end - start
+    prev_end = start - timedelta(days=1)
+    prev_start = prev_end - period_length
+    return prev_start, prev_end
+
+
+def _pct_change(current: float, previous: float) -> Optional[float]:
+    """Return percentage change current vs previous, or None if comparison invalid."""
+    if previous is None or previous == 0 or current is None:
+        return None
+    return (current - previous) / previous * 100
 
 # The _fmt_money function formats a float value as a string representing a monetary amount in euros, with a euro symbol and comma as a thousands separator.
 def _fmt_money(x: float) -> str:
@@ -570,12 +647,26 @@ def render_dashboard() -> None:
     trade, start, end = _render_sidebar_filters(available_trades)
     palette = _trade_palette(available_trades)
 
-    # KPI row
-    # The KPI row is rendered at the top of the dashboard, displaying the total number of customers served, the total value of jobs, and the total spend on materials based on the selected trade and date range.
+    # KPI row — four KPIs with period-over-period arrows
+    # Customers served, Total jobs value, Materials spend, and Net profit.
+    # Each card shows a green ▲ when the metric rises versus the equivalent prior window
+    # and a red ▼ when it falls. Materials spend uses inverse colouring (rising is bad).
     try:
         cust_count = query_kpi_customer_count(trade, start, end)
         jobs_value = query_kpi_jobs_value(trade, start, end)
-        po_spend = query_kpi_materials_spend(trade, start, end)
+        po_spend   = query_kpi_materials_spend(trade, start, end)
+        net_profit = query_kpi_net_profit(trade, start, end)
+
+        # Previous period values for delta arrows. When "All time" is selected
+        # prev_start is None and we skip the comparison so no arrow renders.
+        prev_start, prev_end = _previous_period(start, end)
+        if prev_start is not None:
+            d_cust   = _pct_change(cust_count,  query_kpi_customer_count(trade, prev_start, prev_end))
+            d_jobs   = _pct_change(jobs_value,  query_kpi_jobs_value(trade, prev_start, prev_end))
+            d_spend  = _pct_change(po_spend,    query_kpi_materials_spend(trade, prev_start, prev_end))
+            d_profit = _pct_change(net_profit,  query_kpi_net_profit(trade, prev_start, prev_end))
+        else:
+            d_cust = d_jobs = d_spend = d_profit = None
     except Exception as e:
         st.error(f"KPI query failed: {e}")
         return
@@ -587,24 +678,33 @@ def render_dashboard() -> None:
     )
     sub_label = "all trades" if trade == "All" else trade.lower()
     # The period_label is constructed based on the selected start and end dates, while the sub_label is determined by the selected trade. These labels are used in the KPI cards to provide context for the displayed values.
-    kc1, kc2, kc3 = st.columns(3, gap="medium")
+    kc1, kc2, kc3, kc4 = st.columns(4, gap="medium")
     with kc1:
         st.markdown(
-            _kpi_card("Customers served", f"{cust_count}", f"{sub_label} · {period_label}"),
+            _kpi_card("Customers served", f"{cust_count}",
+                      f"{sub_label} · {period_label}",
+                      delta_pct=d_cust),
             unsafe_allow_html=True,
         )
     with kc2:
         st.markdown(
-            _kpi_card("Total jobs value", _fmt_money(jobs_value), f"{sub_label} · inc VAT"),
+            _kpi_card("Total jobs value", _fmt_money(jobs_value),
+                      f"{sub_label} · inc VAT",
+                      delta_pct=d_jobs),
             unsafe_allow_html=True,
         )
     with kc3:
         st.markdown(
-            _kpi_card(
-                "Materials spend (POs)",
-                _fmt_money(po_spend),
-                f"{sub_label} · all POs (15 total)",
-            ),
+            _kpi_card("Materials spend (POs)", _fmt_money(po_spend),
+                      f"{sub_label} · all POs (15 total)",
+                      delta_pct=d_spend, inverse=True),
+            unsafe_allow_html=True,
+        )
+    with kc4:
+        st.markdown(
+            _kpi_card("Net profit", _fmt_money(net_profit),
+                      f"{sub_label} · ex VAT, ex materials",
+                      delta_pct=d_profit),
             unsafe_allow_html=True,
         )
 
