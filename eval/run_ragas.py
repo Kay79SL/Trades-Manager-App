@@ -4,7 +4,6 @@ eval/run_ragas.py
 Measures answer *quality* using RAGAS — four metrics that check whether
 Claude's generated answers are grounded, relevant, and complete.
 
-Unlike run_baselines.py (which checks if the RIGHT DOCUMENTS were retrieved),
 RAGAS checks if the ANSWER TEXT is trustworthy.
 
 Metrics:
