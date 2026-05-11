@@ -589,19 +589,27 @@ def _render_sidebar_filters(available_trades: list[str]) -> tuple:
 
         all_time = st.checkbox(
             "All time",
-            value=True,
+            value=False,  # Default to date-range mode so the period-over-period arrows render on load.
             key="bi_all_time",
-            help="Show every invoice, no date filter.",
+            help="Show every invoice, no date filter (arrows will be hidden).",
         )
 
         if all_time:
             start, end = None, None
             st.caption("Showing all dates")
-        else: # If the "All time" checkbox is not selected, the function retrieves the date range of available invoice data using the get_invoice_date_range function. It then sets the default start and end dates for the date input widget based on this range, 
-            # defaulting to the last 365 days if no data is available. The user can select a custom date range using the st.date_input widget, and the selected start and end dates are returned for use in filtering the dashboard data.
+            st.caption("Uncheck 'All time' above to see growth/drop arrows")
+        else: # When "All time" is unchecked we default to the past year (today − 365 days through today).
+              # The user can override with the date_input widget. The retrieved invoice data range is used as a hint for the picker's min/max.
+            today = date.today()
             data_start, data_end = get_invoice_date_range()
-            default_start = data_start or date.today() - timedelta(days=365)
-            default_end = data_end or date.today()
+            # If the dataset's most recent invoice is older than today (synthetic data
+            # often is) use that as the end date so the picker shows a meaningful range.
+            default_end = data_end if (data_end and data_end < today) else today
+            # Past year = 365 days back from the end date.
+            default_start = default_end - timedelta(days=365)
+            # Clamp the start so we never go before the earliest invoice in the data.
+            if data_start and default_start < data_start:
+                default_start = data_start
             date_range = st.date_input(
                 "Date range",
                 value=(default_start, default_end),
